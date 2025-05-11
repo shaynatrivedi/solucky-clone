@@ -139,3 +139,81 @@
 }
 
 
+
+@media screen and (max-width: 744px) {
+    .about-page {
+        background-image: url('/public/Assets/About/about-bg-mobile.png');
+        background-size: cover; /* You can change this too if needed */
+        background-position: center top;
+    }
+
+    .message-container h1{
+        font-size: 58px;
+    }
+
+    .paragraph-message{
+        font-size: 20px;
+    }
+
+    .signoff-message{
+        width: 236px;
+        margin-left: 0px;
+    }
+
+    .signoff-message p{
+        font-size: 32px;
+    }
+
+    #founder-message{
+    background: #587023;
+    margin-top: 710px;
+    margin-left: 0px;
+    }
+
+    #brand-message{
+        background: #185277;
+        margin-top: 3200px;
+        margin-right: 0px;
+    }
+
+    #story-message{
+        background: #812F2C;
+        align-self: center;
+        margin-top: 1100px;
+        margin-right: 0px;
+    }
+
+    .camera-caption{
+        width: 300px;
+        margin-top: -20px;
+        margin-left: -150px;
+    }
+
+    .camera-container{
+        margin-top: 2800px;
+        margin-left: 200px;
+    }
+    
+    .message-container{
+        width: 318px;
+    }
+
+    .founder-section{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .brand-section{
+        align-items: center;
+    }
+
+    .story-section{
+        align-items: center;
+    }
+
+
+}
+
+@media screen and (max-width: 1512px) {
+    
+}
