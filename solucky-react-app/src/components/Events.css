@@ -1,0 +1,153 @@
+.events-page{
+    background: black;
+}
+
+.landing-section{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.iphone-paragraph-container{
+    display: flex;
+    flex-direction: row;
+    padding-top: 220px;
+    margin: 20px;
+    max-width: 1600px;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+
+.para-text-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-right: 20px;
+}
+
+.moving-strip{
+    display: flex;
+    padding: 33px 160px;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 10px;
+    background: #F5F5F5;
+}
+
+.events-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.hover-section {
+    position: relative; 
+    display: flex;
+}
+  
+/* Make the image responsive */
+.hover-section .event-background {
+    width: 100%;
+    height: auto;
+}
+
+.event-picture{
+    margin-top: -6px;
+    width: 100%;
+    transition: filter 0.3s ease-in-out;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.hover-section .gallery-button {
+    position: absolute;
+    align-self: anchor-center;
+    justify-self: anchor-center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 35px;
+    background: #F5F5F5;
+    border: none;
+    opacity: 0;
+}
+
+.hover-section:hover .gallery-button{
+    background-color: rgb(180, 180, 180);
+    opacity: 100;
+}
+
+.hover-section:hover .event-picture {
+    filter: brightness(50%); /* Darkens the image by reducing brightness */
+}
+
+.stay-tuned-text{
+    margin-top: 50px;
+    margin-left: -170px;
+}
+
+.the-art-of-text{
+    margin-bottom: -50px;
+    margin-left: 20px;
+}
+
+.iphone-pic{
+    margin-top: 40px;
+    margin-left: 90px;
+}
+
+
+@media screen and (max-width: 1440px) {
+    /* tighten up the top‐section padding */
+    .iphone-paragraph-container {
+      padding-top: 180px;
+      padding-bottom: 80px;
+    }
+  
+    /* let each column shrink a little before wrapping */
+    .iphone-container,
+    .para-text-container {
+      flex: 1 1 45%;
+      justify-content: center
+    }
+  
+    .para-text-container{
+        padding-right:50px ;
+    }
+
+    /* shrink & reposition the phone */
+    .iphone-pic {
+      max-width: 80%;
+      margin-top: 20px;
+      margin-left: 60px;
+    }
+  
+    /* shrink & reposition the “the art of” graphic */
+    .the-art-of-text {
+        max-width: 14rem;
+        margin-left: 10px;
+        margin-bottom: -15px;
+    }
+  
+    /* scale down the big header word */
+    .events-header-text {
+      font-size: 3.5rem;    /* adjust this to match your base rem scale */
+    }
+  
+    /* scale down the body copy */
+    .events-para-text {
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+  
+    /* shrink & reposition the “stay-tuned” arrow */
+    .stay-tuned-text {
+      max-width: 25rem;
+      margin-left: -20px;
+    }
+  }
+  

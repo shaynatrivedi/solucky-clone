@@ -1,0 +1,260 @@
+/* 1) make the hero a fixed-height, overflow-hidden frame */
+.hero-section {
+    position: relative;
+    width: 100%;
+    height: 100vh;           /* adjust as you like */
+    min-height: 400px;      /* never get too short */
+    overflow: hidden;
+  }
+  
+  /* 2) the video covers the whole section, cropping via object-fit */
+  .hero-bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* 3) center your headline on top */
+  .hero-content {
+    position: relative;
+    z-index: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero-text {
+    font-family: serif;
+    color: #000;
+    font-size: clamp(2.5rem, 6vw, 5rem);
+    text-align: center;
+  }
+  .hero-text em {
+    font-style: italic;
+  }
+
+  /* ——— Hero Video (leave your existing rules) ——— */
+.hero-section { /* … */ }
+.hero-bg-video { /* … */ }
+.hero-content { /* … */ }
+.hero-text { /* … */ }
+
+/* ——— Scrolling Strip ——— */
+.strip-section {
+  width: 100%;
+  background: #fff;
+}
+.strip-container {
+  overflow: hidden;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+
+.strip-text-item{
+    margin-right: 1.5rem;
+}
+.strip-separator {
+    margin-right: 1.5rem;    /* space after each icon */
+}
+
+.strip-content {
+  display: inline-block;
+  white-space: nowrap;
+  animation: scroll-left 20s linear infinite;
+  color: #030303;
+  text-align: center;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%; /* 18px */
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  padding: 0.75rem 0;
+}
+
+@keyframes scroll-left {
+    from   { transform: translateX(0);    }
+    to     { transform: translateX(-100%); }
+}
+
+@keyframes scroll-left {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+/* ——— What’s New Section ——— */
+.whats-new-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 2rem;
+  background: #000;
+  color: #fff;
+  padding: 4rem 2rem;
+}
+
+.whats-new-left,
+.whats-new-right {
+  flex: 1 1 300px;
+  max-width: 900px;
+}
+
+.whats-new-left{
+    text-align: end;
+    display: flex;
+    flex-direction: column;
+}
+
+.whats-new-right{
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* —— 7 cards laid out in a row, wrapping on small screens —— */
+/* container layout you already have */
+.cards-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5rem;
+    padding: 10rem 2rem;
+    background: #000;
+  }
+  
+  /* set up 3D perspective on each card */
+  .card {
+    perspective: 1000px;
+    flex: 0 1 120px;
+    width: 120px;
+    height: 180px;
+  }
+  
+  /* the “flippable” wrapper */
+  .card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 0.6s ease;
+  }
+  
+  /* on hover, rotate the inner wrapper 180° */
+  .card:hover .card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* both faces occupy the same space */
+  .card-face {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+  }
+  
+  /* back side stays unrotated */
+  .card-back {
+    transform: rotateY(0deg);
+  }
+  
+  /* front side is initially hidden by a 180° rotation */
+  .card-front {
+    transform: rotateY(180deg);
+  }
+  
+  /* make sure images fill their face */
+  .card-face img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .flipbook-section {
+    display: flex;
+    flex-direction: column;
+    background: black;
+    align-items: center;
+  }
+
+  .flipbook-placeholder{
+    width: 1200px;
+    height: 700px;
+    background-color: red;
+  }
+
+  .flipbook-arrow-container{
+    width: 100%;
+    max-width: 1600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .spotify-playlist-section{
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  
+  .spotify-pointer-container{
+    text-align: left;
+    padding-bottom: 48px;
+  }
+
+  .playlist-container{
+    width: 95%;
+  }
+
+/* ——— Responsiveness ——— */
+@media screen and (max-width: 1024px) {
+  .whats-new-title { font-size: 3rem; }
+  .whats-new-subtitle { font-size: 1.5rem; }
+  .whats-new-tagline  { font-size: 1.2rem; }
+}
+
+@media screen and (max-width: 768px) {
+  .whats-new-section { padding: 2rem 1rem; }
+  .whats-new-title { font-size: 2.5rem; }
+  .whats-new-subtitle { font-size: 1.2rem; }
+  .whats-new-tagline  { font-size: 1rem; }
+  .whats-new-right p { font-size: 0.9rem; }
+}
+
+  
+  /* 4) at 1440px and below, dial everything down a bit */
+  @media screen and (max-width: 1440px) {
+    .hero-section {
+      height: 50vh;
+      min-height: 300px;
+    }
+    .hero-text {
+      font-size: clamp(2rem, 5vw, 4rem);
+    }
+  }
+  
+  /* 5) on narrow/mobile, stack and shrink further */
+  @media screen and (max-width: 768px) {
+    .hero-section {
+      height: 40vh;
+      min-height: 200px;
+    }
+    .hero-text {
+      font-size: clamp(1.5rem, 8vw, 2.5rem);
+      padding: 0 1rem;
+    }
+  }
+  

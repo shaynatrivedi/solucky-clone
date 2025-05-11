@@ -1,0 +1,275 @@
+.shop-page{
+    background-color:rgb(231,230,228);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.shop-link-div{
+    display:flex;
+    flex-direction: column;
+    max-width: 700px;
+    align-items: center;
+    gap: 30px;
+    min-width: 630px;
+    grid-row: 1 / 4;
+    grid-column: 1 / 4;
+    padding-top: 20px;
+    padding-left: 75px;
+}
+
+.shop-link-title{
+    color: #8E0000;
+    text-align: center;
+    font-family: "PT Serif";
+    font-size: 55px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3.9px;
+    text-transform: lowercase;
+    margin-top:0px;
+    margin-bottom: 0px;
+}
+
+.shop-link-button{
+    border-radius: 35px;
+    background: #030303;
+    display: flex;
+    padding: 20px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    min-width: 585px;
+    display:flex;
+}
+
+.shop-link-button-text{
+    color: #F5F5F5;
+    text-align: center;
+    font-family: "Bai Jamjuree";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: lowercase;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.cutout-captions{
+    color: #030303;
+    font-family: "Bai Jamjuree";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.top-grid{
+    display:grid;
+    width: 1337px;
+    height: 1345px;
+    padding-top: 272px;
+    display: grid;
+    grid-template-columns: 222px 222px 222px 222px 222px 223px;
+    grid-template-rows: 222px 222px 222px 222px 222px 223px;
+    margin-bottom: 82px;
+}
+
+.label-1 {
+    width: 255px;
+    height: 66px;
+    text-align: left;
+    padding-top: 120px;
+    padding-left: 40px;
+    grid-row: 1 / 5;
+    grid-column: 6 / 6;
+}
+  
+.label-2 {
+    width: 417px;
+    height: 31px;
+    padding-top: 54px;
+    padding-left: 175px;
+    grid-row: 3 / 3;
+    grid-column: 2 / 4;
+}
+  
+.label-3 {
+    grid-row: 5 / 5;
+    grid-column: 3 / 5;
+    padding-left: 180px;
+    padding-top: 135px;
+}
+
+.cutout-image{
+    grid-row: 1 / 3;
+    grid-column: 4 /5;
+    max-width: 100%;
+}
+
+
+.horizontal-scroll-section {
+    display: flex;
+    gap: 53px; /* Space between cards */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    padding: 10px;
+    scroll-behavior: smooth;
+    width:1512px;
+    margin: 0 auto; /* Center horizontally */
+}
+
+.horizontal-scroll-section-noscroll{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+}
+
+.horizontal-scroll-section::-webkit-scrollbar {
+    display: none; /* hides scrollbar */
+}
+
+.cutout-item{
+    width: 189.903px;
+    height: 450px;
+    flex-shrink: 0;
+    padding-left: 23px;
+    padding-right: 22px;
+}
+
+.shop-info{
+    padding-top: 100px;
+    width:1256px;
+    display: flex;
+    flex-direction: column;
+}
+
+.shop-link{
+    align-self: end;
+    padding-bottom: 30px;
+}
+
+.shop-header-div{
+    text-align: start;
+}
+
+.info-button-div{
+    display:flex;
+    justify-content: space-between;
+}
+
+.shop-info-header-text.smaller-header{
+    color: #8E0000;
+    font-family: "PT Serif";
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3.9px;
+}
+
+.shop-info-header-text.bigger-header{
+    color: #8E0000;
+    font-family: "PT Serif";
+    font-size: 150px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 9px;
+    margin-top: -60px;
+}
+
+.shop-link-button.smaller-button{
+    width: 216px;
+    border-radius: 35px;
+    background: #030303;
+    display: flex;
+    padding: 20px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    min-width: 152px;
+}
+
+.shop-info-para{
+    color: #030303;
+    text-align: justify;
+    font-family: "Bai Jamjuree";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-indent: 65px;
+}
+
+.shop-info-para-bold{
+    color: #030303;
+    text-align: justify;
+    font-family: "Bai Jamjuree";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.shop-info-para-italic{
+    color: #030303;
+    text-align: justify;
+    font-family: "Bai Jamjuree";
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.final-sale-cap1{
+    color: #030303;
+    font-family: "PT Serif";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.final-sale-cap2{
+    color: #030303;
+    font-family: "PT Serif";
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 4.8px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.final-sale-cap3{
+    color: #030303;
+    font-family: "PT Serif";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.08px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.sales-final-message{
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+}
+
+.cloth-pile-image{
+    margin-top: -545px;
+    width: 100vw;
+    height: auto;
+    align-self: center;
+}

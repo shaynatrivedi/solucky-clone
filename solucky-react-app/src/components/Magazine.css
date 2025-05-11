@@ -1,0 +1,208 @@
+.info-text-container{
+    display: flex;
+    width: 1456px;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+#text-box{
+    padding-top: 100px;
+    padding-left:40px;
+    width: 692px;
+    grid-row: 3 / 5;
+    grid-column: 4 / 6;
+}
+
+.right-sticky-picture{
+    position: absolute;
+    right: 0;            /* always flush to the right edge */
+    width: 40vw;         /* or any value that scales (you could also use px) */
+    max-width: 988px;    /* cap it so it never gets too huge */
+    height: auto;
+    z-index: 0;   
+}
+
+.solucky-magazine-svg{
+    width: 40vw;
+}
+
+.magazine-info-div{
+    padding-top: 255px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-text-container{
+    text-align: left;
+}
+
+.top-text-container{
+    width: 100%;
+    height: 650px;
+    display: grid;
+    grid-template-rows: 130px 130px 130px 130px 130px;
+    grid-template-columns: 242px 242px 242px 242px 242px 242px ;
+}
+
+
+.info-buttons-section{
+    position: relative;
+    width: 100%;
+    max-width: 1456px;          /* same cap as the rest of your sections */
+    margin: 0 auto;             /* center on larger screens */
+    padding: 100px 16px 70px;       /* horizontal gutters + bottom padding */
+    display: flex;              /* switch to flexbox */
+    flex-direction: column;
+    align-items: center;
+    gap: 32px; 
+}
+
+.buttons-container{
+    display: flex;
+    flex-wrap: wrap;            /* wrap onto new lines on narrow screens */
+    gap: 23px;                  /* gutter between buttons */
+    width: 100%;
+}
+
+.buttons-container a {
+    flex: 1 1 200px;            /* grow & shrink, but never smaller than 200px */
+    max-width: 345px;           /* keep your current max width */
+  }
+  
+.buttons-container a button {
+    width: 100%;                /* button now spans the full flex item */
+}
+
+button{
+    height: auto;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    border-radius: 35px;
+    background: black;
+}
+
+.button-arrow{
+    width: 39px;
+    height: 40px;
+}
+
+.pointer-text-image{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(80%, 3%);
+    width: 100%;
+    max-width: 352px;
+    height: auto;
+    pointer-events: none;
+}
+
+.cover-hover-section {
+    display: flex;
+    flex-wrap: wrap;            /* allow wrapping to next row */
+    justify-content: flex-start;/* align all items starting at the left */
+    gap: 24px;                  /* gutter between covers */
+    
+    width: 100%;
+    max-width: 1456px;          /* same as your other sections */
+    margin: 0 auto;             /* center container in the viewport */
+    padding-bottom: 200px;
+  }
+  
+  .cover-box {
+    flex: 0 0 auto;             /* don’t stretch or shrink */
+    width: 326px;
+    height: 422px;
+    position: relative;
+    margin-top: 17px;
+  }
+  
+
+.magazine-page{
+    position: relative;  /* establishes a containing block for absolute kids */
+    width: 100%;
+    overflow-x: visible;
+}
+
+.magazine-picture{
+    position: absolute;     /* stack them */
+    top: 0;                 /* pin to top */
+    left: 0;                /* pin to left */
+    width: 100%;            /* fill the cover-box */
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.3s ease;
+    opacity: 1;
+}
+
+.hover-picture{
+    position: absolute;     /* stack them */
+    top: 0;                 /* pin to top */
+    left: 0;                /* pin to left */
+    width: 100%;            /* fill the cover-box */
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.3s ease;
+    opacity: 0;
+}
+
+.cover-box:hover .magazine-picture{
+    opacity: 0;
+}
+
+.cover-box:hover .hover-picture{
+    opacity: 1;
+}
+
+#next-issue-gif {
+    overflow: hidden; /* keep it inside the box */
+}
+  
+.paper-gif-frame {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.pdf-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.85);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.pdf-content {
+  position: relative;
+  width: 90%;
+  height: 90%;
+  background: white;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  z-index: 10;
+  background: transparent;
+  border: none;
+  font-size: 2rem;
+  color: black;
+  cursor: pointer;
+}
+
+  

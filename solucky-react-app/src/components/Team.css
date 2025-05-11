@@ -1,0 +1,348 @@
+.team-join{
+    background-image: url('/public/Assets/Team/team-bg-1.png'); /* Path to your image */
+    background-size: cover; /* Ensures the image covers the entire section */
+    background-position: top;
+    min-height: 1038px; 
+    display: flex;
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; 
+}
+
+.team-page {
+    overflow-x: hidden; /* Prevent horizontal overflow on the page */
+}
+
+.team-members{
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%; /* Ensure it spans the entire viewport width */
+    box-sizing: border-box; /* Include padding and borders in width calculations */
+}
+
+.join-card{
+    margin-top: 201px;
+    width: 1256px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 75px;
+    align-self: stretch;
+}
+
+.join-card-text{
+    color: white;
+    width:750px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.join-card-buttons{
+    width: 713px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 27px;
+}
+
+.apply-button-section{
+    display: flex;
+    gap:23px;
+}
+
+button{
+    width: 345px;
+    height: auto;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 35px;
+    background: black;
+}
+
+.button-arrow{
+    width: 39px;
+    height: 40px;
+}
+
+.contributor-info{
+    color: #F5F5F5;
+    text-align: center;
+    font-family: "Bai Jamjuree";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 0px;
+    margin-bottom: 27px;
+}
+
+.team-title-caption{
+    margin:0px;
+}
+
+.team-title{
+    padding-bottom: 75px;
+}
+ 
+a{
+     text-decoration: none;
+ }
+
+.apply-textbox{
+    margin-right: 15px;
+}
+
+.main-team-card{
+    margin-top:102px;
+    display: flex;
+    width: 1383px;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.team-operations-title{
+    color: #000;
+    text-align: center;
+    font-family: "PT Serif";
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.team-operations-title-caption{
+    color: #000;
+    font-family: "Bai Jamjuree";
+    font-size: 35px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 0px;
+}
+
+.team-position-title{
+    color: #030303;
+    font-family: "PT Serif";
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    padding-top: 65px;
+}
+
+.behind-the-scenes{
+    background-color: #3D2F2D;
+    height: 291px;
+}
+
+.film-reel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #4a2c2c; /* Dark brown for the film background */
+    padding: 10px;
+}
+
+.bts-images{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 99vw ;
+    height: 172px;
+}
+
+
+.squares{
+  display: flex;
+  flex-direction: row;
+  gap: 58.83px; /* Add spacing between squares */
+  padding-block:10px;
+}
+
+.square {
+    width: 16.995px;
+    height: 31.376px;
+    background-color: #D8D8D8; /* Color of the squares */
+}
+
+.post-div{
+    width: 375px;
+    height: 534px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+.post-image{
+    width: 375px;
+    height: 375px;
+}
+
+.post-header{
+    height: 54px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left:10px;
+    padding-right:15px;
+}
+
+.post-left-group{
+    display: flex;
+    width: 114px;
+    height: 32px;
+    flex-shrink: 0;
+    align-items: center;
+    gap:5px;
+}
+.post-account-name{
+    color: #262626;
+    font-family: "SF Pro Text";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px; /* 138.462% */
+    letter-spacing: -0.1px;
+}
+
+.post-bottom-div{
+    width: 346px;
+    height: 74.152px;
+    flex-shrink: 0;
+    align-self: center;
+    margin-top: 13px;
+    display: flex;
+    flex-direction: column;
+}
+.post-icons{
+    width: 345.363px;
+    height: 23.152px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-icons-left-group{
+    display: flex;
+    gap:17.5px;
+}
+
+.post-text{
+    color: #262626;
+    font-family: "SF Pro Text";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.07px;
+    text-align: start;
+}
+
+.horizontal-scroll-section {
+    display: flex;
+    gap: 20px; /* Space between cards */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    padding: 10px;
+    scroll-behavior: smooth;
+    width:1383px;
+    margin: 0 auto; /* Center horizontally */
+}
+
+.horizontal-scroll-section-noscroll{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+}
+
+.horizontal-scroll-section::-webkit-scrollbar {
+    display: none; /* hides scrollbar */
+}
+
+.horizontal-scroll-section::-webkit-scrollbar-thumb {
+    background-color: #ccc; /* Scrollbar color */
+    border-radius: 5px;
+}
+
+.horizontal-scroll-section::-webkit-scrollbar-track {
+    background-color: #f4f4f4;
+}
+
+.specific-position{
+    display: block;
+}
+
+.more-icon{
+    width: 14px;
+    height: 3px;
+}
+
+.solucky-icon{
+    height: 32px;
+    width: 32px;
+}
+
+.founder{
+    padding-bottom: 50px;
+}
+
+.production{
+    margin-bottom: 100px;
+}
+
+.social-media{
+    margin-bottom: 100px;
+}
+
+.magazine-publishing{
+    margin-bottom: 100px;
+}
+
+.aesthetic-photographers{
+    margin-bottom: 100px;
+}
+
+.scroll-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.team-category {
+    margin-bottom: 50px;
+}
+  
+.category-title {
+font-size: 24px;
+font-weight: bold;
+margin-bottom: 10px;
+text-align: center;
+}
+
+.scroll-left,
+.scroll-right {
+    all: unset; /* Resets all default styles */
+    height:26px;
+    width:43px;
+    border-radius: 10px 5px 5px 10px;
+    background: #FFF;
+    box-shadow: none; /* Removes any remaining shadow */
+    cursor: pointer; /* Reapply desired styles */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
