@@ -117,7 +117,7 @@
     overflow-x: auto; /* Enable horizontal scrolling */
     padding: 10px;
     scroll-behavior: smooth;
-    width:1512px;
+    width:90vw;
     margin: 0 auto; /* Center horizontally */
 }
 

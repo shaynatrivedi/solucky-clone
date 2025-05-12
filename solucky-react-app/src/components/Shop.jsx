@@ -1,8 +1,31 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import "./Shop.css";
 import Footer from "./Footer";
 
 const Shop = () => {
+    const scrollRef = useRef(null);
+
+    useEffect(() => {
+      let direction = 1; // 1 = right, -1 = left
+
+      const scrollInterval = setInterval(() => {
+        if (scrollRef.current) {
+          const container = scrollRef.current;
+          const maxScrollLeft = container.scrollWidth - container.clientWidth;
+
+          // Scroll by 50 pixels in current direction
+          container.scrollLeft += 300 * direction;
+
+          // If we've reached the end or start, reverse direction
+          if (container.scrollLeft >= maxScrollLeft || container.scrollLeft <= 0) {
+            direction *= -1;
+          }
+        }
+      }, 2000); // every 1 second
+
+      return () => clearInterval(scrollInterval); // cleanup on unmount
+    }, []);
+
     return (
         <div className="shop-page">
           <div className="top-grid">
@@ -34,7 +57,7 @@ const Shop = () => {
 
           </div>
 
-          <div className="horizontal-scroll-section cutout-gallery">
+          <div className="horizontal-scroll-section cutout-gallery" ref={scrollRef}>
             <div className="cutout-item">
               <img src="Assets/Shop/cutout1.png" alt="cutout-picture"></img>
             </div>
