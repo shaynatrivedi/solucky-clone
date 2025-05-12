@@ -200,8 +200,8 @@
     .footer-card.num1 .explore-links-container,
     .footer-card.num3 .logo-links-div,
     .footer-card.num4 .acknowledgement-container {
-      justify-content: center;
-      align-items: center;
+      justify-content: start;
+      align-items: start;
     }
   
     .footer-card-title {
