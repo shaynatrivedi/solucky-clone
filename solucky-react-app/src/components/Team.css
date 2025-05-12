@@ -1,15 +1,19 @@
-.team-join{
-    background-image: url('/public/Assets/Team/team-bg-1.png'); /* Path to your image */
-    background-size: cover; /* Ensures the image covers the entire section */
-    background-position: top;
-    min-height: 1038px; 
-    display: flex;
-    justify-content: center; /* Centers content horizontally */
-    align-items: center; 
-}
-
 .team-page {
     overflow-x: hidden; /* Prevent horizontal overflow on the page */
+}
+
+.hero-section{
+    min-height: 1620px;
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+}
+
+.shoe-image{
+    width: 100vw;
+    position: absolute;
 }
 
 .team-members{
@@ -22,36 +26,29 @@
     box-sizing: border-box; /* Include padding and borders in width calculations */
 }
 
-.join-card{
-    margin-top: 201px;
-    width: 1256px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 75px;
-    align-self: stretch;
+.volunteer-text{
+    width: 630px;
+    height: fit-content;
+    color: #030303;
+    text-align: justify;
+    font-family: "Bai Jamjuree";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0px;
 }
 
-.join-card-text{
-    color: white;
-    width:750px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.caption-text{
+    color: #E13939;
+    font-family: "Oooh Baby";
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
-.join-card-buttons{
-    width: 713px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 27px;
-}
 
-.apply-button-section{
-    display: flex;
-    gap:23px;
-}
 
 button{
     width: 345px;
@@ -70,26 +67,7 @@ button{
     height: 40px;
 }
 
-.contributor-info{
-    color: #F5F5F5;
-    text-align: center;
-    font-family: "Bai Jamjuree";
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin-top: 0px;
-    margin-bottom: 27px;
-}
 
-.team-title-caption{
-    margin:0px;
-}
-
-.team-title{
-    padding-bottom: 75px;
-}
- 
 a{
      text-decoration: none;
  }
@@ -138,42 +116,6 @@ a{
     line-height: normal;
     text-transform: uppercase;
     padding-top: 65px;
-}
-
-.behind-the-scenes{
-    background-color: #3D2F2D;
-    height: 291px;
-}
-
-.film-reel{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #4a2c2c; /* Dark brown for the film background */
-    padding: 10px;
-}
-
-.bts-images{
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    width: 99vw ;
-    height: 172px;
-}
-
-
-.squares{
-  display: flex;
-  flex-direction: row;
-  gap: 58.83px; /* Add spacing between squares */
-  padding-block:10px;
-}
-
-.square {
-    width: 16.995px;
-    height: 31.376px;
-    background-color: #D8D8D8; /* Color of the squares */
 }
 
 .post-div{
