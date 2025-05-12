@@ -206,4 +206,14 @@ button{
   cursor: pointer;
 }
 
+
+@media screen and (max-width: 1880px){
+    .right-sticky-picture{
+        top: 200px;
+    }
+
+    .solucky-magazine-svg{
+        width: 50vw;
+    }
+}
   
