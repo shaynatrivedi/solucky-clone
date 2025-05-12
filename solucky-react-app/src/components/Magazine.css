@@ -17,10 +17,11 @@
 .right-sticky-picture{
     position: absolute;
     right: 0;            /* always flush to the right edge */
-    width: 40vw;         /* or any value that scales (you could also use px) */
+    width: 28vw;         /* or any value that scales (you could also use px) */
     max-width: 988px;    /* cap it so it never gets too huge */
     height: auto;
     z-index: 0;   
+    top: 100px;
 }
 
 .solucky-magazine-svg{
