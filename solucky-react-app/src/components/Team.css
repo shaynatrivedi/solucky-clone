@@ -162,6 +162,9 @@ a{
     line-height: normal;
     margin-top: 0px;
 }
+.instagram-caption{
+    padding-top: 100px;
+}
 
 .team-position-title{
     color: #030303;
@@ -171,7 +174,6 @@ a{
     font-weight: 600;
     line-height: normal;
     text-transform: uppercase;
-    padding-top: 65px;
 }
 
 .post-div{
@@ -252,12 +254,13 @@ a{
 
 .horizontal-scroll-section {
     display: flex;
-    gap: 20px; /* Space between cards */
-    overflow-x: auto; /* Enable horizontal scrolling */
-    padding: 10px;
+    overflow-x: auto;
+    gap: 20px;
     scroll-behavior: smooth;
-    width:1383px;
-    margin: 0 auto; /* Center horizontally */
+    width: 100%;
+    padding: 20px 0;
+    margin: 0 auto;
+    white-space: nowrap;
 }
 
 .horizontal-scroll-section-noscroll{
@@ -267,16 +270,17 @@ a{
 }
 
 .horizontal-scroll-section::-webkit-scrollbar {
-    display: none; /* hides scrollbar */
-}
-
-.horizontal-scroll-section::-webkit-scrollbar-thumb {
-    background-color: #ccc; /* Scrollbar color */
-    border-radius: 5px;
+    height: 10px;
+    display: block;
 }
 
 .horizontal-scroll-section::-webkit-scrollbar-track {
-    background-color: #f4f4f4;
+    background: rgb(160, 160, 160);
+}
+
+.horizontal-scroll-section::-webkit-scrollbar-thumb {
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
 }
 
 .specific-position{
