@@ -6,25 +6,22 @@ const Shop = () => {
     const scrollRef = useRef(null);
 
     useEffect(() => {
-      let direction = 1; // 1 = right, -1 = left
-
       const scrollInterval = setInterval(() => {
         if (scrollRef.current) {
-          const container = scrollRef.current;
-          const maxScrollLeft = container.scrollWidth - container.clientWidth;
+          const { scrollLeft, scrollWidth, clientWidth } = scrollRef.current;
+          const atEnd = scrollLeft + clientWidth >= scrollWidth;
 
-          // Scroll by 50 pixels in current direction
-          container.scrollLeft += 300 * direction;
-
-          // If we've reached the end or start, reverse direction
-          if (container.scrollLeft >= maxScrollLeft || container.scrollLeft <= 0) {
-            direction *= -1;
+          if (!atEnd) {
+            scrollRef.current.scrollLeft += 290;
+          } else {
+            clearInterval(scrollInterval);
           }
         }
-      }, 2000); // every 1 second
+      }, 2000);
 
-      return () => clearInterval(scrollInterval); // cleanup on unmount
+      return () => clearInterval(scrollInterval);
     }, []);
+
 
     return (
         <div className="shop-page">
