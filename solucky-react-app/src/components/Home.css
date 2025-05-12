@@ -5,6 +5,7 @@
     height: 100vh;           /* adjust as you like */
     min-height: 400px;      /* never get too short */
     overflow: hidden;
+    justify-content: space-around;
   }
   
   /* 2) the video covers the whole section, cropping via object-fit */
