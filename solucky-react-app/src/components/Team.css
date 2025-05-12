@@ -271,7 +271,6 @@ a{
 
 .team-horizontal-scroll-section::-webkit-scrollbar {
     height: 10px;
-    border-radius: 5px;
 }
 
 .team-horizontal-scroll-section::-webkit-scrollbar-track {
