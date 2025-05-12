@@ -42,6 +42,7 @@
     align-self: end;
     width: fit-content;
     margin-right: 400px;
+    padding: 20px;
 }
 
 .button-container{
@@ -54,8 +55,18 @@
 
 .buttons-wrapper{
     display: flex;
-    width: 75%;
-    justify-content: space-around;
+    width: 70%;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.button-caption{
+    width: 70%;
+    text-align: end;
+}
+
+.button3{
+    height: 100%;
 }
 
 .volunteer-text{
@@ -154,10 +165,10 @@ a{
 
 .team-position-title{
     color: #030303;
-    font-family: "PT Serif";
+    font-family: "Bai Jamjuree";
     font-size: 35px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     line-height: normal;
     text-transform: uppercase;
     padding-top: 65px;
@@ -344,4 +355,82 @@ text-align: center;
         margin-right: 200px;
         margin-top: -100px;
     }
+
+    .buttons-wrapper{
+        
+    }
 }
+
+
+@media screen and (max-width: 1512px) {
+
+}
+
+@media screen and (max-width: 744px){
+    .shoe-image{
+        padding-top: 200px;
+    }
+
+    .shoe-caption{
+        margin-top: -220px;
+        margin-left: 0px;
+    }
+
+    .hero-heading{
+        font-size: 60px;
+    }
+
+    .hero-title-container{
+        margin-right: 0px;
+        margin-top: 400px;
+        position: absolute;
+    }
+
+    .volunteer-text{
+        font-size: 20px;
+        margin-left: 0px;
+        align-self: center; 
+        margin-top: 760px;
+        position: absolute;
+        width: 95vw;
+    }
+
+    .caption-text{
+        font-size: 28px;
+    }
+
+    .shoe-caption{
+        position: absolute;
+        margin-top: 230px;
+        margin-left:50px;
+    }
+
+    .arrow-icon{
+        margin: 0px;
+    }
+
+    .buttons-wrapper{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .button-container{
+        margin-top: 980px;
+    }
+
+    .button-caption{
+        align-self: end;
+        padding-right: 20px;
+    }
+
+    #view-bts-text{
+        width: 120px;
+    }
+
+    .team-operations-title{
+
+    }
+
+}
+
