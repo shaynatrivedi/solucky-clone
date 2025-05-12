@@ -312,6 +312,10 @@ a{
     margin-bottom: 100px;
 }
 
+.no-scroll{
+    justify-content: center;
+}
+
 .aesthetic-photographers{
     margin-bottom: 100px;
 }
