@@ -31,11 +31,43 @@ const Team = () =>{
                         <img src="../Assets/Team/team-arrow.svg" class="arrow-icon" />
                     </div>
 
-                    <h1 class="hero-heading">
-                        the <i>solucky</i>experience
-                    </h1>
+                    <div className="hero-title-container">
+                        <h1 class="hero-heading">
+                            the
+                        </h1>
+                        <h1 class="hero-heading">
+                            <i>solucky</i>
+                        </h1>
+                        <h1 class="hero-heading">
+                            experience
+                        </h1>   
+                    </div>
+                    
+                    <div className="button-container">
+                        <p class="caption-text button-caption">a great team starts with the right fit.</p>
+                        <div className="buttons-wrapper">
+                            <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0">
+                                <button type="button">
+                                    <p className="apply-textbox centered-p-bai-jamjuree"><i>solucky contributor</i> application</p>
+                                    <img className="button-arrow" src="../Assets/Icons/shop-arrow.png" alt="arrow"></img>
+                                </button>
+                            </a>
 
-                    <p class="caption-text button-caption">a great team starts with the right fit.</p>
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSe81g9uPNPingKHngREZ5MpHuUFtI-zXEeOLqVayNIC6Ba2Sg/viewform">
+                                <button type="button">
+                                    <p className="apply-textbox centered-p-bai-jamjuree"><i>solucky model</i> application</p>
+                                    <img className="button-arrow" src="../Assets/Icons/shop-arrow.png" alt="arrow"></img>
+                                </button>
+                            </a>
+
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfZog6msmIUc8K_dc2SsmXIWx7oEGcV4E1PE9WHw0KxKNjEwg/viewform">
+                                <button type="button">
+                                    <p className="apply-textbox centered-p-bai-jamjuree">view BTS photos</p>
+                                </button>
+                            </a> 
+                        </div>
+                    </div>
+                    
 
             </section>
 
