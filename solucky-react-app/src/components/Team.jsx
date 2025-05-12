@@ -16,44 +16,28 @@ const Team = () =>{
 
     return(
         <div className="team-page">
-            <section className="team-join">
-                <div className="join-card">
-                    <div className="join-card-text">
-                        <h1 className="team-title">Our Team</h1>
-                        <h3 className="team-title-caption"><i>What does a team contributor do?</i></h3>
-                        <p className="contributor-info">
-                            Our volunteers dedicate their time & effort to making 
-                            the brand what it is today while gaining valuable creative
-                            work experience in their fields of interest.
-                        </p>
-                        <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0">
-                            <button type="button">
-                                <p className="apply-textbox centered-p-bai-jamjuree">view bts photos</p>
-                                <img className="button-arrow" src="../Assets/Icons/shop-arrow.png" alt="arrow"></img>
-                            </button>
-                        </a>
-                    </div>
-                    <div className="join-card-buttons">
-                        <h3 className="join-header team-title-caption"><i>Want to join our team?</i></h3>
-                        <div className="apply-button-section">
-                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSe81g9uPNPingKHngREZ5MpHuUFtI-zXEeOLqVayNIC6Ba2Sg/viewform">
-                                <button type="button">
-                                    <p className="apply-textbox centered-p-bai-jamjuree">apply to be a <i>solucky</i> contributor</p>
-                                    <img className="button-arrow" src="../Assets/Icons/shop-arrow.png" alt="arrow"></img>
-                                </button>
-                            </a>
+            <section class="hero-section">
+                    <p class="volunteer-text">
+                        Our volunteers dedicate their time & efforts to shaping the brand into 
+                        what is today, contributing their unique talents & fresh perspectives.
+                        In return they build portfolios, refine their skills, & grow professionally
+                        while becoming part of a supportive community that celebreates creativity
+                        & collaboration. 
+                    </p>
+                    <img src="../Assets/Team/shoes.png" class="shoe-image" alt="shoe" />
 
-                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfZog6msmIUc8K_dc2SsmXIWx7oEGcV4E1PE9WHw0KxKNjEwg/viewform">
-                                <button type="button">
-                                    <p className="apply-textbox centered-p-bai-jamjuree">apply to be a <i>solucky</i> model</p>
-                                    <img className="button-arrow" src="../Assets/Icons/shop-arrow.png" alt="arrow"></img>
-                                </button>
-                            </a>
-                        </div>
+                    <div class="shoe-caption">
+                        <p class="caption-text">step in. stand out.</p>
+                        <img src="../Assets/Team/team-arrow.svg" class="arrow-icon" />
                     </div>
-                </div>     
+
+                    <h1 class="hero-heading">
+                        the <i>solucky</i>experience
+                    </h1>
+
+                    <p class="caption-text button-caption">a great team starts with the right fit.</p>
+
             </section>
-
 
             <section className="team-members">
                 <div className="main-team-card">
