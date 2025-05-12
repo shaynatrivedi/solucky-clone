@@ -86,7 +86,7 @@ const Team = () =>{
                                     <img src="/Assets/Icons/chevron-right.png" alt="arrow-right" style={{ width: '16px', height: '16px' }}></img>
                                 </button>
                             </div>
-                            <div className="horizontal-scroll-section brand-operations">
+                            <div className="team-horizontal-scroll-section brand-operations">
 
                                 <div className="post-div">
                                     <div className="post-header">
@@ -421,7 +421,7 @@ const Team = () =>{
                                     <img src="/Assets/Icons/chevron-right.png" alt="arrow-right" style={{ width: '16px', height: '16px' }}></img>
                                 </button>
                             </div>
-                            <div className="horizontal-scroll-section production">
+                            <div className="team-horizontal-scroll-section production">
                             <div className="post-div">
                                 <div className="post-header">
                                     <div className="post-left-group">
@@ -842,7 +842,7 @@ const Team = () =>{
 
                     <div className="social-media">
                         <h3 className="team-position-title">Social media</h3>
-                        <div className="horizontal-scroll-section-noscroll">
+                        <div className="team-horizontal-scroll-section">
 
                             <div className="post-div">
                                 <div className="post-header">
@@ -953,7 +953,7 @@ const Team = () =>{
                                     <img src="/Assets/Icons/chevron-right.png" alt="arrow-right" style={{ width: '16px', height: '16px' }}></img>
                                 </button>
                             </div>
-                            <div className="horizontal-scroll-section magazine-publishing">
+                            <div className="team-horizontal-scroll-section magazine-publishing">
                             <div className="post-div">
                                 <div className="post-header">
                                     <div className="post-left-group">
@@ -1255,7 +1255,7 @@ const Team = () =>{
                                     <img src="/Assets/Icons/chevron-right.png" alt="arrow-right" style={{ width: '16px', height: '16px' }}></img>
                                 </button>
                             </div>
-                            <div className="horizontal-scroll-section aesthetic-photographers">
+                            <div className="team-horizontal-scroll-section aesthetic-photographers">
 
                             <div className="post-div">
                                 <div className="post-header">
