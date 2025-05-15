@@ -10,6 +10,7 @@ const Collabs = () =>{
                     <div className="top-content-wrapper">
                         <div className="create-image-container">
                             <img className="svg-image" alt="create-with-solucky" src="../Assets/Collabs/create-image.svg"></img>
+                            <img className="svg-bracelet" alt="bracelet" src="../Assets/Collabs/bracelet.svg"></img>
                         </div>
                         <div className="collab-paragraph-container">
                             <div className="magazine-para-text">
@@ -33,9 +34,6 @@ const Collabs = () =>{
                                 Email solucky.contact@gmail.com to collab with us!
                             </div>
                         </div>
-                    </div>
-                    <div className="bracelet-svg-container">
-                        <img className="svg-bracelet" alt="bracelet" src="../Assets/Collabs/bracelet.svg"></img>
                     </div>
                 </div>
             </div>
