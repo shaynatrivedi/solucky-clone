@@ -50,7 +50,7 @@
 }
 
 .bottom-section{
-    padding-top: 700px;
+    padding-top: 450px;
     display: flex;
     flex-direction: column;
     width: 100vw;
@@ -112,6 +112,10 @@
 @media screen and (max-width: 1370px){
     .magazine-para-text{
         font-size:20px;
+    }
+
+    .bottom-section{
+        padding-top: 300px;
     }
 }
 
