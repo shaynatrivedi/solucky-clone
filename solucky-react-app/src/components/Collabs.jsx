@@ -34,6 +34,13 @@ const Collabs = () =>{
                             <div className="magazine-para-text">
                                 Email solucky.contact@gmail.com to collab with us!
                             </div>
+                            <div className="mobile-tag-container">
+                                <img className="bracelet-tag" alt="tag" src="../Assets/Collabs/collab-tag-1.svg"></img>
+                                <img className="bracelet-tag" alt="tag" src="../Assets/Collabs/collab-tag-2.svg"></img>
+                                <img className="bracelet-tag" alt="tag" src="../Assets/Collabs/collab-tag-3.svg"></img>
+                                <img className="bracelet-tag" alt="tag" src="../Assets/Collabs/collab-tag-4.svg"></img>
+                                <img className="bracelet-tag" alt="tag" src="../Assets/Collabs/collab-tag-5.svg"></img>
+                            </div>
                         </div>
                     </div>
                 </div>

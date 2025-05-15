@@ -91,6 +91,10 @@
     height: 750px;
 }
 
+.mobile-tag-container{
+    display: none;
+}
+
 
 .horizontal-scroll-section-collab::-webkit-scrollbar {
     height: 10px;
@@ -200,4 +204,21 @@
     .magazine-para-text{
         font-size: 20px;
     }
+
+    .mobile-tag-container{
+        display: flex;
+        width: 95vw;
+        flex-wrap: wrap;
+        padding: 5px;
+        gap: 15px;
+    }
+
+    .collab-container{
+        width: 215px;
+    }
+
+    .collab-container img{
+        height: 512px;
+    }
+    
 }
