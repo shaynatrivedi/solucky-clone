@@ -404,6 +404,18 @@ text-align: center;
     }
 }
 
+@media screen and (max-width:900px){
+    .volunteer-text{
+        margin-left: 40px;
+        font-size: 22px;
+        margin-top: 170px;
+    }
+
+    .shoe-image{
+        margin-top: -550px;
+    }
+}
+
 
 
 @media screen and (max-width: 744px){
