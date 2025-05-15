@@ -56,8 +56,10 @@
 .buttons-wrapper{
     display: flex;
     width: 70%;
-    justify-content: space-between;
+    justify-content: center;
     align-items: stretch;
+    gap: 30px;
+    flex-wrap: wrap;
 }
 
 .button-caption{
@@ -67,6 +69,10 @@
 
 .button3{
     height: 100%;
+}
+
+#view-bts-text{
+    width: 120px;
 }
 
 .volunteer-text{
@@ -359,7 +365,7 @@ text-align: center;
     }
 
     .hero-title-container{
-        margin-right: 200px;
+        margin-right: 0px;
         margin-top: -100px;
     }
 
@@ -368,24 +374,39 @@ text-align: center;
     }
 
     .shoe-image{
-        margin-top: 50px;
+        margin-top: -250px;
     }
 }
 
 
-@media screen and (max-width: 1512px) {
+@media screen and (max-width: 1660px){
+    .volunteer-text {
+        margin-left: 150px;
+    }
 
+    .shoe-caption {
+        margin-top: 20px;
+        margin-left: -10px;
+    }
 }
+
+@media screen and (max-width: 1200px) {
+    .hero-heading{
+        font-size:100px;
+    }
+
+    .team-horizontal-scroll-section{
+        width: 95vw;
+    }
+}
+
+
 
 @media screen and (max-width: 744px){
     .shoe-image{
-        padding-top: 200px;
+        margin-top: -900px;
     }
-
-    .shoe-caption{
-        margin-top: -220px;
-        margin-left: 0px;
-    }
+    
 
     .hero-heading{
         font-size: 60px;
@@ -393,7 +414,7 @@ text-align: center;
 
     .hero-title-container{
         margin-right: 0px;
-        margin-top: 400px;
+        margin-top: -600px;
         position: absolute;
     }
 
@@ -401,7 +422,7 @@ text-align: center;
         font-size: 20px;
         margin-left: 0px;
         align-self: center; 
-        margin-top: 760px;
+        margin-top: -100px;
         position: absolute;
         width: 95vw;
     }
@@ -412,7 +433,7 @@ text-align: center;
 
     .shoe-caption{
         position: absolute;
-        margin-top: 230px;
+        margin-top: -1000px;
         margin-left:50px;
     }
 
@@ -423,11 +444,11 @@ text-align: center;
     .buttons-wrapper{
         flex-wrap: wrap;
         justify-content: center;
-        gap: 20px;
+        gap: 30px;
     }
 
     .button-container{
-        margin-top: 980px;
+        margin-top: 600px;
     }
 
     .button-caption{
@@ -435,13 +456,38 @@ text-align: center;
         padding-right: 20px;
     }
 
-    #view-bts-text{
-        width: 120px;
-    }
-
-    .team-operations-title{
-
+    .main-team-card{
+        margin-top: -200px;
+        z-index: 99;
     }
 
 }
 
+@media screen and (max-width: 744px){
+    .team-category{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .instagram-caption{
+        align-self: center;
+        width: 80vw;
+    }
+
+    .team-position-title{
+        font-size:28px;
+    }
+
+}
+
+
+@media screen and (max-width: 600px){
+    .hero-section{
+        min-height: 1420px;
+    }
+
+    .shoe-caption{
+        margin-top: -1020px;
+        margin-left: 10px;
+    }
+}
