@@ -55,7 +55,7 @@
 
 .buttons-wrapper{
     display: flex;
-    width: 70%;
+    width: 80%;
     justify-content: center;
     align-items: stretch;
     gap: 30px;
@@ -397,6 +397,10 @@ text-align: center;
 
     .team-horizontal-scroll-section{
         width: 95vw;
+    }
+
+    .volunteer-text{
+        font-size: 25px;
     }
 }
 
