@@ -163,6 +163,7 @@ const Events = () => {
       <section className="landing-section">
         <div className="iphone-paragraph-container">
           <div className="iphone-container">
+            <img src="../Assets/Events/stay-tuned2.svg" className="stay-tuned-alt" alt="stay tuned"/>
             <img src="../Assets/Events/iphone.png" className="iphone-pic" alt="iphone"/>
           </div>
 
