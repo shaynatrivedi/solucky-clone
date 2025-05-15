@@ -9,6 +9,7 @@ const Collabs = () =>{
                 <div className="content-container-div">
                     <div className="top-content-wrapper">
                         <div className="create-image-container">
+                            <img className="svg-bracelet-tablet" alt="bracelet" src="../Assets/Collabs/bracelet-tablet.svg"></img>
                             <img className="svg-image" alt="create-with-solucky" src="../Assets/Collabs/create-image.svg"></img>
                             <img className="svg-bracelet" alt="bracelet" src="../Assets/Collabs/bracelet.svg"></img>
                         </div>

@@ -27,6 +27,9 @@
     width: 45vw;
 }
 
+.svg-bracelet-tablet{
+    width: 0px;
+}
 .svg-bracelet{
     width: 85vw;
     height: auto;
@@ -156,4 +159,45 @@
         padding-top: 200px;
     }
 
+}
+
+@media screen and (max-width: 744px){
+    .svg-bracelet{
+        width: 0px;
+    }
+
+    .svg-bracelet-tablet{
+        width: 100vw;
+    }
+
+    .top-section{
+        width: 100vw;
+        margin-top: 0px;
+    }
+
+    .top-content-wrapper{
+        flex-wrap: wrap;
+    }
+
+    .collab-paragraph-container{
+        width: 95vw;
+    }
+
+    .create-image-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bottom-section{
+        padding-top: 10px;
+    }
+
+    .view-archive-svg{
+        width: 45vw;
+        margin-left: 20px;
+    }
+
+    .magazine-para-text{
+        font-size: 20px;
+    }
 }
