@@ -9,6 +9,9 @@
     flex-direction: column;
     align-items: center;
 }
+.stay-tuned-alt{
+    width: 0px;
+}
 
 .iphone-paragraph-container{
     display: flex;
@@ -27,7 +30,11 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding-right: 20px;
+    padding-right: 100px;
+}
+
+.iphone-container{
+    padding-left: 100px;
 }
 
 .moving-strip{
@@ -36,7 +43,7 @@
     justify-content: center;
     align-items: flex-end;
     gap: 10px;
-    background: #F5F5F5;
+    background: #FF6265;
 }
 
 .events-section{
@@ -87,7 +94,7 @@
 
 .stay-tuned-text{
     margin-top: 50px;
-    margin-left: -170px;
+    margin-left: -50px;
 }
 
 .the-art-of-text{
@@ -97,11 +104,10 @@
 
 .iphone-pic{
     margin-top: 40px;
-    margin-left: 90px;
 }
 
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1512px) {
     /* tighten up the top‐section padding */
     .iphone-paragraph-container {
       padding-top: 180px;
@@ -114,6 +120,14 @@
       flex: 1 1 45%;
       justify-content: center
     }
+
+    .iphone-container{
+        padding-left: 20px;
+    }
+
+    .para-text-container{
+        padding-right: 0px;
+    }
   
     .para-text-container{
         padding-right:50px ;
@@ -123,31 +137,96 @@
     .iphone-pic {
       max-width: 80%;
       margin-top: 20px;
-      margin-left: 60px;
     }
   
     /* shrink & reposition the “the art of” graphic */
     .the-art-of-text {
-        max-width: 14rem;
+        max-width: 19rem;
         margin-left: 10px;
-        margin-bottom: -15px;
+        margin-bottom: -35px;
     }
   
     /* scale down the big header word */
     .events-header-text {
-      font-size: 3.5rem;    /* adjust this to match your base rem scale */
+      font-size: 5.5rem;    /* adjust this to match your base rem scale */
     }
   
     /* scale down the body copy */
     .events-para-text {
-      font-size: 1rem;
+      font-size: 25px;
       line-height: 1.6;
     }
   
     /* shrink & reposition the “stay-tuned” arrow */
     .stay-tuned-text {
-      max-width: 25rem;
-      margin-left: -20px;
+        max-width: 34.5rem;
+        margin-left: -30px;
+        margin-top: 0px;
     }
   }
+
+  @media screen and (max-width: 1250px){
+    .events-para-text{
+        font-size: 1rem;
+    }
+  }
+
+  @media screen and (max-width: 744px){
+    .stay-tuned-text{
+        max-width: 0px;
+    }
+
+    .iphone-container{
+        padding-left: 0px;
+    }
+    .para-text-container{
+        padding-right: 0px;
+    }
+
+    .events-para-text{
+        align-self: center;
+        padding-left:15px;
+        padding-right:15px;
+    }
+
+    .iphone-paragraph-container{
+        flex-wrap: wrap-reverse;
+    }
+
+    .strip-text{
+        font-size: 20px;
+    }
+
+    .stay-tuned-alt{
+        width: 60%;
+        margin-left: -150px;
+        margin-bottom: -50px;
+    }
+
+    .iphone-pic{
+        margin-top: 0px;
+        margin-bottom: -50px
+    }
+
+    .events-header-text{
+        font-size: 4.5rem;
+        padding-left: 15px;
+    }
+
+    .the-art-of-text{
+        max-width: 15rem;
+        padding-left: 15px;
+    }
+
+    .iphone-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+  }
+
+
+
+
+
   
