@@ -34,6 +34,9 @@ const Media = () => {
             </div>
 
             <div className="macbook-interact-container">
+                <div className="interact-text-wrapper">
+                    <img className="media-arrow-svg" src="../Assets/Media/interact-text-arrow.svg"></img>
+                </div>
                 <img className="macbook-image" src="../Assets/Media/macbook.svg"></img>
                 <div 
                     className="laptop-screen-frame"

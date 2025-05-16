@@ -30,6 +30,16 @@
     mix-blend-mode: multiply;
 }
 
+.media-arrow-svg{
+    width: 20vw;
+    margin-bottom: -100px;
+    margin-left: -50px;
+}
+
+.interact-text-wrapper{
+    display: flex;
+}
+
 .media-info-container{
     display: flex;
     flex-direction: column;
@@ -49,8 +59,8 @@
   }
   
 .macbook-image {
-width: 100%;
-display: block;
+    width: 100%;
+    display: block;
 }
 
 .laptop-screen-frame {
@@ -64,7 +74,7 @@ display: block;
 }
 
 .click-prompt {
-color: black;
-text-align: center;
-padding-top: 20%; /* center the text within the screen */
+    color: black;
+    text-align: center;
+    padding-top: 20%; /* center the text within the screen */
 }
