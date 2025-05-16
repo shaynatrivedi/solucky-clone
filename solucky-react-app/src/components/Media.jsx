@@ -34,7 +34,7 @@ const Media = () => {
             </div>
 
             <div className="macbook-interact-container">
-                <img className="macbook-image" src="../Assets/Media/macbook.png"></img>
+                <img className="macbook-image" src="../Assets/Media/macbook.svg"></img>
                 <div 
                     className="laptop-screen-frame"
                     onClick={() => setShowEmbedded(true)}
