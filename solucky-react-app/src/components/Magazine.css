@@ -1,17 +1,14 @@
 .info-text-container{
     display: flex;
-    width: 1456px;
+    width: 80vw;
     flex-direction: column;
     align-items: center;
     gap: 25px;
 }
 
 #text-box{
-    padding-top: 100px;
-    padding-left:40px;
-    width: 692px;
-    grid-row: 3 / 5;
-    grid-column: 4 / 6;
+    width: 40vw;
+    align-self: end;
 }
 
 .right-sticky-picture{
@@ -37,21 +34,20 @@
 
 .header-text-container{
     text-align: left;
+    margin-right: -150px;
 }
 
 .top-text-container{
-    width: 100%;
-    height: 650px;
-    display: grid;
-    grid-template-rows: 130px 130px 130px 130px 130px;
-    grid-template-columns: 242px 242px 242px 242px 242px 242px ;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
 }
 
 
 .info-buttons-section{
     position: relative;
-    width: 100%;
-    max-width: 1456px;          /* same cap as the rest of your sections */
+    width: 80vw;
     margin: 0 auto;             /* center on larger screens */
     padding: 100px 16px 70px;       /* horizontal gutters + bottom padding */
     display: flex;              /* switch to flexbox */
@@ -94,8 +90,8 @@ button{
 
 .pointer-text-image{
     position: absolute;
-    top: 0;
-    left: 50%;
+    top: -10px;
+    left: 55%;
     transform: translate(80%, 3%);
     width: 100%;
     max-width: 352px;
@@ -103,14 +99,16 @@ button{
     pointer-events: none;
 }
 
+.alt-pointer-div{
+    display: none;
+}
+
 .cover-hover-section {
     display: flex;
     flex-wrap: wrap;            /* allow wrapping to next row */
-    justify-content: flex-start;/* align all items starting at the left */
+    justify-content: center;
     gap: 24px;                  /* gutter between covers */
-    
-    width: 100%;
-    max-width: 1456px;          /* same as your other sections */
+    width: 95vw;         /* same as your other sections */
     margin: 0 auto;             /* center container in the viewport */
     padding-bottom: 200px;
   }
@@ -216,4 +214,22 @@ button{
         width: 50vw;
     }
 }
-  
+
+@media screen and (max-width: 1512px){
+    .magazine-para-text{
+        font-size: 23px;
+    }
+}
+
+
+@media screen and (max-width:1380px) {
+    .pointer-text-image{
+        display: none;
+    }
+
+    .alt-pointer-div{
+        display: flex;
+        width: 95vw;
+        padding-left: 100px;
+    }
+}
