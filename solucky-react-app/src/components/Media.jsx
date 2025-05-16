@@ -9,15 +9,15 @@ const Media = () => {
     return(
         <div className="media-page">
             <div className="video-text-container">
-                <video autoPlay loop muted>
-                    <source src="../Assets/Media/text-video.mp4" type="video/mp4"></source>
-                </video>
-            </div>
+            <video autoPlay loop muted playsInline>
+                <source src="../Assets/Media/text-video.mp4" type="video/mp4" />
+            </video>
             <div className="text-box-media">
-                <h1 className="media-header-text">
-                    MEDIA
-                </h1>
+                <h1 className="media-header-text">MEDIA</h1>
             </div>
+            </div>
+
+
 
             <div className="media-info-container">
                 <div className="media-info-title">
