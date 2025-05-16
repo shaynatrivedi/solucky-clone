@@ -52,6 +52,18 @@ const Collabs = () =>{
                 </div>
                 <div className="horizontal-scroll-section-collab">
                     <div className="collab-container">
+                        <img src="../Assets/Collabs/collab-19.png" alt="collab-pic"></img>
+                        <div className="collab-caption">merazine</div>
+                    </div>
+                    <div className="collab-container">
+                        <img src="../Assets/Collabs/collab-20.png" alt="collab-pic"></img>
+                        <div className="collab-caption">classic loot</div>
+                    </div>
+                    <div className="collab-container">
+                        <img src="../Assets/Collabs/collab-21.png" alt="collab-pic"></img>
+                        <div className="collab-caption">the chai room</div>
+                    </div>
+                    <div className="collab-container">
                         <img src="../Assets/Collabs/collab-1.png" alt="collab-pic"></img>
                         <div className="collab-caption">snap choreography</div>
                     </div>
