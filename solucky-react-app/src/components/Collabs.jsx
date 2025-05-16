@@ -14,7 +14,7 @@ const Collabs = () =>{
                             <img className="svg-bracelet" alt="bracelet" src="../Assets/Collabs/bracelet.svg"></img>
                         </div>
                         <div className="collab-paragraph-container">
-                            <div className="magazine-para-text">
+                            <div className="collab-para-text">
                                 A <b>collaboration</b> with <i>solucky</i> creates a <b>seamless partnership </b>
                                 between your business & our creative brand. Simply send us 
                                 your products, & our team of experts including models, 
@@ -23,7 +23,7 @@ const Collabs = () =>{
                                 with high-quality content that you can freely use across 
                                 your social media platforms.
                             </div>
-                            <div className="magazine-para-text">
+                            <div className="collab-para-text">
                                 Additionally, this content will be featured on our social 
                                 media channels & website, expanding your reach & boosting 
                                 engagement. <b>All that we ask</b> in return is that you credit our 
@@ -31,7 +31,7 @@ const Collabs = () =>{
                                 we’re happy to collaborate on the creative direction, ensuring 
                                 <b> a vision both parties love</b>.
                             </div>
-                            <div className="magazine-para-text">
+                            <div className="collab-para-text">
                                 Email solucky.contact@gmail.com to collab with us!
                             </div>
                             <div className="mobile-tag-container">

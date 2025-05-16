@@ -110,7 +110,7 @@
 }
 
 @media screen and (max-width: 1370px){
-    .magazine-para-text{
+    .collab-para-text{
         font-size:20px;
     }
 
@@ -120,13 +120,13 @@
 }
 
 @media screen and (max-width: 1110px){
-    .magazine-para-text{
+    .collab-para-text{
         font-size:18px;
     }
 }
 
 @media screen and (max-width: 1000px){
-    .magazine-para-text{
+    .collab-para-text{
         font-size:15px;
     }
 
@@ -140,7 +140,7 @@
 }
 
 @media screen and (max-width: 900px){
-    .magazine-para-text{
+    .collab-para-text{
         font-size:15px;
     }
 
@@ -155,7 +155,7 @@
 }
 
 @media screen and (max-width: 816px){
-    .magazine-para-text{
+    .collab-para-text{
         font-size:13px;
     }
 
@@ -205,7 +205,7 @@
         margin-left: 20px;
     }
 
-    .magazine-para-text{
+    .collab-para-text{
         font-size: 20px;
     }
 
