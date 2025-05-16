@@ -107,3 +107,8 @@
     z-index: 2;
   }
   
+  @media screen and (max-width: 1340px) {
+    .macbook-interact-container {
+        width: 900px;
+    }
+  }
