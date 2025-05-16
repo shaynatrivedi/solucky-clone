@@ -100,6 +100,17 @@ code {
   text-indent: 50px;
 }
 
+.collab-para-text{
+  color: #030303;
+  text-align: justify;
+  font-family: "Bai Jamjuree";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-indent: 50px;
+}
+
 .events-para-text{
   color: #F5F5F5;
   text-align: justify;
