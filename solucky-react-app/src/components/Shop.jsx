@@ -27,7 +27,10 @@ const Shop = () => {
         <div className="shop-page">
           <div className="top-shop-div">
             <div className="shop-link-div">
-              <div className="shop-link-title">solucky wardrobe</div>
+              <div className="shop-title-wrapper">
+                <div className="shop-link-title" id="solucky-title">solucky </div>
+                <div className="shop-link-title" id="wardrobe-title">wardrobe</div>
+              </div>
               <a href="https://www.instagram.com/stories/highlights/17897013209879517/?hl=en">
                   <button className="shop-link-button">
                       <p className="shop-link-button-text">shop second-hand fashion at affordable pricing</p>
@@ -38,13 +41,14 @@ const Shop = () => {
 
             <div className="cutout-image-wrapper">
               <img src='/Assets/Shop/top-cutout.svg' className="big-cutout-picture" alt='outfit-cutout'></img>
+              <img src='/Assets/Shop/top-cutout-alt.svg' className="alt-cutout-picture" alt='outfit-cutout'></img>
             </div>
 
           </div>
 
         <div className="cutout-gallery-wrapper">
           <div className="annotation-container">
-            <img src='/Assets/Shop/photographer-tag.svg' alt='photographer tag ->'></img>
+            <img src='/Assets/Shop/photographer-tag.svg' className="photographer-tag" alt='photographer tag ->'></img>
           </div>
           <div className="horizontal-scroll-section cutout-gallery" ref={scrollRef}>
             <div className="cutout-item">
