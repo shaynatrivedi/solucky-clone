@@ -12,7 +12,13 @@
     max-width: 700px;
     align-items: center;
     gap: 30px;
-    min-width: 630px;
+    min-width: 530px;
+    z-index: 999;
+}
+
+.shop-title-wrapper{
+    display: flex;
+    gap: 20px;
 }
 
 .shop-link-title{
@@ -66,6 +72,10 @@
 
 .big-cutout-picture{
     width: 70vw;
+}
+
+.alt-cutout-picture{
+    display: none;
 }
 
 .cutout-image-wrapper{
@@ -245,4 +255,114 @@
     width: 100vw;
     height: auto;
     align-self: center;
+}
+
+@media screen and (max-width: 1210px) {
+    .shop-info-header-text.bigger-header{
+        font-size: 130px;
+    }
+
+    .shop-info-header-text.smaller-header{
+        font-size: 55px;
+    }
+}
+
+@media screen and (max-width:1080px){
+    .shop-info-header-text.bigger-header{
+        font-size: 100px;
+    }
+
+    .shop-info-header-text.smaller-header{
+        font-size: 45px;
+    }
+
+    .big-cutout-picture{
+        display: none;
+    }
+
+    .alt-cutout-picture{
+        display: block;
+        margin-top: 100px;
+        width: 40vw;
+    }
+
+    .top-shop-div{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .shop-title-wrapper{
+        flex-direction: column;
+        gap: 0px;
+        width: 45vw;
+    }
+
+    .cutout-gallery-wrapper{
+        margin-top: -50px;
+    }
+
+    .photographer-tag{
+        width: 45vw;
+    }
+
+    #solucky-title{
+        align-self: flex-start;
+    }
+
+    #wardrobe-title{
+        align-self: flex-end;
+    }
+
+    .shop-link-button{
+        width: 45vw;
+        min-width: 200px;
+    }
+}
+
+@media screen and (max-width:910px){
+    .shop-info-header-text.bigger-header{
+        font-size: 70px;
+    }
+
+    .shop-info-header-text.smaller-header{
+        font-size: 30px;
+    }
+
+    .shop-header-div{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .top-shop-div{
+        flex-direction: column;
+        align-items: center;
+        gap: 100px;
+        padding-top: 200px;
+    }
+
+    .final-sale-cap1{
+        font-size: 20px;
+    }
+
+    .final-sale-cap2{
+        font-size: 70px;
+    }
+
+    .final-sale-cap3{
+        font-size: 15px;
+    }
+
+    .shop-link-button{
+        width: 60vw;
+    }
+
+    .alt-cutout-picture{
+        width: 55vw;
+    }
+
+}
+
+@media screen and (max-width:744px){
+
 }
