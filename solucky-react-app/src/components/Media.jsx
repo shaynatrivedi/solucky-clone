@@ -33,20 +33,22 @@ const Media = () => {
                 </div>
             </div>
 
-            <div className="macbook-interact-container">
+           <div className="macbook-interact-container">
                 <div className="interact-text-wrapper">
-                    <img className="media-arrow-svg" src="../Assets/Media/interact-text-arrow.svg"></img>
+                    <img className="media-arrow-svg" src="../Assets/Media/interact-text-arrow.svg" />
                 </div>
-                <img className="macbook-image" src="../Assets/Media/macbook.svg"></img>
-                <div 
-                    className="laptop-screen-frame"
-                    onClick={() => setShowEmbedded(true)}
-                    >
+
+                <div className="macbook-image-wrapper">
+                    <img className="macbook-image" src="../Assets/Media/macbook.svg" />
+                    <div className="laptop-screen-frame" onClick={() => setShowEmbedded(true)}>
                     {showEmbedded ? (
+                        <div className="embedded-frame-wrapper">
                         <EmbeddedContent />
+                        </div>
                     ) : (
                         <div className="click-prompt">Click here to open the component</div>
                     )}
+                    </div>
                 </div>
             </div>
             <Footer/>
