@@ -83,6 +83,10 @@ const Magazine = () =>{
             </div>
 
             <div className="cover-hover-section">
+                <div className="alt-pointer-div">
+                  <img className="pointer-text-image-alt" src="../Assets/Magazine/magazine-pointer-alt.svg" alt="magazine below ↓"></img>  
+                </div>
+                
                 {activeIssue && (
                     <div className="pdf-modal" onClick={() => setActiveIssue(null)}>
                         <div className="pdf-content" onClick={(e) => e.stopPropagation()}>
