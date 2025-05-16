@@ -64,7 +64,9 @@
     margin-bottom: 82px;
 }
 
-
+.big-cutout-picture{
+    width: 70vw;
+}
 
 .cutout-image-wrapper{
     display: flex;
@@ -72,6 +74,15 @@
     margin-top:-150px;
 }
 
+.cutout-gallery-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-top: -200px;
+}
+
+.annotation-container{
+    display: flex;
+}
 
 .horizontal-scroll-section {
     display: flex;
@@ -103,7 +114,7 @@
 
 .shop-info{
     padding-top: 100px;
-    width:1256px;
+    width:85vw;
     display: flex;
     flex-direction: column;
 }
