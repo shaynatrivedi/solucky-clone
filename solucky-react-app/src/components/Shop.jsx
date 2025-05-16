@@ -37,11 +37,15 @@ const Shop = () => {
             </div>
 
             <div className="cutout-image-wrapper">
-              <img src='/Assets/Shop/top-cutout.svg' alt='outfit-cutout'></img>
+              <img src='/Assets/Shop/top-cutout.svg' className="big-cutout-picture" alt='outfit-cutout'></img>
             </div>
 
           </div>
 
+        <div className="cutout-gallery-wrapper">
+          <div className="annotation-container">
+            <img src='/Assets/Shop/photographer-tag.svg' alt='photographer tag ->'></img>
+          </div>
           <div className="horizontal-scroll-section cutout-gallery" ref={scrollRef}>
             <div className="cutout-item">
               <img src="Assets/Shop/cutout1.png" alt="cutout-picture"></img>
@@ -122,8 +126,9 @@ const Shop = () => {
             <div className="cutout-item">
               <img src="Assets/Shop/cutout20.png" alt="cutout-picture"></img>
             </div>
-                        
+            
           </div>
+        </div>
             
           <div className="shop-info">
               <div className="info-button-div">
