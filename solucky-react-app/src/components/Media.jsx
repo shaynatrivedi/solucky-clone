@@ -45,6 +45,16 @@ const Media = () => {
                     </div>
                 </div>
             </div>
+
+            <div className="small-screen-interact-container">
+                <div className="alt-interact-text-wrapper">
+                    <img className="alt-media-arrow-svg" src="../Assets/Media/alt-interact-text-arrow.svg" />
+                </div>
+                <div className="magazine-photoshoot-container">
+                    
+                </div>
+            </div>
+
             <Footer/>
         </div>
     )
