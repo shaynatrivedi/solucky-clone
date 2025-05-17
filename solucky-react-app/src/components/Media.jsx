@@ -51,6 +51,41 @@ const Media = () => {
                     <img className="alt-media-arrow-svg" src="../Assets/Media/alt-interact-text-arrow.svg" />
                 </div>
                 <div className="magazine-photoshoot-container">
+                    <div className="magazine-card">
+                        <img src="../Assets/Media/sample-thumb.png" alt="Photoshoot Cover" className="magazine-thumbnail" />
+                        <div className="magazine-title">Photoshoot Title</div>
+                        <div className="magazine-issue">issue #4</div>
+                    </div>
+                    <div className="magazine-card">
+                        <img src="../Assets/Media/sample-thumb.png" alt="Photoshoot Cover" className="magazine-thumbnail" />
+                        <div className="magazine-title">Photoshoot Title</div>
+                        <div className="magazine-issue">issue #4</div>
+                    </div>
+                    <div className="magazine-card">
+                        <img src="../Assets/Media/sample-thumb.png" alt="Photoshoot Cover" className="magazine-thumbnail" />
+                        <div className="magazine-title">Photoshoot Title</div>
+                        <div className="magazine-issue">issue #4</div>
+                    </div>
+                    <div className="magazine-card">
+                        <img src="../Assets/Media/sample-thumb.png" alt="Photoshoot Cover" className="magazine-thumbnail" />
+                        <div className="magazine-title">Photoshoot Title</div>
+                        <div className="magazine-issue">issue #4</div>
+                    </div>
+                    <div className="magazine-card">
+                        <img src="../Assets/Media/sample-thumb.png" alt="Photoshoot Cover" className="magazine-thumbnail" />
+                        <div className="magazine-title">Photoshoot Title</div>
+                        <div className="magazine-issue">issue #4</div>
+                    </div>
+                    <div className="magazine-card">
+                        <img src="../Assets/Media/sample-thumb.png" alt="Photoshoot Cover" className="magazine-thumbnail" />
+                        <div className="magazine-title">Photoshoot Title</div>
+                        <div className="magazine-issue">issue #4</div>
+                    </div>
+                    <div className="magazine-card">
+                        <img src="../Assets/Media/sample-thumb.png" alt="Photoshoot Cover" className="magazine-thumbnail" />
+                        <div className="magazine-title">Photoshoot Title</div>
+                        <div className="magazine-issue">issue #4</div>
+                    </div>
                     
                 </div>
             </div>
