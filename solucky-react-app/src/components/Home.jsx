@@ -2,6 +2,7 @@ import React from 'react'
 import './Home.css'
 import sep from "./src-assets/four-leaf-clover.png";
 import Footer from "./Footer";
+import Flipbook from "./Flipbook";
 
 const labels = [
     "TIMELESS",
@@ -162,7 +163,7 @@ const Home = () =>{
                     <img src='../Assets/Home/click2read-pointer.svg' className='arrow-image-1' alt='flip-to-read' ></img>
                 </div>
                 <div className='flipbook-canvas'>
-                    <h1>here goes the flip book right here!!!</h1>
+                    <Flipbook />
                 </div>
             </section>
 
