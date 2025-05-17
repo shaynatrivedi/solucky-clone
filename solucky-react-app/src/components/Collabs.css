@@ -109,6 +109,19 @@
     border-radius: 5px;
 }
 
+
+@media screen and (max-width:1700px) {
+    .bottom-section{
+        padding-top: 1450px;
+    }
+}
+
+@media screen and (min-width:1600px) {
+    .bottom-section{
+        padding-top: 1250px;
+    }
+}
+
 @media screen and (max-width: 1370px){
     .collab-para-text{
         font-size:20px;
