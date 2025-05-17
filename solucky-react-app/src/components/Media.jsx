@@ -4,8 +4,6 @@ import Footer from './Footer';
 import EmbeddedContent from "./EmbeddedContent";
 
 const Media = () => {
-    const [showEmbedded, setShowEmbedded] = useState(false);
-
     return(
         <div className="media-page">
             <div className="video-text-container">
@@ -40,14 +38,10 @@ const Media = () => {
 
                 <div className="macbook-image-wrapper">
                     <img className="macbook-image" src="../Assets/Media/macbook.svg" />
-                    <div className="laptop-screen-frame" onClick={() => setShowEmbedded(true)}>
-                    {showEmbedded ? (
+                    <div className="laptop-screen-frame">
                         <div className="embedded-frame-wrapper">
-                        <EmbeddedContent />
+                            <EmbeddedContent />
                         </div>
-                    ) : (
-                        <div className="click-prompt">Click here to open the component</div>
-                    )}
                     </div>
                 </div>
             </div>
