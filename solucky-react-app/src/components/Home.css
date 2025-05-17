@@ -196,7 +196,7 @@ position: absolute;
     align-items: center;
   }
 
-  .flipbook-placeholder{
+  .flipbook-canvas{
     width: 1200px;
     height: 700px;
     background-color: red;
