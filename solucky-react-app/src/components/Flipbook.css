@@ -1,0 +1,20 @@
+.flipbook-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.flipbook .page {
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flipbook .page img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
