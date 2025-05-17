@@ -4,11 +4,16 @@ import "./Flipbook.css";
 
 const MagazineFlipbook = () => {
   const pages = [
-    "/Assets/Flipbook/cover.png",
-    "/Assets/Flipbook/page1.png",
-    "/Assets/Flipbook/page2.png",
-    "/Assets/Flipbook/page3.png",
-    "/Assets/Flipbook/back.png",
+    "/Assets/Flipbook/cover1.png",
+    "/Assets/Flipbook/cover2.png",
+    "/Assets/Flipbook/cover3.png",
+    "/Assets/Flipbook/cover4.png",
+    "/Assets/Flipbook/cover5.png",
+    "/Assets/Flipbook/cover6.png",
+    "/Assets/Flipbook/cover7.png",
+    "/Assets/Flipbook/cover8.png",
+    "/Assets/Flipbook/cover9.png",
+    "/Assets/Flipbook/cover10.png",
   ];
 
   return (
