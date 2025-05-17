@@ -110,15 +110,15 @@
 }
 
 
-@media screen and (max-width:1700px) {
+@media screen and (min-width:1800px) {
     .bottom-section{
         padding-top: 1450px;
     }
 }
 
-@media screen and (min-width:1600px) {
+@media screen and (max-width:1750px) {
     .bottom-section{
-        padding-top: 1250px;
+        padding-top: 550px;
     }
 }
 
