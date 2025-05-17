@@ -1,33 +1,47 @@
-/* 1) make the hero a fixed-height, overflow-hidden frame */
-.hero-section {
-    position: relative;
+.hero-section-home {
     width: 100%;
-    height: 100vh;           /* adjust as you like */
-    min-height: 400px;      /* never get too short */
-    overflow: hidden;
-    justify-content: space-around;
-  }
-  
-  /* 2) the video covers the whole section, cropping via object-fit */
-  .hero-bg-video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  
-  /* 3) center your headline on top */
-  .hero-content {
-    position: relative;
-    z-index: 1;
-    height: 100%;
+    height: fit-content;
+    min-height: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  
+    overflow: hidden;
+}
+
+.hero-image-wrapper {
+  position: relative;
+  width: 100vw;
+  aspect-ratio: 16 / 9; /* adjust to match SVG proportions */
+  margin-top: 200px;
+}
+
+.hero-bg-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.tv-video-overlay {
+position: absolute;
+    top: 58.5%;
+    left: 66.5%;
+    width: 17.5%;
+    height: 23.5%;
+    z-index: 1;
+    border-radius: 6px;
+    overflow: hidden;
+    transform: rotate(3deg);
+    transform-origin: center;
+}
+
+.tv-video-overlay video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
   .hero-text {
     font-family: serif;
     color: #000;
@@ -37,12 +51,6 @@
   .hero-text em {
     font-style: italic;
   }
-
-  /* ——— Hero Video (leave your existing rules) ——— */
-.hero-section { /* … */ }
-.hero-bg-video { /* … */ }
-.hero-content { /* … */ }
-.hero-text { /* … */ }
 
 /* ——— Scrolling Strip ——— */
 .strip-section {

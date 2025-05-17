@@ -19,21 +19,25 @@ const Home = () =>{
     return (
         <div className="home-page">
           {/* ——— Hero (full-section video) ——— */}
-            <section className="hero-section">
-                <video
-                className="hero-bg-video"
-                src="../Assets/Home//home_video.mp4"
-                autoPlay
-                muted
-                loop
-                playsInline
-                />
-                <div className="hero-content">
-                <h1 className="hero-text">
-                    welcome to <em>solucky</em>
-                </h1>
+            <section className="hero-section-home">
+                <div className="hero-image-wrapper">
+                    <img
+                    src="../Assets/Home/hero-image.svg"
+                    alt="hero"
+                    className="hero-bg-image"
+                    />
+                    <div className="tv-video-overlay">
+                    <video
+                        src="../Assets/Home/home_video.mp4"
+                        autoPlay
+                        muted
+                        loop
+                        playsInline
+                    />
+                    </div>
                 </div>
             </section>
+
 
             <section className="strip-section">
                 <div className="strip-container">
