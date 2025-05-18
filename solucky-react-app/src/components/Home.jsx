@@ -66,13 +66,13 @@ const Home = () =>{
                     <p className="whats-new-tagline">the creative brand</p>
                 </div>
                 <div className="whats-new-right">
-                <p className='paragraph-message'>
+                <p className='paragraph-message-home'>
                     Welcome to our website – take your time to browse around. We’ve got
                     lots of exciting stuff coming up, so keep an eye out for
                     announcements, events, new inventory/merch, & more as we continue
                     to grow our brand.
                 </p>
-                <p className='paragraph-message'>
+                <p className='paragraph-message-home'>
                     “Our talented & devoted contributors team just released issue #25
                     – Winter 2025, themed ‘Clocked In’, a powerful tribute to trendy
                     corporate culture through the lens of Women’s History Month &

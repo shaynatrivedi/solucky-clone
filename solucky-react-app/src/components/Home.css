@@ -99,7 +99,6 @@ position: absolute;
 /* ——— What’s New Section ——— */
 .whats-new-section {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-around;
   gap: 2rem;
   background: #000;
@@ -140,9 +139,8 @@ position: absolute;
   /* set up 3D perspective on each card */
   .card {
     perspective: 1000px;
-    flex: 0 1 120px;
-    width: 120px;
-    height: 180px;
+    width: 148px;
+    height: 219px;
   }
   
   /* the “flippable” wrapper */
@@ -228,42 +226,121 @@ position: absolute;
     width: 95%;
   }
 
-/* ——— Responsiveness ——— */
-@media screen and (max-width: 1024px) {
-  .whats-new-title { font-size: 3rem; }
-  .whats-new-subtitle { font-size: 1.5rem; }
-  .whats-new-tagline  { font-size: 1.2rem; }
-}
 
-@media screen and (max-width: 768px) {
-  .whats-new-section { padding: 2rem 1rem; }
-  .whats-new-title { font-size: 2.5rem; }
-  .whats-new-subtitle { font-size: 1.2rem; }
-  .whats-new-tagline  { font-size: 1rem; }
-  .whats-new-right p { font-size: 0.9rem; }
-}
-
-  
-  /* 4) at 1440px and below, dial everything down a bit */
-  @media screen and (max-width: 1440px) {
-    .hero-section {
-      height: 50vh;
-      min-height: 300px;
+  @media screen and (max-width: 1700px){
+    .whats-new-title{
+      font-size:130px;
     }
+    .whats-new-subtitle{
+      font-size: 90px;
+    }
+
+    .whats-new-tagline{
+      font-size: 55px;
+    }
+  }
+
+    @media screen and (max-width: 1512px){
+    .whats-new-title{
+      font-size:115px;
+    }
+    .whats-new-subtitle{
+      font-size: 70px;
+    }
+
+    .whats-new-tagline{
+      font-size: 45px;
+    }
+
+    .paragraph-message-home{
+      font-size: 23px;
+    }
+  }
+
+  @media screen and (max-width: 1440px) {
     .hero-text {
       font-size: clamp(2rem, 5vw, 4rem);
     }
   }
-  
-  /* 5) on narrow/mobile, stack and shrink further */
-  @media screen and (max-width: 768px) {
-    .hero-section {
-      height: 40vh;
-      min-height: 200px;
+
+    @media screen and (max-width: 1330px){
+    .whats-new-title{
+      font-size:100px;
     }
-    .hero-text {
-      font-size: clamp(1.5rem, 8vw, 2.5rem);
-      padding: 0 1rem;
+    .whats-new-subtitle{
+      font-size: 60px;
+    }
+
+    .whats-new-tagline{
+      font-size: 40px;
+    }
+
+    .paragraph-message-home{
+      font-size: 22px;
     }
   }
   
+      @media screen and (max-width: 1170px){
+    .whats-new-title{
+      font-size:90px;
+    }
+    .whats-new-subtitle{
+      font-size: 50px;
+    }
+
+    .whats-new-tagline{
+      font-size: 35px;
+    }
+
+    .paragraph-message-home{
+      font-size: 20px;
+    }
+  }
+
+  @media screen and (max-width: 1060px){
+    .whats-new-section{
+      flex-direction: column;
+    }
+
+    .whats-new-left,
+    .whats-new-right {
+      flex:none;
+      max-width: none;
+    }
+
+    .paragraph-message-home {
+        font-size: 25px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .hero-image-wrapper{
+      margin-top: 100px;
+    }
+  }
+
+  @media screen and (max-width: 545px) {
+    .whats-new-title{
+      font-size:75px;
+    }
+    .whats-new-subtitle{
+      font-size: 45px;
+    }
+
+    .whats-new-tagline{
+      font-size: 30px;
+    }
+  }
+
+  @media screen and (max-width: 465px) {
+    .whats-new-title{
+      font-size:65px;
+    }
+    .whats-new-subtitle{
+      font-size: 40px;
+    }
+
+    .whats-new-tagline{
+      font-size: 25px;
+    }
+  }

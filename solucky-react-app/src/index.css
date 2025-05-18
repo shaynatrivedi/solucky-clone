@@ -37,6 +37,18 @@ code {
   text-indent: 30px;
 }
 
+.paragraph-message-home{
+  color: #F5F5F5;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-indent: 30px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
 .centered-p-bai-jamjuree{
   text-align: center;
   font-family: "Bai Jamjuree";
