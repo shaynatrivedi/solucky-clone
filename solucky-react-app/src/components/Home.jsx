@@ -3,6 +3,8 @@ import './Home.css'
 import sep from "./src-assets/four-leaf-clover.png";
 import Footer from "./Footer";
 import Flipbook from "./Flipbook";
+import { Link } from "react-router-dom";
+
 
 const labels = [
     "TIMELESS",
@@ -92,76 +94,90 @@ const Home = () =>{
             </section>
 
             <section className="cards-section">
-                <div className="card">
-                    <div className="card-inner">
+                <Link to="/shop" className="card-link-wrapper">
+                    <div className="card">
+                        <div className="card-inner">
                         <div className="card-face card-back">
                             <img src="../Assets/Home/card-back-1.png" alt="card back 1" />
                         </div>
                         <div className="card-face card-front">
                             <img src="../Assets/Home/card-front-1.png" alt="card front 1" />
                         </div>
-                    </div>
-                </div>
-                <div className="card">
-                    <div className="card-inner">
-                        <div className="card-face card-back">
-                            <img src="../Assets/Home/card-back-1.png" alt="card back 1" />
-                        </div>
-                        <div className="card-face card-front">
-                            <img src="../Assets/Home/card-front-2.png" alt="card front 1" />
                         </div>
                     </div>
-                </div>
-                <div className="card">
-                    <div className="card-inner">
-                        <div className="card-face card-back">
-                            <img src="../Assets/Home/card-back-1.png" alt="card back 1" />
-                        </div>
-                        <div className="card-face card-front">
-                            <img src="../Assets/Home/card-front-3.png" alt="card front 1" />
-                        </div>
-                    </div>
-                </div>
-                <div className="card">
-                    <div className="card-inner">
-                        <div className="card-face card-back">
-                            <img src="../Assets/Home/card-back-1.png" alt="card back 1" />
-                        </div>
-                        <div className="card-face card-front">
-                            <img src="../Assets/Home/card-front-4.png" alt="card front 1" />
+                </Link>
+                <Link to="/magazine" className="card-link-wrapper">
+                    <div className="card">
+                        <div className="card-inner">
+                            <div className="card-face card-back">
+                                <img src="../Assets/Home/card-back-1.png" alt="card back 1" />
+                            </div>
+                            <div className="card-face card-front">
+                                <img src="../Assets/Home/card-front-2.png" alt="card front 1" />
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div className="card">
-                    <div className="card-inner">
-                        <div className="card-face card-back">
-                            <img src="../Assets/Home/card-back-1.png" alt="card back 1" />
-                        </div>
-                        <div className="card-face card-front">
-                            <img src="../Assets/Home/card-front-5.png" alt="card front 1" />
-                        </div>
-                    </div>
-                </div>
-                <div className="card">
-                    <div className="card-inner">
-                        <div className="card-face card-back">
-                            <img src="../Assets/Home/card-back-1.png" alt="card back 1" />
-                        </div>
-                        <div className="card-face card-front">
-                            <img src="../Assets/Home/card-front-6.png" alt="card front 1" />
+                </Link>
+                <Link to="/media" className="card-link-wrapper">
+                    <div className="card">
+                        <div className="card-inner">
+                            <div className="card-face card-back">
+                                <img src="../Assets/Home/card-back-1.png" alt="card back 1" />
+                            </div>
+                            <div className="card-face card-front">
+                                <img src="../Assets/Home/card-front-3.png" alt="card front 1" />
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div className="card">
-                    <div className="card-inner">
-                        <div className="card-face card-back">
-                            <img src="../Assets/Home/card-back-1.png" alt="card back 1" />
-                        </div>
-                        <div className="card-face card-front">
-                            <img src="../Assets/Home/card-front-7.png" alt="card front 1" />
+                </Link>    
+                <Link to="/collabs" className="card-link-wrapper">        
+                    <div className="card">
+                        <div className="card-inner">
+                            <div className="card-face card-back">
+                                <img src="../Assets/Home/card-back-1.png" alt="card back 1" />
+                            </div>
+                            <div className="card-face card-front">
+                                <img src="../Assets/Home/card-front-4.png" alt="card front 1" />
+                            </div>
                         </div>
                     </div>
-                </div>
+                </Link>    
+                <Link to="/events" className="card-link-wrapper">
+                    <div className="card">
+                        <div className="card-inner">
+                            <div className="card-face card-back">
+                                <img src="../Assets/Home/card-back-1.png" alt="card back 1" />
+                            </div>
+                            <div className="card-face card-front">
+                                <img src="../Assets/Home/card-front-5.png" alt="card front 1" />
+                            </div>
+                        </div>
+                    </div>
+                </Link>
+                <Link to="/team" className="card-link-wrapper">
+                    <div className="card">
+                        <div className="card-inner">
+                            <div className="card-face card-back">
+                                <img src="../Assets/Home/card-back-1.png" alt="card back 1" />
+                            </div>
+                            <div className="card-face card-front">
+                                <img src="../Assets/Home/card-front-6.png" alt="card front 1" />
+                            </div>
+                        </div>
+                    </div>
+                </Link>
+                <Link to="/about" className="card-link-wrapper">
+                    <div className="card">
+                        <div className="card-inner">
+                            <div className="card-face card-back">
+                                <img src="../Assets/Home/card-back-1.png" alt="card back 1" />
+                            </div>
+                            <div className="card-face card-front">
+                                <img src="../Assets/Home/card-front-7.png" alt="card front 1" />
+                            </div>
+                        </div>
+                    </div>
+                </Link>    
             </section>
 
             <section className="flipbook-section">
