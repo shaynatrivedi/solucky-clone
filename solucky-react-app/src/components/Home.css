@@ -229,6 +229,10 @@ max-width: 900px;
   width: 95%;
 }
 
+.arrow-image-1{
+  width: 20vw;
+}
+
 
 @media screen and (max-width: 1700px){
   .whats-new-title{
@@ -333,6 +337,11 @@ max-width: 900px;
   .whats-new-tagline{
     font-size: 30px;
   }
+
+  .arrow-image-1{
+    width: 30vw;
+  }
+  
 }
 
 @media screen and (max-width: 465px) {
