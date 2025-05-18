@@ -1,346 +1,350 @@
 .hero-section-home {
-    width: 100%;
-    height: fit-content;
-    min-height: 400px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
+  width: 100%;
+  height: fit-content;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
 }
 
 .hero-image-wrapper {
-  position: relative;
-  width: 100vw;
-  aspect-ratio: 16 / 9; /* adjust to match SVG proportions */
-  margin-top: 200px;
+position: relative;
+width: 100vw;
+aspect-ratio: 16 / 9; /* adjust to match SVG proportions */
+margin-top: 200px;
 }
 
 .hero-bg-image {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  display: block;
+width: 100%;
+height: 100%;
+object-fit: contain;
+display: block;
 }
 
 .tv-video-overlay {
 position: absolute;
-    top: 58.5%;
-    left: 66.5%;
-    width: 17.5%;
-    height: 23.5%;
-    z-index: 1;
-    border-radius: 6px;
-    overflow: hidden;
-    transform: rotate(3deg);
-    transform-origin: center;
+  top: 58.5%;
+  left: 66.5%;
+  width: 17.5%;
+  height: 23.5%;
+  z-index: 1;
+  border-radius: 6px;
+  overflow: hidden;
+  transform: rotate(3deg);
+  transform-origin: center;
 }
 
 .tv-video-overlay video {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+width: 100%;
+height: 100%;
+object-fit: cover;
 }
 
 
-  .hero-text {
-    font-family: serif;
-    color: #000;
-    font-size: clamp(2.5rem, 6vw, 5rem);
-    text-align: center;
-  }
-  .hero-text em {
-    font-style: italic;
-  }
+.hero-text {
+  font-family: serif;
+  color: #000;
+  font-size: clamp(2.5rem, 6vw, 5rem);
+  text-align: center;
+}
+.hero-text em {
+  font-style: italic;
+}
 
 /* ——— Scrolling Strip ——— */
 .strip-section {
-  width: 100%;
-  background: #fff;
+width: 100%;
+background: #fff;
 }
 .strip-container {
-  overflow: hidden;
-  border-top: 1px solid #000;
-  border-bottom: 1px solid #000;
+overflow: hidden;
+border-top: 1px solid #000;
+border-bottom: 1px solid #000;
 }
 
 .strip-text-item{
-    margin-right: 1.5rem;
+  margin-right: 1.5rem;
 }
 .strip-separator {
-    margin-right: 1.5rem;    /* space after each icon */
+  margin-right: 1.5rem;    /* space after each icon */
 }
 
 .strip-content {
-  display: inline-block;
-  white-space: nowrap;
-  animation: scroll-left 20s linear infinite;
-  color: #030303;
-  text-align: center;
-  font-family: "Bai Jamjuree", sans-serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 100%; /* 18px */
-  letter-spacing: 1.5px;
-  text-transform: uppercase;
-  padding: 0.75rem 0;
+display: inline-block;
+white-space: nowrap;
+animation: scroll-left 20s linear infinite;
+color: #030303;
+text-align: center;
+font-family: "Bai Jamjuree", sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 100%; /* 18px */
+letter-spacing: 1.5px;
+text-transform: uppercase;
+padding: 0.75rem 0;
 }
 
 @keyframes scroll-left {
-    from   { transform: translateX(0);    }
-    to     { transform: translateX(-100%); }
+  from   { transform: translateX(0);    }
+  to     { transform: translateX(-100%); }
 }
 
 @keyframes scroll-left {
-  0%   { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
+0%   { transform: translateX(0); }
+100% { transform: translateX(-50%); }
 }
 
 /* ——— What’s New Section ——— */
 .whats-new-section {
-  display: flex;
-  justify-content: space-around;
-  gap: 2rem;
-  background: #000;
-  color: #fff;
-  padding: 4rem 2rem;
+display: flex;
+justify-content: space-around;
+gap: 2rem;
+background: #000;
+color: #fff;
+padding: 4rem 2rem;
 }
 
 .whats-new-left,
 .whats-new-right {
-  flex: 1 1 300px;
-  max-width: 900px;
+flex: 1 1 300px;
+max-width: 900px;
 }
 
 .whats-new-left{
-    text-align: end;
-    display: flex;
-    flex-direction: column;
+  text-align: end;
+  display: flex;
+  flex-direction: column;
 }
 
 .whats-new-right{
-    text-align: start;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 /* —— 7 cards laid out in a row, wrapping on small screens —— */
 /* container layout you already have */
 .cards-section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 5rem;
-    padding: 10rem 2rem;
-    background: #000;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5rem;
+  padding: 10rem 2rem;
+  background: #000;
+}
+
+/* set up 3D perspective on each card */
+.card {
+  perspective: 1000px;
+  width: 148px;
+  height: 219px;
+}
+
+/* the “flippable” wrapper */
+.card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.6s ease;
+}
+
+/* on hover, rotate the inner wrapper 180° */
+.card:hover .card-inner {
+  transform: rotateY(180deg);
+}
+
+/* both faces occupy the same space */
+.card-face {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+
+/* back side stays unrotated */
+.card-back {
+  transform: rotateY(0deg);
+}
+
+/* front side is initially hidden by a 180° rotation */
+.card-front {
+  transform: rotateY(180deg);
+}
+
+/* make sure images fill their face */
+.card-face img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.flipbook-section {
+  display: flex;
+  flex-direction: column;
+  background: black;
+  align-items: center;
+}
+
+.flipbook-canvas {
+  width: 100%;
+  max-width: 900px; /* adjust max size as needed */
+  aspect-ratio: 3 / 4; /* keeps shape consistent */
+  background-color: transparent;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.flipbook-arrow-container{
+  width:70vw;
+  max-width: 1600px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.spotify-playlist-section{
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.spotify-pointer-container{
+  text-align: left;
+  padding-bottom: 48px;
+}
+
+.playlist-container{
+  width: 95%;
+}
+
+
+@media screen and (max-width: 1700px){
+  .whats-new-title{
+    font-size:130px;
   }
-  
-  /* set up 3D perspective on each card */
-  .card {
-    perspective: 1000px;
-    width: 148px;
-    height: 219px;
-  }
-  
-  /* the “flippable” wrapper */
-  .card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    transform-style: preserve-3d;
-    transition: transform 0.6s ease;
-  }
-  
-  /* on hover, rotate the inner wrapper 180° */
-  .card:hover .card-inner {
-    transform: rotateY(180deg);
-  }
-  
-  /* both faces occupy the same space */
-  .card-face {
-    position: absolute;
-    top: 0; left: 0;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
-  }
-  
-  /* back side stays unrotated */
-  .card-back {
-    transform: rotateY(0deg);
-  }
-  
-  /* front side is initially hidden by a 180° rotation */
-  .card-front {
-    transform: rotateY(180deg);
-  }
-  
-  /* make sure images fill their face */
-  .card-face img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
+  .whats-new-subtitle{
+    font-size: 90px;
   }
 
-  .flipbook-section {
-    display: flex;
+  .whats-new-tagline{
+    font-size: 55px;
+  }
+}
+
+  @media screen and (max-width: 1512px){
+  .whats-new-title{
+    font-size:115px;
+  }
+  .whats-new-subtitle{
+    font-size: 70px;
+  }
+
+  .whats-new-tagline{
+    font-size: 45px;
+  }
+
+  .paragraph-message-home{
+    font-size: 23px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .hero-text {
+    font-size: clamp(2rem, 5vw, 4rem);
+  }
+}
+
+  @media screen and (max-width: 1330px){
+  .whats-new-title{
+    font-size:100px;
+  }
+  .whats-new-subtitle{
+    font-size: 60px;
+  }
+
+  .whats-new-tagline{
+    font-size: 40px;
+  }
+
+  .paragraph-message-home{
+    font-size: 22px;
+  }
+}
+
+    @media screen and (max-width: 1170px){
+  .whats-new-title{
+    font-size:90px;
+  }
+  .whats-new-subtitle{
+    font-size: 50px;
+  }
+
+  .whats-new-tagline{
+    font-size: 35px;
+  }
+
+  .paragraph-message-home{
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1060px){
+  .whats-new-section{
     flex-direction: column;
-    background: black;
-    align-items: center;
   }
 
-  .flipbook-canvas{
-    width: 1200px;
-    height: 700px;
-    background-color: red;
+  .whats-new-left,
+  .whats-new-right {
+    flex:none;
+    max-width: none;
   }
 
-  .flipbook-arrow-container{
-    width: 100%;
-    max-width: 1600px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  
-  .spotify-playlist-section{
-    background-color: #000;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
-  }
-  
-  .spotify-pointer-container{
-    text-align: left;
-    padding-bottom: 48px;
-  }
-
-  .playlist-container{
-    width: 95%;
-  }
-
-
-  @media screen and (max-width: 1700px){
-    .whats-new-title{
-      font-size:130px;
-    }
-    .whats-new-subtitle{
-      font-size: 90px;
-    }
-
-    .whats-new-tagline{
-      font-size: 55px;
-    }
-  }
-
-    @media screen and (max-width: 1512px){
-    .whats-new-title{
-      font-size:115px;
-    }
-    .whats-new-subtitle{
-      font-size: 70px;
-    }
-
-    .whats-new-tagline{
-      font-size: 45px;
-    }
-
-    .paragraph-message-home{
-      font-size: 23px;
-    }
-  }
-
-  @media screen and (max-width: 1440px) {
-    .hero-text {
-      font-size: clamp(2rem, 5vw, 4rem);
-    }
-  }
-
-    @media screen and (max-width: 1330px){
-    .whats-new-title{
-      font-size:100px;
-    }
-    .whats-new-subtitle{
-      font-size: 60px;
-    }
-
-    .whats-new-tagline{
-      font-size: 40px;
-    }
-
-    .paragraph-message-home{
-      font-size: 22px;
-    }
-  }
-  
-      @media screen and (max-width: 1170px){
-    .whats-new-title{
-      font-size:90px;
-    }
-    .whats-new-subtitle{
-      font-size: 50px;
-    }
-
-    .whats-new-tagline{
-      font-size: 35px;
-    }
-
-    .paragraph-message-home{
-      font-size: 20px;
-    }
-  }
-
-  @media screen and (max-width: 1060px){
-    .whats-new-section{
-      flex-direction: column;
-    }
-
-    .whats-new-left,
-    .whats-new-right {
-      flex:none;
-      max-width: none;
-    }
-
-    .paragraph-message-home {
-        font-size: 25px;
-    }
-  }
-
-  @media screen and (max-width: 600px) {
-    .hero-image-wrapper{
-      margin-top: 100px;
-    }
-  }
-
-  @media screen and (max-width: 545px) {
-    .whats-new-title{
-      font-size:75px;
-    }
-    .whats-new-subtitle{
-      font-size: 45px;
-    }
-
-    .whats-new-tagline{
-      font-size: 30px;
-    }
-  }
-
-  @media screen and (max-width: 465px) {
-    .whats-new-title{
-      font-size:65px;
-    }
-    .whats-new-subtitle{
-      font-size: 40px;
-    }
-
-    .whats-new-tagline{
+  .paragraph-message-home {
       font-size: 25px;
-    }
   }
+}
+
+@media screen and (max-width: 600px) {
+  .hero-image-wrapper{
+    margin-top: 100px;
+  }
+}
+
+@media screen and (max-width: 545px) {
+  .whats-new-title{
+    font-size:75px;
+  }
+  .whats-new-subtitle{
+    font-size: 45px;
+  }
+
+  .whats-new-tagline{
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 465px) {
+  .whats-new-title{
+    font-size:65px;
+  }
+  .whats-new-subtitle{
+    font-size: 40px;
+  }
+
+  .whats-new-tagline{
+    font-size: 25px;
+  }
+}
+

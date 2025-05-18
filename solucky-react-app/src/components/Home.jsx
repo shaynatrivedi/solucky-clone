@@ -17,6 +17,13 @@ const labels = [
 const Home = () =>{
     const loop = [...labels, ...labels];
 
+    const videoOptions = [
+        "../Assets/Home/home_video.mp4",
+        "../Assets/Home/home_video.mp4",
+        "../Assets/Home/home_video.mp4"
+    ];
+
+    const randomVideo = videoOptions[Math.floor(Math.random() * videoOptions.length)];
     return (
         <div className="home-page">
           {/* ——— Hero (full-section video) ——— */}
@@ -29,7 +36,7 @@ const Home = () =>{
                     />
                     <div className="tv-video-overlay">
                     <video
-                        src="../Assets/Home/home_video.mp4"
+                        src={randomVideo}
                         autoPlay
                         muted
                         loop
