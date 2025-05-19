@@ -14,6 +14,7 @@
 .shoe-image{
     width: 100vw;
     position: absolute;
+    margin-top: 100px;
 }
 
 .team-members{
@@ -103,7 +104,8 @@
 }
 
 .arrow-icon{
-    margin-left: 300px;
+    width: 20vw;
+    margin-left: 4rem;
 }
 
 .shoe-caption{
@@ -139,9 +141,9 @@ a{
 }
 
 .main-team-card{
-    margin-top:102px;
+    margin-top:100px;
     display: flex;
-    width: 1383px;
+    width: 95vw;
     flex-direction: column;
     align-items: center;
     padding-bottom: 100px;
@@ -380,7 +382,7 @@ text-align: center;
     }
 
     .shoe-image{
-        margin-top: -250px;
+        margin-top: 100px;
     }
 }
 
@@ -388,13 +390,31 @@ text-align: center;
 @media screen and (max-width: 1660px){
     .volunteer-text {
         margin-left: 150px;
+        font-size: 20px;
     }
 
     .shoe-caption {
-        margin-top: 20px;
-        margin-left: -10px;
+        margin-top: 12rem;
+        margin-left: 4rem;
+    }
+
+    .volunteer-text{
+        font-size: 25px;
+        width:45vw;
+    }
+
+    .shoe-image{
+        margin-top: 170px;
     }
 }
+
+@media screen and (max-width:1400px){
+    .shoe-caption{
+        margin-top: 8rem;
+        margin-left: 2rem;
+    }
+}
+
 
 @media screen and (max-width: 1200px) {
     .hero-heading{
@@ -406,19 +426,42 @@ text-align: center;
     }
 
     .volunteer-text{
-        font-size: 25px;
+        font-size: 20px;
+    }
+
+    .shoe-caption{
+        margin-top: 5rem;
+        margin-left: -1rem;
+    }
+
+    .instagram-caption{
+        padding-top: 0px;
+    }
+
+    .main-team-card{
+        margin-top: 0px;
+    }
+
+    .caption-text{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .volunteer-text{
+        font-size:18px
+    }
+
+    .shoe-image{
+        margin-top: 225px;
     }
 }
 
 @media screen and (max-width:900px){
     .volunteer-text{
         margin-left: 40px;
-        font-size: 22px;
         margin-top: 170px;
-    }
-
-    .shoe-image{
-        margin-top: -550px;
+        width: 55vw;
     }
 }
 
@@ -426,17 +469,17 @@ text-align: center;
 
 @media screen and (max-width: 744px){
     .shoe-image{
-        margin-top: -900px;
+        margin-top: 100px;
     }
     
 
     .hero-heading{
-        font-size: 60px;
+        font-size: 65px;
     }
 
     .hero-title-container{
         margin-right: 0px;
-        margin-top: -600px;
+        margin-top: 18rem;
         position: absolute;
     }
 
@@ -444,9 +487,9 @@ text-align: center;
         font-size: 20px;
         margin-left: 0px;
         align-self: center; 
-        margin-top: -100px;
         position: absolute;
         width: 95vw;
+        margin-top: 600px;
     }
 
     .caption-text{
@@ -455,8 +498,8 @@ text-align: center;
 
     .shoe-caption{
         position: absolute;
-        margin-top: -1000px;
-        margin-left:50px;
+        margin-top: 10rem;
+        margin-left: 6rem;
     }
 
     .arrow-icon{
@@ -470,7 +513,7 @@ text-align: center;
     }
 
     .button-container{
-        margin-top: 600px;
+        margin-top: 800px;
     }
 
     .button-caption{
@@ -483,9 +526,13 @@ text-align: center;
         z-index: 99;
     }
 
-}
+    .arrow-icon{
+        width: 35vw;
+    }
 
-@media screen and (max-width: 744px){
+    .team-position-title{
+        font-size:28px;
+    }
     .team-category{
         display: flex;
         flex-direction: column;
@@ -494,10 +541,6 @@ text-align: center;
     .instagram-caption{
         align-self: center;
         width: 80vw;
-    }
-
-    .team-position-title{
-        font-size:28px;
     }
 
 }
@@ -509,7 +552,38 @@ text-align: center;
     }
 
     .shoe-caption{
-        margin-top: -1020px;
-        margin-left: 10px;
+        margin-top: 10rem;
+        margin-left: 3rem;
+    }
+
+    .arrow-icon{
+        width: 40vw;
+    }
+
+    .team-category{
+        margin-top: 150px;
+    }
+}
+
+
+@media screen and (max-width:460px){
+    .hero-title-container{
+        margin-top: 15rem;
+    }
+
+    .volunteer-text{
+        margin-top: 550px;
+    }
+
+    .shoe-caption{
+        margin-top: 7rem;
+    }
+
+    .team-category{
+        margin-top: 0px;
+    }
+
+    #first-insta-section{
+        margin-top: 150px;
     }
 }

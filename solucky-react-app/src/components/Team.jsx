@@ -27,7 +27,6 @@ const Team = () =>{
                     <img src="../Assets/Team/shoes.png" class="shoe-image" alt="shoe" />
 
                     <div class="shoe-caption">
-                        <p class="caption-text">step in. stand out.</p>
                         <img src="../Assets/Team/team-arrow.svg" class="arrow-icon" />
                     </div>
 
@@ -73,7 +72,7 @@ const Team = () =>{
 
             <section className="team-members">
                 <div className="main-team-card">         
-                    <div className="team-category">
+                    <div className="team-category" id="first-insta-section">
                             <p className="caption-text instagram-caption">
                             *Click on any team member's photo to visit their Instagram
                             </p>
