@@ -1,39 +1,45 @@
 .about-page{
     display: flex;
+        flex-direction: column;
+        width: 100vw;
+        background-image: url('/public/Assets/About/about-bg.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center top;
+        align-items: center;
+        overflow: hidden;
+}
+
+.about-section-wrapper{
+    display: flex;
     flex-direction: column;
-    width: 100vw;
-    background-image: url('/public/Assets/About/about-bg.png'); /* Replace with your image path */
-    background-size: cover;                 /* Ensures image covers the entire screen */
-    background-repeat: no-repeat;
-    background-position: center top;
-    align-items: center;
+    width: 95vw;
 }
 
 .founder-section{
     display: flex;
     width: 100%;
-    height: 3000px;
+    margin-top: 35rem;
+    margin-left: 5rem;
 }
 
 .brand-section{
     display: flex;
-    flex-direction: column;
-    align-items: end;
+    justify-content: end;
     width: 100%;
-    height: 3000px;
+    margin-top: 180rem;
 }
 
 .camera-section{
     display: flex;
     width: 100%;
-    height: 2000px;
+    margin-top: 115rem;
 }
 
 .story-section{
     flex-direction: column;
     display: flex;
     width: 100%;
-    height: 2800px;
 }
 
 .message-container{
@@ -61,21 +67,17 @@
 
 #founder-message{
     background: #587023;
-    margin-top: 710px;
-    margin-left: 150px;
+
 }
 
 #brand-message{
     background: #185277;
-    margin-top: 2200px;
-    margin-right: 150px;
 }
 
 #story-message{
     background: #812F2C;
     align-self: end;
-    margin-top: 1100px;
-    margin-right: 300px;
+
 }
 
 .message-container p{
@@ -104,8 +106,6 @@
     height: fit-content;
     display: flex;
     flex-direction: column;
-    margin-top: 2400px;
-    margin-left: 100px;
 }
 
 .camera-caption{
@@ -123,8 +123,9 @@
     gap: 11.429px;
     width: fit-content;
     background: #6D4F27;
-    margin-top: 1050px;
-    margin-left: 400px;
+    margin-top: 15rem;
+    margin-left: 10rem;
+    margin-bottom: 10rem;
 }
 
 .signoff-message p{
