@@ -39,7 +39,7 @@ const About = () => {
         <div className='camera-section'>
           <div className='camera-container'>
             <button className='camera-button'>
-              <img src='../Assets/About/camera-image.png' alt='camera-gallery-button'></img>
+              <img src='../Assets/About/camera-image.png' alt='camera-gallery-button' className='camera-picture'></img>
             </button>
             <img src='../Assets/About/camera-caption.svg' alt='click to interact ->' className='camera-caption'></img>
           </div>

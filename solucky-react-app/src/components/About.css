@@ -93,7 +93,7 @@
     z-index: 999;
 }
 
-.camera-button img {
+.camera-picture{
     display: block;
     width: 45vw;
     height: auto;
@@ -219,13 +219,30 @@
         font-size: 32px;
     }
 
-    .founder-section,.brand-section{
+    .founder-section,.brand-section,.story-section,.signoff-message{
         justify-self: anchor-center;
+        left: 0%;
+        right: 0%;
     }
 }
 
 
 @media screen and (max-width: 744px) {
+    .message-container{
+        width: 86vw;
+        padding: 16px;
+    }
+
+    .story-section{
+        top: 86.3%;
+    }
+
+    .signoff-message{
+        top: 96.5%;
+    }
+}
+
+@media screen and (max-width: 600px) {
     .about-page {
         aspect-ratio: 5/58;
         background-image: url('/public/Assets/About/about-bg-mobile.png');
@@ -236,9 +253,32 @@
         position: relative;
     }
 
-    .message-container{
-        width: 318px;
-        padding: 16px;
+    .story-section{
+        top: 82.3%;
     }
 
+    .brand-section{
+        top: 53%;
+    }
+
+    .signoff-message{
+        top: 96.5%;
+        width: 70vw;
+    }
+
+    .camera-section{
+        top: 75%;
+    }
+
+    .camera-button{
+        width: 85vw;
+    }
+
+    .camera-picture{
+        width: 85vw;
+    }
+
+    .camera-caption{
+        width: 60vw;
+    }
 }
