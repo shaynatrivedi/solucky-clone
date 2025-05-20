@@ -54,11 +54,12 @@ code {
 .centered-p-bai-jamjuree{
   text-align: center;
   font-family: "Bai Jamjuree";
-  font-size: 25px;
+  font-size: 28px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  width: 228px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .team-title{
