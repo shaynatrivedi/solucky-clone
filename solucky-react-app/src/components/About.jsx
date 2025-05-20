@@ -5,6 +5,7 @@ import './About.css';
 
 const About = () => {
   return (
+    <>
     <div className="about-page">
       <div className='about-section-wrapper'>
         <div className='founder-section'>
@@ -54,14 +55,14 @@ const About = () => {
                 the multi-dimensional creative force it is today.
                 </p>
           </div>
-          <div className='signoff-message'>
+        </div>
+        <div className='signoff-message'>
             <p>- Founder of solucky, Sanjana Solanki</p>
           </div> 
-        </div>
       </div>
-
-      <Footer/>
     </div>
+    <Footer/>
+    </>
   );
 };
 
