@@ -87,7 +87,12 @@ const Team = () =>{
                             </div>
                             <div className="team-horizontal-scroll-section brand-operations">
 
-                                <div className="post-div">
+                            <a
+                                href="https://www.instagram.com/sanjana.solankii?igsh=NTc4MTIwNjQ2YQ=="
+                                className="post-div"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            > 
                                     <div className="post-header">
                                         <div className="post-left-group">
                                             <img className="solucky-icon" src="../Assets/Icons/soluckyicon-team.png"></img>
@@ -117,9 +122,14 @@ const Team = () =>{
                                         </div>
                                         
                                     </div>
-                                </div>
+                                </a>
 
-                                <div className="post-div">
+                                <a
+                                href="https://www.instagram.com/shay.yna?igsh=NTc4MTIwNjQ2YQ=="
+                                className="post-div"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                 > 
                                     <div className="post-header">
                                         <div className="post-left-group">
                                             <img className="solucky-icon" src="../Assets/Icons/soluckyicon-team.png"></img>
@@ -149,9 +159,14 @@ const Team = () =>{
                                         </div>
                                         
                                     </div>
-                                </div>
+                                </a>
 
-                                <div className="post-div">
+                                <a
+                                href="https://www.instagram.com/taj.5harma/"
+                                className="post-div"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                 > 
                                     <div className="post-header">
                                         <div className="post-left-group">
                                             <img className="solucky-icon" src="../Assets/Icons/soluckyicon-team.png"></img>
@@ -181,10 +196,15 @@ const Team = () =>{
                                         </div>
                                         
                                     </div>
-                                </div>
+                                </a>
 
 
-                                <div className="post-div">
+                                <a
+                                href="https://www.instagram.com/amanichowchow?igsh=NTc4MTIwNjQ2YQ=="
+                                className="post-div"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                 > 
                                     <div className="post-header">
                                         <div className="post-left-group">
                                             <img className="solucky-icon" src="../Assets/Icons/soluckyicon-team.png"></img>
@@ -214,10 +234,15 @@ const Team = () =>{
                                         </div>
                                         
                                     </div>
-                                </div>
+                                </a>
 
 
-                                <div className="post-div">
+                                <a
+                                href="https://www.instagram.com/ananyadutta05?igsh=NTc4MTIwNjQ2YQ=="
+                                className="post-div"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                 > 
                                     <div className="post-header">
                                         <div className="post-left-group">
                                             <img className="solucky-icon" src="../Assets/Icons/soluckyicon-team.png"></img>
@@ -247,9 +272,14 @@ const Team = () =>{
                                         </div>
                                         
                                     </div>
-                                </div>
+                                </a>
 
-                                <div className="post-div">
+                                <a
+                                href="https://www.instagram.com/henrycocopine?igsh=NTc4MTIwNjQ2YQ=="
+                                className="post-div"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                 > 
                                     <div className="post-header">
                                         <div className="post-left-group">
                                             <img className="solucky-icon" src="../Assets/Icons/soluckyicon-team.png"></img>
@@ -279,9 +309,14 @@ const Team = () =>{
                                         </div>
                                         
                                     </div>
-                                </div>
+                                </a>
 
-                                <div className="post-div">
+                                <a
+                                href="https://www.instagram.com/nate.yishak?igsh=NTc4MTIwNjQ2YQ=="
+                                className="post-div"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                 > 
                                     <div className="post-header">
                                         <div className="post-left-group">
                                             <img className="solucky-icon" src="../Assets/Icons/soluckyicon-team.png"></img>
@@ -311,9 +346,14 @@ const Team = () =>{
                                         </div>
                                         
                                     </div>
-                                </div>
+                                </a>
 
-                                <div className="post-div">
+                                <a
+                                href="https://www.instagram.com/anujaapandit?igsh=NTc4MTIwNjQ2YQ=="
+                                className="post-div"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                 > 
                                     <div className="post-header">
                                         <div className="post-left-group">
                                             <img className="solucky-icon" src="../Assets/Icons/soluckyicon-team.png"></img>
@@ -343,7 +383,7 @@ const Team = () =>{
                                         </div>
                                         
                                     </div>
-                                </div>
+                                </a>
                         </div>
                     </div>
 
@@ -358,7 +398,13 @@ const Team = () =>{
                                 </button>
                             </div>
                             <div className="team-horizontal-scroll-section production">
-                            <div className="post-div">
+                            
+                            <a
+                            href="https://www.instagram.com/amruthagururaj?igsh=NTc4MTIwNjQ2YQ=="
+                            className="post-div"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                                > 
                                 <div className="post-header">
                                     <div className="post-left-group">
                                         <img className="solucky-icon" src="../Assets/Icons/soluckyicon-team.png"></img>
@@ -388,9 +434,14 @@ const Team = () =>{
                                     </div>
                                     
                                 </div>
-                            </div>
+                            </a>
 
-                            <div className="post-div">
+                            <a
+                            href="https://www.instagram.com/f3julian?igsh=NTc4MTIwNjQ2YQ=="
+                            className="post-div"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            > 
                                 <div className="post-header">
                                     <div className="post-left-group">
                                         <img className="solucky-icon" src="../Assets/Icons/soluckyicon-team.png"></img>
@@ -420,9 +471,14 @@ const Team = () =>{
                                     </div>
                                     
                                 </div>
-                            </div>
+                            </a>
 
-                                                        <div className="post-div">
+                            <a
+                                href="https://www.instagram.com/arpithasun?igsh=NTc4MTIwNjQ2YQ=="
+                                className="post-div"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                 > 
                                 <div className="post-header">
                                     <div className="post-left-group">
                                         <img className="solucky-icon" src="../Assets/Icons/soluckyicon-team.png"></img>
@@ -452,9 +508,14 @@ const Team = () =>{
                                     </div>
                                     
                                 </div>
-                            </div>
+                            </a>
 
-                            <div className="post-div">
+                            <a
+                                href="https://www.instagram.com/salvat13rra?igsh=NTc4MTIwNjQ2YQ=="
+                                className="post-div"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                 > 
                                 <div className="post-header">
                                     <div className="post-left-group">
                                         <img className="solucky-icon" src="../Assets/Icons/soluckyicon-team.png"></img>
@@ -484,9 +545,14 @@ const Team = () =>{
                                     </div>
                                     
                                 </div>
-                            </div>
+                            </a>
 
-                            <div className="post-div">
+                            <a
+                                href="https://www.instagram.com/vaibhavi.i?igsh=NTc4MTIwNjQ2YQ=="
+                                className="post-div"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                 > 
                                 <div className="post-header">
                                     <div className="post-left-group">
                                         <img className="solucky-icon" src="../Assets/Icons/soluckyicon-team.png"></img>
@@ -516,10 +582,15 @@ const Team = () =>{
                                     </div>
                                     
                                 </div>
-                            </div>
+                            </a>
 
 
-                            <div className="post-div">
+                            <a
+                                href="https://www.instagram.com/olivia_kinoshita?igsh=NTc4MTIwNjQ2YQ=="
+                                className="post-div"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                 > 
                                 <div className="post-header">
                                     <div className="post-left-group">
                                         <img className="solucky-icon" src="../Assets/Icons/soluckyicon-team.png"></img>
@@ -549,9 +620,14 @@ const Team = () =>{
                                     </div>
                                     
                                 </div>
-                            </div>
+                            </a>
 
-                            <div className="post-div">
+                            <a
+                                href="https://www.instagram.com/jahnavimanchenella?igsh=NTc4MTIwNjQ2YQ=="
+                                className="post-div"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                 > 
                                 <div className="post-header">
                                     <div className="post-left-group">
                                         <img className="solucky-icon" src="../Assets/Icons/soluckyicon-team.png"></img>
@@ -581,9 +657,14 @@ const Team = () =>{
                                     </div>
                                     
                                 </div>
-                            </div>
+                            </a>
 
-                            <div className="post-div">
+                            <a
+                                href="https://www.instagram.com/veda.gott?igsh=NTc4MTIwNjQ2YQ=="
+                                className="post-div"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                 > 
                                 <div className="post-header">
                                     <div className="post-left-group">
                                         <img className="solucky-icon" src="../Assets/Icons/soluckyicon-team.png"></img>
@@ -613,9 +694,14 @@ const Team = () =>{
                                     </div>
                                     
                                 </div>
-                            </div>
+                            </a>
 
-                            <div className="post-div">
+                            <a
+                                href="https://www.instagram.com/perseph0nee._?igsh=NTc4MTIwNjQ2YQ=="
+                                className="post-div"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                 > 
                                 <div className="post-header">
                                     <div className="post-left-group">
                                         <img className="solucky-icon" src="../Assets/Icons/soluckyicon-team.png"></img>
@@ -645,9 +731,14 @@ const Team = () =>{
                                     </div>
                                     
                                 </div>
-                            </div>
+                            </a>
 
-                            <div className="post-div">
+                            <a
+                                href="https://www.instagram.com/saajaysingh?igsh=NTc4MTIwNjQ2YQ=="
+                                className="post-div"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                 > 
                                 <div className="post-header">
                                     <div className="post-left-group">
                                         <img className="solucky-icon" src="../Assets/Icons/soluckyicon-team.png"></img>
@@ -677,9 +768,14 @@ const Team = () =>{
                                     </div>
                                     
                                 </div>
-                            </div>
+                            </a>
 
-                            <div className="post-div">
+                            <a
+                                href="https://www.instagram.com/samratghost?igsh=NTc4MTIwNjQ2YQ=="
+                                className="post-div"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                 > 
                                 <div className="post-header">
                                     <div className="post-left-group">
                                         <img className="solucky-icon" src="../Assets/Icons/soluckyicon-team.png"></img>
@@ -709,8 +805,14 @@ const Team = () =>{
                                     </div>
                                     
                                 </div>
-                            </div>
-                            <div className="post-div">
+                            </a>
+
+                            <a
+                                href="https://www.instagram.com/radhikabhavsarr?igsh=NTc4MTIwNjQ2YQ=="
+                                className="post-div"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                 > 
                                 <div className="post-header">
                                     <div className="post-left-group">
                                         <img className="solucky-icon" src="../Assets/Icons/soluckyicon-team.png"></img>
@@ -740,9 +842,14 @@ const Team = () =>{
                                     </div>
                                     
                                 </div>
-                            </div>
+                            </a>
 
-                            <div className="post-div">
+                            <a
+                                href="https://www.instagram.com/babangahunia?igsh=NTc4MTIwNjQ2YQ=="
+                                className="post-div"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                 > 
                                 <div className="post-header">
                                     <div className="post-left-group">
                                         <img className="solucky-icon" src="../Assets/Icons/soluckyicon-team.png"></img>
@@ -772,9 +879,14 @@ const Team = () =>{
                                     </div>
                                     
                                 </div>
-                            </div>
+                            </a>
 
-                            <div className="post-div">
+                            <a
+                                href="https://www.instagram.com/haz_oor?igsh=NTc4MTIwNjQ2YQ=="
+                                className="post-div"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                 > 
                                 <div className="post-header">
                                     <div className="post-left-group">
                                         <img className="solucky-icon" src="../Assets/Icons/soluckyicon-team.png"></img>
@@ -804,9 +916,14 @@ const Team = () =>{
                                     </div>
                                     
                                 </div>
-                            </div>
+                            </a>
 
-                            <div className="post-div">
+                            <a
+                                href="https://www.instagram.com/henrycocopine?igsh=NTc4MTIwNjQ2YQ=="
+                                className="post-div"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                 > 
                                 <div className="post-header">
                                     <div className="post-left-group">
                                         <img className="solucky-icon" src="../Assets/Icons/soluckyicon-team.png"></img>
@@ -836,7 +953,7 @@ const Team = () =>{
                                     </div>
                                     
                                 </div>
-                            </div>
+                            </a>
                         </div>
                     </div>
 
@@ -844,7 +961,12 @@ const Team = () =>{
                         <h3 className="team-position-title">Social media</h3>
                         <div className="team-horizontal-scroll-section no-scroll">
 
-                            <div className="post-div">
+                            <a
+                                href="https://www.instagram.com/radhikabhavsarr?igsh=NTc4MTIwNjQ2YQ=="
+                                className="post-div"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                 > 
                                 <div className="post-header">
                                     <div className="post-left-group">
                                         <img className="solucky-icon" src="../Assets/Icons/soluckyicon-team.png"></img>
@@ -874,9 +996,14 @@ const Team = () =>{
                                     </div>
                                     
                                 </div>
-                            </div>
+                            </a>
 
-                            <div className="post-div">
+                            <a
+                                href="https://www.instagram.com/sana.kamboh?igsh=NTc4MTIwNjQ2YQ=="
+                                className="post-div"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                 > 
                                 <div className="post-header">
                                     <div className="post-left-group">
                                         <img className="solucky-icon" src="../Assets/Icons/soluckyicon-team.png"></img>
@@ -906,9 +1033,14 @@ const Team = () =>{
                                     </div>
                                     
                                 </div>
-                            </div>
+                            </a>
 
-                            <div className="post-div">
+                            <a
+                                href="https://www.instagram.com/mikaila.bramlette?igsh=NTc4MTIwNjQ2YQ=="
+                                className="post-div"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                 > 
                                 <div className="post-header">
                                     <div className="post-left-group">
                                         <img className="solucky-icon" src="../Assets/Icons/soluckyicon-team.png"></img>
@@ -938,7 +1070,7 @@ const Team = () =>{
                                     </div>
                                     
                                 </div>
-                            </div>
+                            </a>
 
                         </div>
                     </div>
@@ -954,7 +1086,13 @@ const Team = () =>{
                             </button>
                         </div>
                         <div className="team-horizontal-scroll-section magazine-publishing">
-                             <div className="post-div">
+
+                             <a
+                                href="https://www.instagram.com/aarruushi?igsh=NTc4MTIwNjQ2YQ=="
+                                className="post-div"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                 > 
                                 <div className="post-header">
                                     <div className="post-left-group">
                                         <img className="solucky-icon" src="../Assets/Icons/soluckyicon-team.png"></img>
@@ -984,9 +1122,14 @@ const Team = () =>{
                                     </div>
                                     
                                 </div>
-                            </div>
+                            </a>
 
-                            <div className="post-div">
+                            <a
+                                href="https://www.instagram.com/haz_oor?igsh=NTc4MTIwNjQ2YQ=="
+                                className="post-div"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                 > 
                                 <div className="post-header">
                                     <div className="post-left-group">
                                         <img className="solucky-icon" src="../Assets/Icons/soluckyicon-team.png"></img>
@@ -1016,9 +1159,14 @@ const Team = () =>{
                                     </div>
                                     
                                 </div>
-                            </div>
+                            </a>
 
-                            <div className="post-div">
+                            <a
+                                href="https://www.instagram.com/mikaila.bramlette?igsh=NTc4MTIwNjQ2YQ=="
+                                className="post-div"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                 > 
                                 <div className="post-header">
                                     <div className="post-left-group">
                                         <img className="solucky-icon" src="../Assets/Icons/soluckyicon-team.png"></img>
@@ -1048,10 +1196,15 @@ const Team = () =>{
                                     </div>
                                     
                                 </div>
-                            </div>
+                            </a>
 
 
-                            <div className="post-div">
+                            <a
+                                href="https://www.instagram.com/henrycocopine?igsh=NTc4MTIwNjQ2YQ=="
+                                className="post-div"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                 > 
                                 <div className="post-header">
                                     <div className="post-left-group">
                                         <img className="solucky-icon" src="../Assets/Icons/soluckyicon-team.png"></img>
@@ -1081,9 +1234,14 @@ const Team = () =>{
                                     </div>
                                     
                                 </div>
-                            </div>
+                            </a>
 
-                            <div className="post-div">
+                            <a
+                                href="https://www.instagram.com/inikamehra?igsh=NTc4MTIwNjQ2YQ=="
+                                className="post-div"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                 > 
                                 <div className="post-header">
                                     <div className="post-left-group">
                                         <img className="solucky-icon" src="../Assets/Icons/soluckyicon-team.png"></img>
@@ -1113,9 +1271,14 @@ const Team = () =>{
                                     </div>
                                     
                                 </div>
-                            </div>
+                            </a>
 
-                            <div className="post-div">
+                            <a
+                                href="https://www.instagram.com/sraav.a?igsh=NTc4MTIwNjQ2YQ=="
+                                className="post-div"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                 > 
                                 <div className="post-header">
                                     <div className="post-left-group">
                                         <img className="solucky-icon" src="../Assets/Icons/soluckyicon-team.png"></img>
@@ -1145,9 +1308,14 @@ const Team = () =>{
                                     </div>
                                     
                                 </div>
-                            </div>
+                            </a>
 
-                            <div className="post-div">
+                            <a
+                                href="https://www.instagram.com/safabasravi?igsh=NTc4MTIwNjQ2YQ=="
+                                className="post-div"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                 > 
                                 <div className="post-header">
                                     <div className="post-left-group">
                                         <img className="solucky-icon" src="../Assets/Icons/soluckyicon-team.png"></img>
@@ -1177,7 +1345,7 @@ const Team = () =>{
                                     </div>
                                     
                                 </div>
-                            </div>
+                            </a>
 
                         </div>
                     </div>
@@ -1194,7 +1362,12 @@ const Team = () =>{
                             </div>
                             <div className="team-horizontal-scroll-section aesthetic-photographers">
 
-                            <div className="post-div">
+                            <a
+                                href="https://www.instagram.com/ssanjanaah?igsh=NTc4MTIwNjQ2YQ=="
+                                className="post-div"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                 > 
                                 <div className="post-header">
                                     <div className="post-left-group">
                                         <img className="solucky-icon" src="../Assets/Icons/soluckyicon-team.png"></img>
@@ -1224,9 +1397,14 @@ const Team = () =>{
                                     </div>
                                     
                                 </div>
-                            </div>
+                            </a>
 
-                            <div className="post-div">
+                            <a
+                                href="https://www.instagram.com/natalie.getz?igsh=NTc4MTIwNjQ2YQ=="
+                                className="post-div"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                 > 
                                 <div className="post-header">
                                     <div className="post-left-group">
                                         <img className="solucky-icon" src="../Assets/Icons/soluckyicon-team.png"></img>
@@ -1256,9 +1434,14 @@ const Team = () =>{
                                     </div>
                                     
                                 </div>
-                            </div>
+                            </a>
 
-                            <div className="post-div">
+                            <a
+                                href="https://www.instagram.com/heenabainss?igsh=NTc4MTIwNjQ2YQ=="
+                                className="post-div"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                 > 
                                 <div className="post-header">
                                     <div className="post-left-group">
                                         <img className="solucky-icon" src="../Assets/Icons/soluckyicon-team.png"></img>
@@ -1288,9 +1471,14 @@ const Team = () =>{
                                     </div>
                                     
                                 </div>
-                            </div>
+                            </a>
 
-                            <div className="post-div">
+                            <a
+                                href="https://www.instagram.com/aarruushi?igsh=NTc4MTIwNjQ2YQ=="
+                                className="post-div"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                 > 
                                 <div className="post-header">
                                     <div className="post-left-group">
                                         <img className="solucky-icon" src="../Assets/Icons/soluckyicon-team.png"></img>
@@ -1320,9 +1508,14 @@ const Team = () =>{
                                     </div>
                                     
                                 </div>
-                            </div>
+                            </a>
 
-                            <div className="post-div">
+                            <a
+                                href="https://www.instagram.com/niya.maudgalya?igsh=NTc4MTIwNjQ2YQ=="
+                                className="post-div"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                 > 
                                 <div className="post-header">
                                     <div className="post-left-group">
                                         <img className="solucky-icon" src="../Assets/Icons/soluckyicon-team.png"></img>
@@ -1352,9 +1545,14 @@ const Team = () =>{
                                     </div>
                                     
                                 </div>
-                            </div>
+                            </a>
 
-                            <div className="post-div">
+                            <a
+                                href="https://www.instagram.com/chinmayiiii_b?igsh=NTc4MTIwNjQ2YQ=="
+                                className="post-div"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                 > 
                                 <div className="post-header">
                                     <div className="post-left-group">
                                         <img className="solucky-icon" src="../Assets/Icons/soluckyicon-team.png"></img>
@@ -1384,9 +1582,14 @@ const Team = () =>{
                                     </div>
                                     
                                 </div>
-                            </div>
+                            </a>
 
-                            <div className="post-div">
+                            <a
+                                href="https://www.instagram.com/sindulce._?igsh=NTc4MTIwNjQ2YQ=="
+                                className="post-div"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                 > 
                                 <div className="post-header">
                                     <div className="post-left-group">
                                         <img className="solucky-icon" src="../Assets/Icons/soluckyicon-team.png"></img>
@@ -1416,7 +1619,7 @@ const Team = () =>{
                                     </div>
                                     
                                 </div>
-                            </div>
+                            </a>
 
                         </div>
                     </div>
