@@ -351,13 +351,20 @@ text-align: center;
     all: unset; /* Resets all default styles */
     height:26px;
     width:43px;
-    border-radius: 10px 5px 5px 10px;
-    background: #FFF;
+    background: #030303;
     box-shadow: none; /* Removes any remaining shadow */
     cursor: pointer; /* Reapply desired styles */
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.scroll-left{
+    border-radius: 10px 5px 5px 10px;
+}
+
+.scroll-right{
+    border-radius: 5px 10px 10px 5px;
 }
 
 @media screen and (min-width: 2300px){
