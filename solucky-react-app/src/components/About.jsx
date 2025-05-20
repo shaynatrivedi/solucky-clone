@@ -1,9 +1,24 @@
 // src/components/About.jsx
-import React from 'react';
+import React, {useState} from 'react';
 import Footer from './Footer';
+import Gallery from './Gallery';
 import './About.css';
 
+const aboutImages = [
+  "/Assets/Galleries/Event-gallery/diwali-event/DSC03534.JPG",
+  "/Assets/Galleries/Event-gallery/diwali-event/DSC03554.JPG",
+  "/Assets/Galleries/Event-gallery/diwali-event/DSC03534.JPG",
+  "/Assets/Galleries/Event-gallery/diwali-event/DSC03554.JPG",
+  "/Assets/Galleries/Event-gallery/diwali-event/DSC03534.JPG",
+  "/Assets/Galleries/Event-gallery/diwali-event/DSC03554.JPG",
+  "/Assets/Galleries/Event-gallery/diwali-event/DSC03534.JPG",
+  "/Assets/Galleries/Event-gallery/diwali-event/DSC03554.JPG",
+];
+
+
 const About = () => {
+  const [openGallery, setOpenGallery] = useState(false);
+
   return (
     <>
     <div className="about-page">
@@ -38,9 +53,17 @@ const About = () => {
 
         <div className='camera-section'>
           <div className='camera-container'>
-            <button className='camera-button'>
-              <img src='../Assets/About/camera-image.png' alt='camera-gallery-button' className='camera-picture'></img>
-            </button>
+          <button className="camera-button" onClick={() => setOpenGallery(true)}>
+            <img src="../Assets/About/camera-image.png" alt="open gallery" className='camera-picture'/>
+          </button>
+            {openGallery && (
+              <Gallery
+                title="Behind the Scenes ✹"
+                date="PHOTO GALLERY"
+                images={aboutImages}
+                onClose={() => setOpenGallery(false)}
+              />
+            )}
             <img src='../Assets/About/camera-caption.svg' alt='click to interact ->' className='camera-caption'></img>
           </div>
         </div>
