@@ -59,7 +59,7 @@ const About = () => {
             {openGallery && (
               <Gallery
                 title="Behind the Scenes ✹"
-                date="PHOTO GALLERY"
+                date="last updated may 2025"
                 images={aboutImages}
                 onClose={() => setOpenGallery(false)}
               />
