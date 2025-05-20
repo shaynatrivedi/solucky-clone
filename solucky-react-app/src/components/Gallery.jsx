@@ -22,14 +22,14 @@ export default function Gallery({
     <div className="gallery-overlay">
       <div className="gallery-container">
         {/* close button */}
-        <button className="gallery-close" onClick={onClose}>
-          ✕
+        <button className="gallery-close gallery-buttons" onClick={onClose}>
+          <img src="../Assets/Galleries/arrow-back.svg" alt="<-" className="back-button-gallery"></img>
         </button>
 
         {/* left sidebar */}
         <div className="gallery-sidebar">
-          <button className="thumb-nav" onClick={prevSlide}>
-            ↑
+          <button className="thumb-nav gallery-buttons" onClick={prevSlide}>
+            <img src="../Assets/Galleries/arrow-up.svg" alt="<-" className="back-button-gallery"></img>
           </button>
           {thumbs.map((ti) => (
             <img
@@ -40,8 +40,8 @@ export default function Gallery({
               onClick={() => setIndex(ti)}
             />
           ))}
-          <button className="thumb-nav" onClick={nextSlide}>
-            ↓
+          <button className="thumb-nav gallery-buttons" onClick={nextSlide}>
+          <img src="../Assets/Galleries/arrow-down.svg" alt="<-" className="back-button-gallery"></img>
           </button>
         </div>
 
@@ -56,17 +56,11 @@ export default function Gallery({
           </div>
 
           <div className="gallery-content">
-            <button className="gallery-nav prev" onClick={prevSlide}>
-              ‹
-            </button>
             <img
               className="gallery-image"
               src={images[index]}
               alt={`slide ${index + 1}`}
             />
-            <button className="gallery-nav next" onClick={nextSlide}>
-              ›
-            </button>
           </div>
 
           <div className="gallery-counter">
