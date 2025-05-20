@@ -128,8 +128,8 @@
     cursor: pointer;
 }
 
-.button-arrow{
-    width: 39px;
+.team-button-arrow{
+    width: 40px;
     height: 40px;
 }
 
@@ -417,6 +417,16 @@ text-align: center;
     }
 }
 
+@media screen and (max-width: 1512px){
+    .apply-textbox.centered-p-bai-jamjuree{
+        font-size: 25px;
+    }
+
+    .main-team-card{
+        padding-bottom: 36px;
+    }
+}
+
 @media screen and (max-width:1400px){
     .shoe-caption{
         margin-top: 8rem;
@@ -425,6 +435,41 @@ text-align: center;
 
     .volunteer-text{
         font-size: 22px;
+    }
+}
+
+@media screen and (max-width:1320px){
+    .hero-heading{
+        font-size: 157px;
+        line-height: 170px;
+    }
+
+    .team-button{
+        padding: 17.5px 26px;
+        width: 302px;
+    }
+
+    .apply-textbox.centered-p-bai-jamjuree{
+        font-size: 22px;
+    }
+
+    .team-button-arrow{
+        height: 27px;
+        width: 27px;
+    }
+
+    .main-team-card{
+        margin-top: 40px;
+        padding-bottom: 20px;
+    }
+
+    .volunteer-text{
+        margin-top: 265px;
+        margin-left: 100px;
+    }
+
+    .team-position-title{
+        font-size:30px ;
     }
 }
 
@@ -460,7 +505,9 @@ text-align: center;
     }
 }
 
-@media screen and (max-width:1000px){
+
+
+@media screen and (max-width:1080px){
     .volunteer-text{
         font-size:18px
     }
@@ -468,13 +515,36 @@ text-align: center;
     .shoe-image{
         margin-top: 225px;
     }
+
+    .hero-heading{
+        font-size: 84px;
+        line-height: 100px;
+    }
+
+    .hero-section{
+        min-height: 1520px;
+    }
+
+    .team-position-title{
+        font-size: 25px;
+    }
 }
 
 @media screen and (max-width:900px){
     .volunteer-text{
-        margin-left: 40px;
-        margin-top: 170px;
-        width: 55vw;
+        margin-top: 220px;
+    }
+
+    .caption-text{
+        font-size: 28px;
+    }
+
+    .buttons-wrapper{
+        width: 60vw;
+    }
+
+    .button-container{
+        margin-top: 112px;
     }
 }
 
@@ -485,14 +555,18 @@ text-align: center;
         margin-top: 100px;
     }
     
+    .hero-section{
+        padding-top: 112px;
+    }
 
     .hero-heading{
-        font-size: 65px;
+        font-size: 60px;
+        line-height: 80px;
     }
 
     .hero-title-container{
         margin-right: 0px;
-        margin-top: 18rem;
+        margin-top: 20rem;
         position: absolute;
     }
 
@@ -502,7 +576,7 @@ text-align: center;
         align-self: center; 
         position: absolute;
         width: 95vw;
-        margin-top: 600px;
+        margin-top: 640px;
     }
 
     .caption-text{
@@ -526,7 +600,7 @@ text-align: center;
     }
 
     .button-container{
-        margin-top: 800px;
+        margin-top: 850px;
     }
 
     .button-caption{
@@ -555,10 +629,6 @@ text-align: center;
         align-self: center;
         width: 80vw;
     }
-
-    .hero-heading{
-        line-height: 90px;
-    }
 }
 
 
@@ -583,6 +653,26 @@ text-align: center;
     .hero-heading{
         line-height: 90px;
     }
+
+    .brand-operations{
+        margin-bottom: 80px;
+    }
+    
+    .production{
+        margin-bottom: 80px;
+    }
+    
+    .social-media{
+        margin-bottom: 80px;
+    }
+    
+    .magazine-publishing{
+        margin-bottom: 80px;
+    }
+
+    .team-horizontal-scroll-section{
+        gap: 24px;
+    }
 }
 
 
@@ -605,5 +695,14 @@ text-align: center;
 
     #first-insta-section{
         margin-top: 150px;
+    }
+
+    .scroll-left,
+    .scroll-right{
+        display: none;
+    }
+
+    .hero-section{
+        padding-top: 75px;
     }
 }

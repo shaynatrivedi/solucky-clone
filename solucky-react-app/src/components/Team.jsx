@@ -1,8 +1,21 @@
-import React from "react";
+import React, {useState} from 'react';
 import Footer from './Footer';
 import './Team.css'
+import Gallery from './Gallery';
+
+const teamBTS_Images = [
+    "/Assets/Galleries/Event-gallery/diwali-event/DSC03534.JPG",
+    "/Assets/Galleries/Event-gallery/diwali-event/DSC03554.JPG",
+    "/Assets/Galleries/Event-gallery/diwali-event/DSC03534.JPG",
+    "/Assets/Galleries/Event-gallery/diwali-event/DSC03554.JPG",
+    "/Assets/Galleries/Event-gallery/diwali-event/DSC03534.JPG",
+    "/Assets/Galleries/Event-gallery/diwali-event/DSC03554.JPG",
+    "/Assets/Galleries/Event-gallery/diwali-event/DSC03534.JPG",
+    "/Assets/Galleries/Event-gallery/diwali-event/DSC03554.JPG",
+  ];
 
 const Team = () =>{
+    const [openGallery, setOpenGallery] = useState(false);
 
     const scrollLeft = (sectionClass) => {
         const container = document.querySelector(`.${sectionClass}`);
@@ -48,20 +61,28 @@ const Team = () =>{
                             <a href="https://docs.google.com/forms/d/e/1FAIpQLSe81g9uPNPingKHngREZ5MpHuUFtI-zXEeOLqVayNIC6Ba2Sg/viewform">
                                 <button type="button" className="team-button button1">
                                     <p className="apply-textbox centered-p-bai-jamjuree" id="contributer-text"><i>solucky contributor</i> application</p>
-                                    <img className="button-arrow" src="../Assets/Icons/shop-arrow.png" alt="arrow"></img>
+                                    <img className="team-button-arrow" src="../Assets/Icons/shop-arrow.png" alt="arrow"></img>
                                 </button>
                             </a>
 
                             <a href="https://docs.google.com/forms/d/e/1FAIpQLSfZog6msmIUc8K_dc2SsmXIWx7oEGcV4E1PE9WHw0KxKNjEwg/viewform">
                                 <button type="button" className="team-button button2">
                                     <p className="apply-textbox centered-p-bai-jamjuree" id="model-text" ><i>solucky model</i> application</p>
-                                    <img className="button-arrow" src="../Assets/Icons/shop-arrow.png" alt="arrow"></img>
+                                    <img className="team-button-arrow" src="../Assets/Icons/shop-arrow.png" alt="arrow"></img>
                                 </button>
                             </a>
 
-                            <button type="button" className="team-button button3">
+                            <button type="button" className="team-button button3" onClick={() => setOpenGallery(true)}>
                                 <p className="apply-textbox centered-p-bai-jamjuree" id="view-bts-text">view BTS photos</p>
                             </button>
+                            {openGallery && (
+                                <Gallery
+                                title="BTS ✹"
+                                date="last updated may 2025"
+                                images={teamBTS_Images}
+                                onClose={() => setOpenGallery(false)}
+                                />
+                            )}
                         </div>
                     </div>
                     
