@@ -36,7 +36,7 @@
     font-size: 180px;
     font-style: normal;
     font-weight: 700;
-    line-height: normal;
+    line-height: 185px;
 }
 
 .hero-title-container{
@@ -56,15 +56,14 @@
 
 .buttons-wrapper{
     display: flex;
-    width: 80%;
-    justify-content: center;
+    width: 85.6vw;
+    justify-content: space-between;
     align-items: stretch;
-    gap: 30px;
     flex-wrap: wrap;
 }
 
 .button-caption{
-    width: 70%;
+    width: 85.6vw;
     text-align: end;
 }
 
@@ -95,7 +94,7 @@
 .caption-text{
     color: #E13939;
     font-family: "Oooh Baby";
-    font-size: 45px;
+    font-size: 50px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -115,7 +114,8 @@
 }
 
 button{
-    width: 345px;
+    padding: 22px 35px;
+    width: 395px;
     height: auto;
     color: white;
     display: flex;
@@ -135,10 +135,6 @@ button{
 a{
      text-decoration: none;
  }
-
-.apply-textbox{
-    margin-right: 15px;
-}
 
 .main-team-card{
     margin-top:100px;
@@ -172,6 +168,7 @@ a{
 }
 .instagram-caption{
     padding-top: 100px;
+    padding-bottom: 36px;
 }
 
 .team-position-title{
@@ -182,6 +179,7 @@ a{
     font-weight: 600;
     line-height: normal;
     text-transform: uppercase;
+    margin: 0px;
 }
 
 .post-div{
@@ -219,12 +217,12 @@ a{
 }
 .post-account-name{
     color: #262626;
-    font-family: "SF Pro Text";
-    font-size: 13px;
+    font-family: "SF Pro Text", sans-serif;
+    font-size: 14px;
     font-style: normal;
     font-weight: 600;
     line-height: 18px; /* 138.462% */
-    letter-spacing: -0.1px;
+    letter-spacing: 0px;
 }
 
 .post-bottom-div{
@@ -251,22 +249,22 @@ a{
 
 .post-text{
     color: #262626;
-    font-family: "SF Pro Text";
+    font-family: "SF Pro Text", sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 18px;
-    letter-spacing: -0.07px;
+    letter-spacing: 0px;
     text-align: start;
 }
 
 .team-horizontal-scroll-section {
     display: flex;
     overflow-x: auto;
-    gap: 20px;
+    gap: 56px;
     scroll-behavior: smooth;
     width: 91.5vw;
-    padding: 20px 0;
+    padding: 34px 0;
     margin: 0 auto;
     white-space: nowrap;
 }
@@ -375,8 +373,8 @@ text-align: center;
     }
 
     .hero-title-container{
-        margin-right: 0px;
-        margin-top: -100px;
+        margin-right: 125px;
+        margin-top: -10px;
     }
 
     .volunteer-text{
