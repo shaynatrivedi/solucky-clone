@@ -49,6 +49,7 @@
 .events-section{
     display: flex;
     flex-direction: column;
+    gap: 22px;
 }
 
 .hover-section {
