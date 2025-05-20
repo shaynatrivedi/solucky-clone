@@ -46,21 +46,21 @@ const Team = () =>{
                         <p class="caption-text button-caption">a great team starts with the right fit.</p>
                         <div className="buttons-wrapper">
                             <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0">
-                                <button type="button" className="button1">
+                                <button type="button" className="team-button button1">
                                     <p className="apply-textbox centered-p-bai-jamjuree" id="contributer-text"><i>solucky contributor</i> application</p>
                                     <img className="button-arrow" src="../Assets/Icons/shop-arrow.png" alt="arrow"></img>
                                 </button>
                             </a>
 
                             <a href="https://docs.google.com/forms/d/e/1FAIpQLSe81g9uPNPingKHngREZ5MpHuUFtI-zXEeOLqVayNIC6Ba2Sg/viewform">
-                                <button type="button" className="button2">
+                                <button type="button" className="team-button button2">
                                     <p className="apply-textbox centered-p-bai-jamjuree" id="model-text" ><i>solucky model</i> application</p>
                                     <img className="button-arrow" src="../Assets/Icons/shop-arrow.png" alt="arrow"></img>
                                 </button>
                             </a>
 
                             <a href="https://docs.google.com/forms/d/e/1FAIpQLSfZog6msmIUc8K_dc2SsmXIWx7oEGcV4E1PE9WHw0KxKNjEwg/viewform">
-                                <button type="button" className="button3">
+                                <button type="button" className="team-button button3">
                                     <p className="apply-textbox centered-p-bai-jamjuree" id="view-bts-text">view BTS photos</p>
                                 </button>
                             </a> 

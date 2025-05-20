@@ -72,7 +72,7 @@
     width: 100%;                /* button now spans the full flex item */
 }
 
-button{
+.magazine-button{
     height: auto;
     color: white;
     display: flex;
