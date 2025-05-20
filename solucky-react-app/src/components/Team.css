@@ -57,9 +57,10 @@
 .buttons-wrapper{
     display: flex;
     width: 85.6vw;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: stretch;
     flex-wrap: wrap;
+    gap: 30px;
 }
 
 .button-caption{
@@ -124,6 +125,7 @@
     gap: 10px;
     border-radius: 35px;
     background: black;
+    cursor: pointer;
 }
 
 .button-arrow{
@@ -401,7 +403,7 @@ text-align: center;
     }
 
     .shoe-caption {
-        margin-top: 12rem;
+        margin-top: 6rem;
         margin-left: 4rem;
     }
 
@@ -419,6 +421,10 @@ text-align: center;
     .shoe-caption{
         margin-top: 8rem;
         margin-left: 2rem;
+    }
+
+    .volunteer-text{
+        font-size: 22px;
     }
 }
 
@@ -550,6 +556,9 @@ text-align: center;
         width: 80vw;
     }
 
+    .hero-heading{
+        line-height: 90px;
+    }
 }
 
 
@@ -569,6 +578,10 @@ text-align: center;
 
     .team-category{
         margin-top: 150px;
+    }
+
+    .hero-heading{
+        line-height: 90px;
     }
 }
 
