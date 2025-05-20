@@ -30,11 +30,12 @@ code {
 .paragraph-message{
   color: #F5F5F5;
   font-family: "Bai Jamjuree", sans-serif;
-  font-size: 25px;
+  font-size: 28px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  text-indent: 30px;
+  text-indent: 50px;
+  text-align: justify;
 }
 
 .paragraph-message-home{
@@ -47,6 +48,7 @@ code {
   text-indent: 30px;
   margin-top: 0px;
   margin-bottom: 0px;
+  text-align: justify;
 }
 
 .centered-p-bai-jamjuree{
