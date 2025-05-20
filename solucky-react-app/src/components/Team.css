@@ -305,20 +305,20 @@ a{
     width: 32px;
 }
 
-.founder{
-    padding-bottom: 50px;
+.brand-operations{
+    margin-bottom: 114px;
 }
 
 .production{
-    margin-bottom: 100px;
+    margin-bottom: 114px;
 }
 
 .social-media{
-    margin-bottom: 100px;
+    margin-bottom: 114px;
 }
 
 .magazine-publishing{
-    margin-bottom: 100px;
+    margin-bottom: 114px;
 }
 
 .no-scroll{
@@ -336,8 +336,9 @@ a{
     gap: 10px;
 }
 
-.team-category {
-    margin-bottom: 50px;
+
+#social-media-category{
+    margin-bottom: 114px;
 }
   
 .category-title {

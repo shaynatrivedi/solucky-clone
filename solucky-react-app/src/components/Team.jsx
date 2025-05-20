@@ -840,7 +840,7 @@ const Team = () =>{
                         </div>
                     </div>
 
-                    <div className="social-media">
+                    <div className="team-category" id="social-media-category">
                         <h3 className="team-position-title">Social media</h3>
                         <div className="team-horizontal-scroll-section no-scroll">
 
