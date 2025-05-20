@@ -50,7 +50,9 @@ export default function Gallery({
           <div className="gallery-header">
             <div className="gallery-title">{title}</div>
             <div className="gallery-date">{date}</div>
-            <p className="gallery-desc">{description}</p>
+            {description && (
+              <p className="gallery-description">{description}</p>
+             )}
           </div>
 
           <div className="gallery-content">
