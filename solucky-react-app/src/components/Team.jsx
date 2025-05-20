@@ -74,7 +74,7 @@ const Team = () =>{
                 <div className="main-team-card">         
                     <div className="team-category" id="first-insta-section">
                             <p className="caption-text instagram-caption">
-                            *Click on any team member's photo to visit their Instagram
+                            *click on any team member's photo to visit their Instagram
                             </p>
                             <h3 className="team-position-title">Brand Operations</h3>
                             <div className="scroll-buttons">
