@@ -36,7 +36,7 @@
 .story-section{
     position: absolute;
     top: 84.3%;
-    right: 43%;
+    right: 7%;
 }
 
 .message-container{
@@ -45,8 +45,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 11.429px;
-    width: 602px;
+    gap: 12px;
+    width: 600px;
     height: fit-content;
     text-align: left;
 }
@@ -106,9 +106,9 @@
 }
 
 .camera-caption{
-    width: 500px;
+    width: 29vw;
     margin-top: -80px;
-    margin-left: 100px;
+    margin-left: 65px;
 }
 
 .signoff-message{
@@ -117,7 +117,7 @@
     background: #6D4F27;
     position: absolute;
     top: 97.5%;
-    left: 20%;
+    left: 9.3%;
 }
 
 .signoff-message p{
@@ -139,8 +139,89 @@
   }
 
 
-@media screen and (max-width:1440px){
+@media screen and (max-width:1512px){
+    .message-container h1{
+        font-size: 85px;
+    }
 
+    .message-container p{
+        font-size: 25px;
+    }
+
+    .message-container{
+        width: 527px;
+    }
+
+    .signoff-message p{
+        font-size: 45px;
+    }
+}
+
+@media screen and (max-width:1320px){
+    .message-container h1{
+        font-size: 74px;
+    }
+
+    .message-container p{
+        font-size: 21px;
+    }
+
+    .message-container{
+        width: 460px;
+        padding: 34px;
+    }
+
+    .signoff-message p{
+        font-size: 40px;
+    }
+}
+
+
+@media screen and (max-width:1180px){
+    .message-container h1{
+        font-size: 66px;
+    }
+
+    .message-container p{
+        font-size: 18.5px;
+    }
+
+    .message-container{
+        width: 460px;
+        padding: 30px;
+    }
+
+    .signoff-message p{
+        font-size: 35px;
+    }
+
+    .camera-caption{
+        margin-top: -50px;
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width:1080px){
+    .message-container h1{
+        font-size: 58px;
+    }
+
+    .message-container p{
+        font-size: 20px;
+    }
+
+    .message-container{
+        width: 644px;
+        padding: 20px;
+    }
+
+    .signoff-message p{
+        font-size: 32px;
+    }
+
+    .founder-section,.brand-section{
+        justify-self: anchor-center;
+    }
 }
 
 
@@ -154,4 +235,10 @@
         overflow: hidden;
         position: relative;
     }
+
+    .message-container{
+        width: 318px;
+        padding: 16px;
+    }
+
 }
