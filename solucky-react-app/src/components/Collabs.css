@@ -102,6 +102,7 @@
 
 .horizontal-scroll-section-collab::-webkit-scrollbar-track {
     background: rgb(160, 160, 160);
+    border-radius: 5px;
 }
 
 .horizontal-scroll-section-collab::-webkit-scrollbar-thumb {

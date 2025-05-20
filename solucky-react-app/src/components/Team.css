@@ -283,6 +283,7 @@ a{
 
 .team-horizontal-scroll-section::-webkit-scrollbar-track {
     background: rgb(160, 160, 160);
+    border-radius: 5px;
 }
 
 .team-horizontal-scroll-section::-webkit-scrollbar-thumb {
