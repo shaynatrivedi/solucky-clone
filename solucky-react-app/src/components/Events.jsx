@@ -14,6 +14,31 @@ const stripPhrases = [
   ];
 
 const galleryData = {
+  "the-chai-room": {
+    title: "The Chai Room",
+    date: "AUGUST 25ᵗʰ 2023",
+    description:
+      "The celebration of solucky’s fourth anniversary as a creative brand took place at an unforgettable Boiler Room event in collaboration with Casino Bleu. On Friday, 8/25, the event brought together a lively crowd for a night of dancing and drinks near the University of California, Berkeley.",
+    images: [
+      "/Assets/Galleries/Event-gallery/4th-anni/000057060001.JPG",
+      "/Assets/Galleries/Event-gallery/4th-anni/000057060003.JPG",
+      "/Assets/Galleries/Event-gallery/4th-anni/000057060004.JPG",
+      "/Assets/Galleries/Event-gallery/4th-anni/000057060005.JPG",
+      "/Assets/Galleries/Event-gallery/4th-anni/000057060007.JPG",
+      "/Assets/Galleries/Event-gallery/4th-anni/000057060008.JPG",
+      "/Assets/Galleries/Event-gallery/4th-anni/000057060009.JPG",
+      "/Assets/Galleries/Event-gallery/4th-anni/000057060010.JPG",
+      "/Assets/Galleries/Event-gallery/4th-anni/000057060011.JPG",
+      "/Assets/Galleries/Event-gallery/4th-anni/000057060013.JPG",
+      "/Assets/Galleries/Event-gallery/4th-anni/000057060014.JPG",
+      "/Assets/Galleries/Event-gallery/4th-anni/000057060015.JPG",
+      "/Assets/Galleries/Event-gallery/4th-anni/000057060017.JPG",
+      "/Assets/Galleries/Event-gallery/4th-anni/000057060018.JPG",
+      "/Assets/Galleries/Event-gallery/4th-anni/000057060019.JPG",
+      "/Assets/Galleries/Event-gallery/4th-anni/000057060020.JPG",
+    ],
+  },
+
   "4th-anni": {
     title: "4TH ANNIVERSARY ✹",
     date: "AUGUST 25ᵗʰ 2023",

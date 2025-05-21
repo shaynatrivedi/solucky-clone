@@ -85,6 +85,7 @@
     border: 2px solid #F5F5F5;
     background: rgba(3, 3, 3, 0.50);
     backdrop-filter: blur(12.949999809265137px);
+    cursor: pointer;
 }
 
 .hover-section:hover .gallery-button{
