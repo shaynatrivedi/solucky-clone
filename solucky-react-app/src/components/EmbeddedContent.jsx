@@ -4,7 +4,7 @@ import "./EmbeddedContent.css";
 const photoshoots = Array.from({ length: 8 }).map((_, i) => ({
   title: "Photoshoot Title",
   issue: "#4",
-  thumbnail: "/Assets/Media/sample-thumb.jpg", // replace with actual path
+  thumbnail: "../Assets/Media/sample-thumb.png", // replace with actual path
 }));
 
 const EmbeddedContent = () => {

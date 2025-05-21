@@ -73,8 +73,9 @@
 /* Style the button and place it in the middle of the container/image */
 .hover-section .gallery-button {
     position: absolute;
-    align-self: anchor-center;
-    justify-self: anchor-center;
+    top: 50%;               /* 50% down from the top of .hover-section */
+    left: 50%;              /* 50% in from the left of .hover-section */
+    transform: translate(-50%, -50%);
     display: flex;
     justify-content: center;
     align-items: center;

@@ -4,6 +4,7 @@
     flex-direction: column;
     align-items: center;
     overflow-x: hidden;
+    padding-top: 120px;
 }
 
 .shop-link-div{

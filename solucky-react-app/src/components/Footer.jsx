@@ -77,7 +77,7 @@ const Footer = () =>{
           <div className="acknowledgement-container">
             <p className="position-name"><span className="bold-position">Product & UX/UI Designer:</span> Shayna Trivedi</p>
             <p className="position-name"><span className="bold-position">Fullstack Web Developer:</span> Taj Sharma</p>
-            <p className="position-name"><span className="bold-position">Brand & Creative Director:</span> Sanjana Solanki & </p>
+            <p className="position-name"><span className="bold-position">Brand & Creative Director:</span> Sanjana Solanki</p>
             <p className="position-name"><span className="bold-position">Brand Advisors:</span> Shayari Saha & Amani Chowdhury</p>
           </div>
         </div>
