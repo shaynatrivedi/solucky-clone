@@ -123,13 +123,38 @@
     }
 }
 
+@media screen and (max-width:1550px) {
+    .bottom-section{
+        padding-top: 450px;
+    }
+}
+
+@media screen and (max-width:1450px) {
+    .bottom-section{
+        padding-top: 350px;
+    }
+}
+
 @media screen and (max-width: 1370px){
     .collab-para-text{
         font-size:20px;
     }
 
     .bottom-section{
-        padding-top: 300px;
+        padding-top: 500px;
+    }
+}
+
+@media screen and (max-width:1250px){
+    .bottom-section{
+        padding-top: 450px;
+    }
+}
+
+
+@media screen and (max-width:1200px){
+    .bottom-section{
+        padding-top: 350px;
     }
 }
 
@@ -137,11 +162,15 @@
     .collab-para-text{
         font-size:18px;
     }
+
+    .bottom-section{
+        padding-top: 250px;
+    }
 }
 
 @media screen and (max-width: 1000px){
     .collab-para-text{
-        font-size:15px;
+        font-size:17px;
     }
 
     .collab-paragraph-container{
