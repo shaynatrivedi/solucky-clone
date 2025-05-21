@@ -112,14 +112,22 @@
   
   /* the “view” pill */
   .hover-section-collab .collab-button {
+    color: #F5F5F5;
+    text-align: center;
+    font-family: "Bai Jamjuree";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 0.75rem 1.5rem;
-    border: none;
-    border-radius: 35px;
-    background: rgba(245, 245, 245, 0.9);
+    width: 180px;
+    padding: 25px 40px;
+    border-radius: 45px;
+    border: 2px solid #F5F5F5;
+    background: rgba(3, 3, 3, 0.50);
+    backdrop-filter: blur(12.949999809265137px);
     cursor: pointer;
     opacity: 0;
     transition: opacity 0.3s ease-in-out, background-color 0.3s;
