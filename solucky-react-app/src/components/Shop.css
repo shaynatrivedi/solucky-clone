@@ -96,13 +96,17 @@
     display: flex;
 }
 
+.photographer-tag{
+    padding: 0px 50px;
+}
+
 .horizontal-scroll-section {
     display: flex;
     gap: 53px; /* Space between cards */
     overflow-x: auto; /* Enable horizontal scrolling */
     padding: 10px;
     scroll-behavior: smooth;
-    width:90vw;
+    width:100vw;
     margin: 0 auto; /* Center horizontally */
 }
 
