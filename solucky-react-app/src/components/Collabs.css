@@ -95,6 +95,45 @@
     display: none;
 }
 
+/* wrap the image + button */
+.hover-section-collab {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* smooth transition when darkening */
+  .hover-section-collab .collab-image {
+    display: block;
+    width: 100%;
+    height: 750px; /* or whatever you had */
+    transition: filter 0.3s ease-in-out;
+  }
+  
+  /* the “view” pill */
+  .hover-section-collab .collab-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 35px;
+    background: rgba(245, 245, 245, 0.9);
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out, background-color 0.3s;
+  }
+  
+  /* darken on hover and show button */
+  .hover-section-collab:hover .collab-image {
+    filter: brightness(50%);
+  }
+  .hover-section-collab:hover .collab-button {
+    opacity: 1;
+    background-color: rgba(200, 200, 200, 0.9);
+  }
+  
 
 .horizontal-scroll-section-collab::-webkit-scrollbar {
     height: 10px;
@@ -267,5 +306,11 @@
     .collab-container img{
         height: 512px;
     }
+
+    .hover-section-collab .collab-image {
+        width: 100%;
+        height: 512px;
+    }
+
     
 }

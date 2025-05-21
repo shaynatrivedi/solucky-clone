@@ -1,8 +1,22 @@
-import React from "react";
+import React, {useState} from 'react';
 import './Collabs.css';
 import Footer from './Footer';
+import Gallery from './Gallery';
+
+const teamBTS_Images = [
+    "/Assets/Galleries/Event-gallery/diwali-event/DSC03534.JPG",
+    "/Assets/Galleries/Event-gallery/diwali-event/DSC03554.JPG",
+    "/Assets/Galleries/Event-gallery/diwali-event/DSC03534.JPG",
+    "/Assets/Galleries/Event-gallery/diwali-event/DSC03554.JPG",
+    "/Assets/Galleries/Event-gallery/diwali-event/DSC03534.JPG",
+    "/Assets/Galleries/Event-gallery/diwali-event/DSC03554.JPG",
+    "/Assets/Galleries/Event-gallery/diwali-event/DSC03534.JPG",
+    "/Assets/Galleries/Event-gallery/diwali-event/DSC03554.JPG",
+  ];
 
 const Collabs = () =>{
+    const [openGallery, setOpenGallery] = useState(false);
+
     return(
         <div className="collabs-page">
             <div className="top-section">
@@ -51,90 +65,556 @@ const Collabs = () =>{
                     <img className="view-archive-svg" src="../Assets/Collabs/view-archive-text.svg"></img>
                 </div>
                 <div className="horizontal-scroll-section-collab">
+
                     <div className="collab-container">
-                        <img src="../Assets/Collabs/collab-19.png" alt="collab-pic"></img>
+                        <div className="hover-section-collab">
+                            <img
+                            className="collab-image"
+                            src="../Assets/Collabs/collab-19.png"
+                            alt="merazine"
+                            />
+                            <button
+                            type="button"
+                            className="collab-button"
+                            onClick={() => setOpenGallery(true)}
+                            >
+                            view
+                            </button>
+                            {openGallery && (
+                                <Gallery
+                                title="Merazine"
+                                date="last updated may 2025"
+                                images={teamBTS_Images}
+                                onClose={() => setOpenGallery(false)}
+                                />
+                            )}
+                        </div>
                         <div className="collab-caption">merazine</div>
                     </div>
+
                     <div className="collab-container">
-                        <img src="../Assets/Collabs/collab-20.png" alt="collab-pic"></img>
+                        <div className="hover-section-collab">
+                            <img
+                            className="collab-image"
+                            src="../Assets/Collabs/collab-20.png"
+                            alt="classic loot"
+                            />
+                            <button
+                            type="button"
+                            className="collab-button"
+                            onClick={() => setOpenGallery(true)}
+                            >
+                            view
+                            </button>
+                            {openGallery && (
+                                <Gallery
+                                title="Classic Loot"
+                                date="last updated may 2025"
+                                images={teamBTS_Images}
+                                onClose={() => setOpenGallery(false)}
+                                />
+                            )}
+                        </div>
                         <div className="collab-caption">classic loot</div>
                     </div>
+
                     <div className="collab-container">
-                        <img src="../Assets/Collabs/collab-21.png" alt="collab-pic"></img>
+                        <div className="hover-section-collab">
+                            <img
+                            className="collab-image"
+                            src="../Assets/Collabs/collab-21.png"
+                            alt="the chai room"
+                            />
+                            <button
+                            type="button"
+                            className="collab-button"
+                            onClick={() => setOpenGallery(true)}
+                            >
+                            view
+                            </button>
+                            {openGallery && (
+                                <Gallery
+                                title="The Chai Room"
+                                date="last updated may 2025"
+                                images={teamBTS_Images}
+                                onClose={() => setOpenGallery(false)}
+                                />
+                            )}
+                        </div>
                         <div className="collab-caption">the chai room</div>
                     </div>
+
                     <div className="collab-container">
-                        <img src="../Assets/Collabs/collab-1.png" alt="collab-pic"></img>
+                        <div className="hover-section-collab">
+                            <img
+                            className="collab-image"
+                            src="../Assets/Collabs/collab-1.png"
+                            alt="snap choreography"
+                            />
+                            <button
+                            type="button"
+                            className="collab-button"
+                            onClick={() => setOpenGallery(true)}
+                            >
+                            view
+                            </button>
+                            {openGallery && (
+                                <Gallery
+                                title="Snap Choreography"
+                                date="last updated may 2025"
+                                images={teamBTS_Images}
+                                onClose={() => setOpenGallery(false)}
+                                />
+                            )}
+                        </div>
                         <div className="collab-caption">snap choreography</div>
                     </div>
+
                     <div className="collab-container">
-                        <img src="../Assets/Collabs/collab-2.png" alt="collab-pic"></img>
+                        <div className="hover-section-collab">
+                            <img
+                            className="collab-image"
+                            src="../Assets/Collabs/collab-2.png"
+                            alt="tarana"
+                            />
+                            <button
+                            type="button"
+                            className="collab-button"
+                            onClick={() => setOpenGallery(true)}
+                            >
+                            view
+                            </button>
+                            {openGallery && (
+                                <Gallery
+                                title="Tarana"
+                                date="last updated may 2025"
+                                images={teamBTS_Images}
+                                onClose={() => setOpenGallery(false)}
+                                />
+                            )}
+                        </div>
                         <div className="collab-caption">tarana</div>
                     </div>
+
                     <div className="collab-container">
-                        <img src="../Assets/Collabs/collab-3.png" alt="collab-pic"></img>
+                        <div className="hover-section-collab">
+                            <img
+                            className="collab-image"
+                            src="../Assets/Collabs/collab-3.png"
+                            alt="tarana"
+                            />
+                            <button
+                            type="button"
+                            className="collab-button"
+                            onClick={() => setOpenGallery(true)}
+                            >
+                            view
+                            </button>
+                            {openGallery && (
+                                <Gallery
+                                title="Mehendi by Smriti"
+                                date="last updated may 2025"
+                                images={teamBTS_Images}
+                                onClose={() => setOpenGallery(false)}
+                                />
+                            )}
+                        </div>
                         <div className="collab-caption">mehendi by smriti</div>
                     </div>
+
+                    
                     <div className="collab-container">
-                        <img src="../Assets/Collabs/collab-4.png" alt="collab-pic"></img>
+                        <div className="hover-section-collab">
+                            <img
+                            className="collab-image"
+                            src="../Assets/Collabs/collab-4.png"
+                            alt="palam-collective"
+                            />
+                            <button
+                            type="button"
+                            className="collab-button"
+                            onClick={() => setOpenGallery(true)}
+                            >
+                            view
+                            </button>
+                            {openGallery && (
+                                <Gallery
+                                title="Palam-Collective"
+                                date="last updated may 2025"
+                                images={teamBTS_Images}
+                                onClose={() => setOpenGallery(false)}
+                                />
+                            )}
+                        </div>
                         <div className="collab-caption">palam-collective</div>
                     </div>
+
+
                     <div className="collab-container">
-                        <img src="../Assets/Collabs/collab-5.png" alt="collab-pic"></img>
+                        <div className="hover-section-collab">
+                            <img
+                            className="collab-image"
+                            src="../Assets/Collabs/collab-5.png"
+                            alt="kaju studios"
+                            />
+                            <button
+                            type="button"
+                            className="collab-button"
+                            onClick={() => setOpenGallery(true)}
+                            >
+                            view
+                            </button>
+                            {openGallery && (
+                                <Gallery
+                                title="Kaju Studios"
+                                date="last updated may 2025"
+                                images={teamBTS_Images}
+                                onClose={() => setOpenGallery(false)}
+                                />
+                            )}
+                        </div>
                         <div className="collab-caption">kaju studios</div>
                     </div>
+
                     <div className="collab-container">
-                        <img src="../Assets/Collabs/collab-6.png" alt="collab-pic"></img>
+                        <div className="hover-section-collab">
+                            <img
+                            className="collab-image"
+                            src="../Assets/Collabs/collab-6.png"
+                            alt="holly"
+                            />
+                            <button
+                            type="button"
+                            className="collab-button"
+                            onClick={() => setOpenGallery(true)}
+                            >
+                            view
+                            </button>
+                            {openGallery && (
+                                <Gallery
+                                title="Holly"
+                                date="last updated may 2025"
+                                images={teamBTS_Images}
+                                onClose={() => setOpenGallery(false)}
+                                />
+                            )}
+                        </div>
                         <div className="collab-caption">holly</div>
                     </div>
+
                     <div className="collab-container">
-                        <img src="../Assets/Collabs/collab-7.png" alt="collab-pic"></img>
+                        <div className="hover-section-collab">
+                            <img
+                            className="collab-image"
+                            src="../Assets/Collabs/collab-7.png"
+                            alt="pearlescent x reya"
+                            />
+                            <button
+                            type="button"
+                            className="collab-button"
+                            onClick={() => setOpenGallery(true)}
+                            >
+                            view
+                            </button>
+                            {openGallery && (
+                                <Gallery
+                                title="Pearlescent x Reya"
+                                date="last updated may 2025"
+                                images={teamBTS_Images}
+                                onClose={() => setOpenGallery(false)}
+                                />
+                            )}
+                        </div>
                         <div className="collab-caption">pearlescent x reya</div>
                     </div>
+
                     <div className="collab-container">
-                        <img src="../Assets/Collabs/collab-8.png" alt="collab-pic"></img>
+                        <div className="hover-section-collab">
+                            <img
+                            className="collab-image"
+                            src="../Assets/Collabs/collab-8.png"
+                            alt="stax co."
+                            />
+                            <button
+                            type="button"
+                            className="collab-button"
+                            onClick={() => setOpenGallery(true)}
+                            >
+                            view
+                            </button>
+                            {openGallery && (
+                                <Gallery
+                                title="Stax Co. (podcast)"
+                                date="last updated may 2025"
+                                images={teamBTS_Images}
+                                onClose={() => setOpenGallery(false)}
+                                />
+                            )}
+                        </div>
                         <div className="collab-caption">stax co. (podcast)</div>
                     </div>
+
                     <div className="collab-container">
-                        <img src="../Assets/Collabs/collab-9.png" alt="collab-pic"></img>
+                        <div className="hover-section-collab">
+                            <img
+                            className="collab-image"
+                            src="../Assets/Collabs/collab-9.png"
+                            alt="stax co. (event)"
+                            />
+                            <button
+                            type="button"
+                            className="collab-button"
+                            onClick={() => setOpenGallery(true)}
+                            >
+                            view
+                            </button>
+                            {openGallery && (
+                                <Gallery
+                                title="Stax Co. (event)"
+                                date="last updated may 2025"
+                                images={teamBTS_Images}
+                                onClose={() => setOpenGallery(false)}
+                                />
+                            )}
+                        </div>
                         <div className="collab-caption">stax co. (event)</div>
                     </div>
+
                     <div className="collab-container">
-                        <img src="../Assets/Collabs/collab-10.png" alt="collab-pic"></img>
+                        <div className="hover-section-collab">
+                            <img
+                            className="collab-image"
+                            src="../Assets/Collabs/collab-10.png"
+                            alt="evolve with fashion"
+                            />
+                            <button
+                            type="button"
+                            className="collab-button"
+                            onClick={() => setOpenGallery(true)}
+                            >
+                            view
+                            </button>
+                            {openGallery && (
+                                <Gallery
+                                title="Evolve with Fashion"
+                                date="last updated may 2025"
+                                images={teamBTS_Images}
+                                onClose={() => setOpenGallery(false)}
+                                />
+                            )}
+                        </div>
                         <div className="collab-caption">evolve with fashion</div>
                     </div>
+
+                
                     <div className="collab-container">
-                        <img src="../Assets/Collabs/collab-11.png" alt="collab-pic"></img>
+                        <div className="hover-section-collab">
+                            <img
+                            className="collab-image"
+                            src="../Assets/Collabs/collab-11.png"
+                            alt="casino bleu"
+                            />
+                            <button
+                            type="button"
+                            className="collab-button"
+                            onClick={() => setOpenGallery(true)}
+                            >
+                            view
+                            </button>
+                            {openGallery && (
+                                <Gallery
+                                title="Casino Bleu"
+                                date="last updated may 2025"
+                                images={teamBTS_Images}
+                                onClose={() => setOpenGallery(false)}
+                                />
+                            )}
+                        </div>
                         <div className="collab-caption">casino bleu</div>
                     </div>
+
                     <div className="collab-container">
-                        <img src="../Assets/Collabs/collab-12.png" alt="collab-pic"></img>
+                        <div className="hover-section-collab">
+                            <img
+                            className="collab-image"
+                            src="../Assets/Collabs/collab-12.png"
+                            alt="too many thoughts"
+                            />
+                            <button
+                            type="button"
+                            className="collab-button"
+                            onClick={() => setOpenGallery(true)}
+                            >
+                            view
+                            </button>
+                            {openGallery && (
+                                <Gallery
+                                title="Too Many Thoughts"
+                                date="last updated may 2025"
+                                images={teamBTS_Images}
+                                onClose={() => setOpenGallery(false)}
+                                />
+                            )}
+                        </div>
                         <div className="collab-caption">too many thoughts</div>
                     </div>
+
                     <div className="collab-container">
-                        <img src="../Assets/Collabs/collab-13.png" alt="collab-pic"></img>
+                        <div className="hover-section-collab">
+                            <img
+                            className="collab-image"
+                            src="../Assets/Collabs/collab-13.png"
+                            alt="fridays are for..."
+                            />
+                            <button
+                            type="button"
+                            className="collab-button"
+                            onClick={() => setOpenGallery(true)}
+                            >
+                            view
+                            </button>
+                            {openGallery && (
+                                <Gallery
+                                title="Fridays are for..."
+                                date="last updated may 2025"
+                                images={teamBTS_Images}
+                                onClose={() => setOpenGallery(false)}
+                                />
+                            )}
+                        </div>
                         <div className="collab-caption">fridays are for...</div>
                     </div>
+
                     <div className="collab-container">
-                        <img src="../Assets/Collabs/collab-14.png" alt="collab-pic"></img>
+                        <div className="hover-section-collab">
+                            <img
+                            className="collab-image"
+                            src="../Assets/Collabs/collab-14.png"
+                            alt="sweetener"
+                            />
+                            <button
+                            type="button"
+                            className="collab-button"
+                            onClick={() => setOpenGallery(true)}
+                            >
+                            view
+                            </button>
+                            {openGallery && (
+                                <Gallery
+                                title="Sweetener"
+                                date="last updated may 2025"
+                                images={teamBTS_Images}
+                                onClose={() => setOpenGallery(false)}
+                                />
+                            )}
+                        </div>
                         <div className="collab-caption">sweetener</div>
                     </div>
+
                     <div className="collab-container">
-                        <img src="../Assets/Collabs/collab-15.png" alt="collab-pic"></img>
+                        <div className="hover-section-collab">
+                            <img
+                            className="collab-image"
+                            src="../Assets/Collabs/collab-15.png"
+                            alt="t & a"
+                            />
+                            <button
+                            type="button"
+                            className="collab-button"
+                            onClick={() => setOpenGallery(true)}
+                            >
+                            view
+                            </button>
+                            {openGallery && (
+                                <Gallery
+                                title="T & A"
+                                date="last updated may 2025"
+                                images={teamBTS_Images}
+                                onClose={() => setOpenGallery(false)}
+                                />
+                            )}
+                        </div>
                         <div className="collab-caption">t & a</div>
                     </div>
+
                     <div className="collab-container">
-                        <img src="../Assets/Collabs/collab-16.png" alt="collab-pic"></img>
+                        <div className="hover-section-collab">
+                            <img
+                            className="collab-image"
+                            src="../Assets/Collabs/collab-16.png"
+                            alt="hayeon"
+                            />
+                            <button
+                            type="button"
+                            className="collab-button"
+                            onClick={() => setOpenGallery(true)}
+                            >
+                            view
+                            </button>
+                            {openGallery && (
+                                <Gallery
+                                title="Hayeon"
+                                date="last updated may 2025"
+                                images={teamBTS_Images}
+                                onClose={() => setOpenGallery(false)}
+                                />
+                            )}
+                        </div>
                         <div className="collab-caption">hayeon</div>
                     </div>
+
                     <div className="collab-container">
-                        <img src="../Assets/Collabs/collab-17.png" alt="collab-pic"></img>
+                        <div className="hover-section-collab">
+                            <img
+                            className="collab-image"
+                            src="../Assets/Collabs/collab-17.png"
+                            alt="k & a"
+                            />
+                            <button
+                            type="button"
+                            className="collab-button"
+                            onClick={() => setOpenGallery(true)}
+                            >
+                            view
+                            </button>
+                            {openGallery && (
+                                <Gallery
+                                title="k & a"
+                                date="last updated may 2025"
+                                images={teamBTS_Images}
+                                onClose={() => setOpenGallery(false)}
+                                />
+                            )}
+                        </div>
                         <div className="collab-caption">k & a</div>
                     </div>
+
                     <div className="collab-container">
-                        <img src="../Assets/Collabs/collab-18.png" alt="collab-pic"></img>
+                        <div className="hover-section-collab">
+                            <img
+                            className="collab-image"
+                            src="../Assets/Collabs/collab-18.png"
+                            alt="chrsl"
+                            />
+                            <button
+                            type="button"
+                            className="collab-button"
+                            onClick={() => setOpenGallery(true)}
+                            >
+                            view
+                            </button>
+                            {openGallery && (
+                                <Gallery
+                                title="Chrsl"
+                                date="last updated may 2025"
+                                images={teamBTS_Images}
+                                onClose={() => setOpenGallery(false)}
+                                />
+                            )}
+                        </div>
                         <div className="collab-caption">chrsl</div>
                     </div>
+
                 </div>
             </div>
 
