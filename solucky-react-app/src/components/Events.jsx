@@ -206,8 +206,7 @@ const Events = () => {
               className="gallery-button"
               onClick={() => setOpenGalleryKey(key)}
             >
-              <p className="event-button-text">view gallery</p>
-              <img src="../Assets/Team/apply-arrow.png" alt="→" />
+              <p className="event-button-text">view</p>
             </button>
           </div>
         ))}
