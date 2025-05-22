@@ -52,6 +52,33 @@ const Flipbook = () => {
       <div className="page-template page11">
         <img src="../Assets/Flipbook/page11.png" className="page-image"></img>
       </div>
+            <div className="page-template page12">
+        <img src="../Assets/Flipbook/page12.png" className="page-image"></img>
+      </div>
+            <div className="page-template page13">
+        <img src="../Assets/Flipbook/page13.png" className="page-image"></img>
+      </div>
+            <div className="page-template page14">
+        <img src="../Assets/Flipbook/page14.png" className="page-image"></img>
+      </div>
+            <div className="page-template page15">
+        <img src="../Assets/Flipbook/page15.png" className="page-image"></img>
+      </div>
+            <div className="page-template page16">
+        <img src="../Assets/Flipbook/page16.png" className="page-image"></img>
+      </div>
+            <div className="page-template page17">
+        <img src="../Assets/Flipbook/page17.png" className="page-image"></img>
+      </div>
+            <div className="page-template page18">
+        <img src="../Assets/Flipbook/page18.png" className="page-image"></img>
+      </div>
+            <div className="page-template page19">
+        <img src="../Assets/Flipbook/page19.png" className="page-image"></img>
+      </div>
+            <div className="page-template page20">
+        <img src="../Assets/Flipbook/page20.png" className="page-image"></img>
+      </div>
     </HTMLFlipBook>
   );
 };
