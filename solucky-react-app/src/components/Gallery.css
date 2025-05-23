@@ -101,7 +101,10 @@
   margin-right: 32px;
 }
 
-/* 6. Header: title + date */
+
+.gallery-icon-svg{
+  margin-left: 20px;
+}
 .gallery-header {
   text-align: left;
   width: 100%;
@@ -200,4 +203,9 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+
+
+@media screen and (max-width:1080px) {
+  
 }

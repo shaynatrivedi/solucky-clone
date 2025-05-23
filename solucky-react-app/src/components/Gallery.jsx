@@ -21,10 +21,6 @@ export default function Gallery({
   return (
     <div className="gallery-overlay">
       <div className="gallery-container">
-        {/* close button */}
-        <button className="gallery-close gallery-buttons" onClick={onClose}>
-          <img src="../Assets/Galleries/arrow-back.svg" alt="<-" className="back-button-gallery"></img>
-        </button>
 
         {/* left sidebar */}
         <div className="gallery-sidebar">
@@ -49,6 +45,9 @@ export default function Gallery({
         <div className="gallery-main">
           <div className="gallery-header">
             <div className="gallery-wrapper-top">
+              <button className="gallery-close gallery-buttons" onClick={onClose}>
+                <img src="../Assets/Galleries/arrow-back.svg" alt="<-" className="back-button-gallery"></img>
+              </button>
               <div className="gallery-title">
                 {title}
                 <img className="gallery-icon-svg" src="../Assets/Galleries/gallery-seperator.svg"></img>
