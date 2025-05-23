@@ -88,7 +88,7 @@
 }
 
 .gallery-thumb:hover {
-  border-color: #f10000;
+  border-color: #8E0000;
 }
 
 /* 5. Main panel (now on left) */
@@ -107,8 +107,13 @@
   width: 100%;
   margin-bottom: 16px;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+}
+
+.gallery-wrapper-top{
+  display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .gallery-title {
@@ -126,6 +131,15 @@
   font-family: "Bai Jamjuree";
   font-size: 18px;
   font-style: italic;
+}
+
+.gallery-description{
+  color: #030303;
+  font-family: "Bai Jamjuree";
+  font-size: 18.784px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 /* 7. Content area: center + hide overflow */

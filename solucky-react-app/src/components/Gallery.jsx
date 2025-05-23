@@ -48,11 +48,18 @@ export default function Gallery({
         {/* main panel */}
         <div className="gallery-main">
           <div className="gallery-header">
-            <div className="gallery-title">{title}</div>
-            <div className="gallery-date">{date}</div>
-            {description && (
-              <p className="gallery-description">{description}</p>
-             )}
+            <div className="gallery-wrapper-top">
+              <div className="gallery-title">
+                {title}
+                <img className="gallery-icon-svg" src="../Assets/Galleries/gallery-seperator.svg"></img>
+              </div>
+              <div className="gallery-date">{date}</div>
+            </div>
+            <div className="gallery-wrapper-bottom">
+              {description && (
+                <p className="gallery-description">{description}</p>
+              )}   
+            </div>
           </div>
 
           <div className="gallery-content">

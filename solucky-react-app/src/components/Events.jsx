@@ -40,7 +40,7 @@ const galleryData = {
   },
 
   "4th-anni": {
-    title: "4TH ANNIVERSARY ✹",
+    title: "4TH ANNIVERSARY",
     date: "AUGUST 25ᵗʰ 2023",
     description:
       "The celebration of solucky’s fourth anniversary as a creative brand took place at an unforgettable Boiler Room event in collaboration with Casino Bleu. On Friday, 8/25, the event brought together a lively crowd for a night of dancing and drinks near the University of California, Berkeley.",
@@ -65,7 +65,7 @@ const galleryData = {
   },
 
   "diwali-event": {
-    title: "DIWALI CELEBRATION ✹",
+    title: "DIWALI CELEBRATION",
     date: "NOVEMBER 12ᵗʰ 2023",
     description: "A colorful evening of lights, lanterns, and community.",
     images: [
@@ -94,7 +94,7 @@ const galleryData = {
   },
 
   "halloween-event": {
-    title: "HALLOWEEN SPOOK ✹",
+    title: "HALLOWEEN SPOOK",
     date: "OCTOBER 31ˢᵗ 2023",
     description: "Costumes, candy, and a dash of mischief!",
     images: [
@@ -118,7 +118,7 @@ const galleryData = {
   },
 
   "3rd-anni": {
-    title: "3RD ANNIVERSARY ✹",
+    title: "3RD ANNIVERSARY",
     date: "AUGUST 25ᵗʰ 2022",
     description: "Our third-year celebration at the Boiler Room.",
     images: [
@@ -142,7 +142,7 @@ const galleryData = {
   },
 
   "clothing-tour": {
-    title: "CLOTHING TOUR ✹",
+    title: "CLOTHING TOUR",
     date: "MAY 14ᵗʰ 2023",
     description: "A pop-up tour of local fashion boutiques.",
     images: [
