@@ -25,7 +25,7 @@ export default function Gallery({
         {/* left sidebar */}
         <div className="gallery-sidebar">
           <button className="thumb-nav gallery-buttons" onClick={prevSlide}>
-            <img src="../Assets/Galleries/arrow-up.svg" alt="<-" className="back-button-gallery"></img>
+            <img src="../Assets/Galleries/arrow-up.svg" alt="<-" className="back-button-gallery back-next"></img>
           </button>
           {thumbs.map((ti) => (
             <img
@@ -37,7 +37,7 @@ export default function Gallery({
             />
           ))}
           <button className="thumb-nav gallery-buttons" onClick={nextSlide}>
-          <img src="../Assets/Galleries/arrow-down.svg" alt="<-" className="back-button-gallery"></img>
+          <img src="../Assets/Galleries/arrow-down.svg" alt="<-" className="back-button-gallery back-previous"></img>
           </button>
         </div>
 

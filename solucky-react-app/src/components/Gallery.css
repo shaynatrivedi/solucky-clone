@@ -237,9 +237,6 @@
 }
 
 @media screen and (max-width:850px){ 
-  .gallery-description{
-    font-size:18px;
-  }
 
   .gallery-header{
     margin-bottom: 0px;
@@ -247,8 +244,8 @@
 
   .gallery-counter{
     margin-top: 6px;
-    padding: 6px 12px;
-    font-size: 16px;
+    padding: 12px 22px;
+    font-size: 18px;
   }
 
   .gallery-title{
@@ -299,4 +296,26 @@
     height: 40px;
   }
 
+  .back-next{
+    transform: rotate(-90deg);
+  }
+
+  .back-previous{
+    transform: rotate(-90deg);
+  }
+}
+
+@media screen  and (max-width:600px){
+  .gallery-title{
+    font-size: 35px;
+  }
+
+  .galery-date{
+    font-size:18px;
+  }
+
+  .gallery-thumb{
+    width: 65px;
+    height: 65px;
+  }
 }
