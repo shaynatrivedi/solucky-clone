@@ -45,10 +45,10 @@ export default function Gallery({
         <div className="gallery-main">
           <div className="gallery-header">
             <div className="gallery-wrapper-top">
-              <button className="gallery-close gallery-buttons" onClick={onClose}>
-                <img src="../Assets/Galleries/arrow-back.svg" alt="<-" className="back-button-gallery"></img>
-              </button>
               <div className="gallery-title">
+                <button className="gallery-close gallery-buttons" onClick={onClose}>
+                  <img src="../Assets/Galleries/arrow-back.svg" alt="<-" className="back-button-gallery"></img>
+                </button>
                 {title}
                 <img className="gallery-icon-svg" src="../Assets/Galleries/gallery-seperator.svg"></img>
               </div>
