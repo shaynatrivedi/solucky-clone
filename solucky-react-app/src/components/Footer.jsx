@@ -15,59 +15,60 @@ const Footer = () =>{
           
           <div className="explore-links-container">
             <div className="left-links">
-              <a className="explore-links" href="www.google.com">home</a>
-              <a className="explore-links" href="www.google.com">shop</a>
-              <a className="explore-links" href="www.google.com">magazine</a>
-              <a className="explore-links" href="www.google.com">media</a>
+              <a className="explore-links" href="/">home</a>
+              <a className="explore-links" href="/shop">shop</a>
+              <a className="explore-links" href="/magazine">magazine</a>
+              <a className="explore-links" href="/media">media</a>
             </div>
 
             <div className="right-links">
-              <a className="explore-links" href="www.google.com">collabs</a>
-              <a className="explore-links" href="www.google.com">events</a>
-              <a className="explore-links" href="www.google.com">team</a>
-              <a className="explore-links" href="www.google.com">about</a>
+              <a className="explore-links" href="/collabs">collabs</a>
+              <a className="explore-links" href="/events">events</a>
+              <a className="explore-links" href="/team">team</a>
+              <a className="explore-links" href="/about">about</a>
             </div>
           </div>
         
         </div>
         <div className="footer-card num2">
           <p className="footer-card-title">JOIN OUR TEAM</p>
-          <a className="join-team-links">become a <i>solucky contributor</i></a>
-          <a className="join-team-links">become a <i>solucky model</i></a>
+          <a className="join-team-links" href="https://forms.gle/Gbc2KMMVCzecwB699">become a <i>solucky contributor</i></a>
+          <a className="join-team-links" href="https://forms.gle/AdGu8PdoKstWsGnGA">become a <i>solucky model</i></a>
         </div>
 
         <div className="footer-card num3">
           <p className="footer-card-title">GET IN TOUCH</p>
           <div className="touch-link-container">
             <div className="logo-links-div">
-              <a href="https://stackoverflow.com/questions/42463871/how-to-put-spaces-between-text-in-html">
+              <a href="https://www.instagram.com/solucky.life?igsh=MzRlODBiNWFlZA==">
                 <img src="Assets/Shop/insta-shop-link.png" alt='insta-logo'></img>
               </a>
 
-              <a href="https://stackoverflow.com/questions/42463871/how-to-put-spaces-between-text-in-html">
+              <a href="https://open.spotify.com/user/31zbsn67nxwfcxajfkbojydl2cpm?si=kcVeQRGcTnqTc7rcrqEIUw">
                 <img src="Assets/Shop/spotify-link.png"alt='spotify-logo'></img>
               </a>
 
-              <a href="https://stackoverflow.com/questions/42463871/how-to-put-spaces-between-text-in-html">
+              <a href="https://www.linkedin.com/company/solucky/">
                 <img src="Assets/Shop/linkedin-link.png" alt='linkedin-logo'></img>
               </a>
 
-              <a href="https://stackoverflow.com/questions/42463871/how-to-put-spaces-between-text-in-html">
+              <a href="https://pin.it/FScEd8DBk">
                 <img src="Assets/Shop/pinterest-link.png" alt='pinterest-logo'></img>
               </a>
 
-              <a href="https://stackoverflow.com/questions/42463871/how-to-put-spaces-between-text-in-html">
+              <a href="https://www.tiktok.com/@solucky.life?_t=8o1sAdoenj0&_r=1">
                 <img src="Assets/Shop/tiktok-link.png" alt='tiktok-logo'></img>
               </a>
             </div>
 
-            <div className="email-link">
+            <a className="email-link"
+              href="mailto:solucky.contact@gmail.com">
               solucky.contact@gmail.com
-            </div>
+            </a>
 
-            <div className="join-team-links">
+            <a className="join-team-links" href="https://docs.google.com/forms/d/e/1FAIpQLSfmkJhfxa21u6Ra73YU7w1e-ue28Lu_aCw-9ra_geHn6Ibn3g/viewform">
             subscribe to <i>solucky</i> magazine
-            </div>
+            </a>
 
           </div>
         </div>
