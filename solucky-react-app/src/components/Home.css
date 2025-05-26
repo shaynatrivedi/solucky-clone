@@ -12,7 +12,7 @@
 position: relative;
 width: 100vw;
 aspect-ratio: 16 / 9; /* adjust to match SVG proportions */
-margin-top: 200px;
+margin-top: 240px;
 }
 
 .hero-bg-image {
@@ -98,22 +98,18 @@ padding: 0.75rem 0;
 .whats-new-section {
 display: flex;
 justify-content: space-around;
-gap: 2rem;
+gap: 4rem;
 background: #030303;
 color: #f5f5f5;
-padding: 4rem 2rem;
+padding: 7rem 2rem;
 }
 
-.whats-new-left,
-.whats-new-right {
-flex: 1 1 300px;
-max-width: 900px;
-}
 
 .whats-new-left{
   text-align: end;
   display: flex;
   flex-direction: column;
+  min-width: auto;
 }
 
 .whats-new-right{
@@ -121,6 +117,7 @@ max-width: 900px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  max-width: 535px;
 }
 
 /* —— 7 cards laid out in a row, wrapping on small screens —— */
@@ -128,12 +125,12 @@ max-width: 900px;
 .cards-section {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 5rem;
-  padding: 10rem 0rem;
+  justify-content: space-around;
+  gap: 0px;
+  padding: 0rem 1rem;
+  padding-bottom: 7rem;
   background: #030303;
 }
-
 /* set up 3D perspective on each card */
 .card {
   perspective: 1000px;
