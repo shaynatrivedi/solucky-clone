@@ -49,7 +49,7 @@
     position: relative;
     width: 80vw;
     margin: 0 auto;             /* center on larger screens */
-    padding: 100px 16px 70px;       /* horizontal gutters + bottom padding */
+    padding: 160px 16px 140px;       /* horizontal gutters + bottom padding */
     display: flex;              /* switch to flexbox */
     flex-direction: column;
     align-items: center;
@@ -59,39 +59,36 @@
 .buttons-container{
     display: flex;
     flex-wrap: wrap;            /* wrap onto new lines on narrow screens */
-    gap: 23px;                  /* gutter between buttons */
+    gap: 26px;                  /* gutter between buttons */
     width: 100%;
 }
-
-.buttons-container a {
-    flex: 1 1 200px;            /* grow & shrink, but never smaller than 200px */
-    max-width: 345px;           /* keep your current max width */
-  }
-  
+ 
 .buttons-container a button {
-    width: 100%;                /* button now spans the full flex item */
+    width: 394px;                /* button now spans the full flex item */
 }
 
 .magazine-button{
-    height: auto;
+    padding: 22px 35px;
+    width: 394px;
+    height: 102px;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 15px;
+    gap: 10px;
     border-radius: 35px;
     background: black;
-    padding: 34px 22px;
+    cursor: pointer;
 }
 
 .button-arrow{
-    width: 39px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
 }
 
 .pointer-text-image{
     position: absolute;
-    top: -10px;
+    top: 24px;
     left: 55%;
     transform: translate(80%, 3%);
     width: 100%;
@@ -112,6 +109,7 @@
     width: 95vw;         /* same as your other sections */
     margin: 0 auto;             /* center container in the viewport */
     padding-bottom: 200px;
+    margin-top: -46px;
   }
   
   .cover-box {
@@ -227,6 +225,14 @@
     .magazine-para-text{
         font-size: 23px;
     }
+
+    .centered-p-bai-jamjuree {
+        font-size: 25px;
+    }
+
+    .buttons-container a button {
+        width: 345px;
+    }
 }
 
 @media screen and (max-width: 1460px){
@@ -281,12 +287,30 @@
     .magazine-para-text{
         font-size: 17px;
     }
+
 }
 
 @media screen and (max-width:1070px){
     .magazine-para-text{
         font-size: 15px;
     }
+
+    .magazine-info-div {
+        padding-top: 168px;
+    }
+
+    .right-sticky-picture {
+        top: 248px;
+    }
+
+    .centered-p-bai-jamjuree {
+        font-size: 20px;
+    }
+
+    .buttons-container a button {
+        width: 300px;
+    }
+
 }
 
 @media screen and (max-width:970px){
@@ -320,20 +344,24 @@
 
 @media screen and (max-width:744px){
     .right-sticky-picture {
-        width: 60vw;
-        top: 130px;
+        width: 45vw;
+        top: 200px;
     }
 
     .info-text-container{
-        padding-top: 200px;
+        padding-top: 0px;
+    }
+
+    .info-buttons-section{
+        padding-top: 112px;
     }
 }
 
 
 @media screen and (max-width:600px){
     .right-sticky-picture {
-        width: 85vw;
-        top: 100px;
+        width: 65vw;
+        top: 156px;
     }
 
     .solucky-magazine-svg{
@@ -341,7 +369,7 @@
     }
 
     .info-text-container{
-        padding-top: 250px;
+        padding-top: 112px;
     }
 
     .cover-box{
@@ -350,5 +378,11 @@
     }
     .cover-hover-section{
         gap: 12px;
+        padding-bottom: 112px;
+    }
+
+    .info-buttons-section {
+        padding-top: 88px;
+        padding-bottom: 124px;
     }
 }

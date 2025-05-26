@@ -34,17 +34,17 @@ const Magazine = () =>{
                             <img src="../Assets/Magazine/solucky-magazine.svg" className="solucky-magazine-svg" alt="solucky-magazine"></img>
                         </div>
                         <div className="magazine-para-text" id="text-box">
-                            At first, solucky began as a blog to share the founder’s passions with family & friends, 
+                            At first, <i>solucky</i> began as a blog to share the founder’s passions with family & friends, 
                             where makeup, fashion, organization, decoration, & film intertwined. The blog soon gained 
                             popularity & blossomed into a multifaceted brand thanks to the endless support & 
-                            collaboration of the community. In just a year, solucky evolved from a blog into a magazine,
+                            collaboration of the community. In just a year, <i>solucky</i>  evolved from a blog into a magazine,
                             fueled by contributions from a devoted team of volunteers. 
                         </div>
                     </div>
 
                     <div className="bottom-text-container" >
                         <div className="magazine-para-text">
-                            Since its first magazine issue in March 2021, solucky has become a publication where every photo, 
+                            Since its first magazine issue in March 2021, <i>solucky</i>  has become a publication where every photo, 
                             video, article, & piece of art is infused with the dedication of its contributors. The brand became
                             a platform for a growing community of creatives, each contributing their passions & skills to build 
                             something greater than any one individual. Operating on no budget, each issue is a testament to the 
