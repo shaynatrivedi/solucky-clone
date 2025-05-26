@@ -22,7 +22,7 @@ const Media = () => {
                     our creative evolution
                 </div>
                 <div className="media-paragraph-text">
-                    At solucky, our team's creativity shines through captivating editorial content.
+                    At <i>solucky</i>, our team's creativity shines through captivating editorial content.
                     Every few months, we release a magazine issue featuring three to four main photoshoots,
                     showcasing artistic flair & countless hours of dedication to an eccentric theme. From 
                     our early days to now, our media reflects a growing community driven by collaboration,
