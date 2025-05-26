@@ -217,6 +217,10 @@ const Events = () => {
         <p className="strip-text">{stripPhrases[stripIndex]}</p>
       </section>
 
+      <section className="events-media-mobile-container">
+        <img src="../Assets/Events/events-media-tablet-text.svg" className="events-media-tablet-text"></img>
+      </section>
+
       {/* Events thumbnails */}
       <section className="events-section">
         {Object.keys(galleryData).map((key) => (

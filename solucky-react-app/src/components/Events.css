@@ -114,11 +114,18 @@
     width: 550px;
 }
 
+.events-media-tablet-text{
+    padding: 40px;
+}
+
+.events-media-mobile-container{
+    display: none;
+}
 
 @media screen and (max-width: 1512px) {
     /* tighten up the top‐section padding */
     .iphone-paragraph-container {
-      padding-top: 180px;
+      padding-top: 280px;
       padding-bottom: 80px;
     }
   
@@ -169,7 +176,7 @@
     .stay-tuned-text {
         max-width: 34.5rem;
         margin-left: -30px;
-        margin-top: 0px;
+        margin-top: 20px;
     }
 
     .strip-text{
@@ -181,9 +188,23 @@
     .events-para-text{
         font-size: 22px;
     }
+
+    .iphone-pic{
+        margin-top: 80px;
+    }
+  }
+
+  @media screen and (max-width: 1080px){
+    .events-para-text{
+        font-size: 18px;
+    }
   }
 
   @media screen and (max-width: 944px){
+    .events-media-mobile-container{
+        display: flex;
+    }
+
     .stay-tuned-text{
         max-width: 0px;
     }
@@ -192,7 +213,7 @@
         padding-left: 0px;
     }
     .para-text-container{
-        padding-right: 0px;
+        padding: 20px;
     }
 
     .events-para-text{
