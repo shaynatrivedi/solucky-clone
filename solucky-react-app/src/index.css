@@ -9,14 +9,6 @@ body {
   overflow-x: hidden;
 }
 
-html, body {
-  cursor: url("/public/Assets/Icons/point.png") 4 4, auto;
-}
-
-a, button, .clickable {
-  cursor: url("/public/Assets/Icons/click.png") 5 1, pointer;
-}
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
