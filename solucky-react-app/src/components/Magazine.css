@@ -256,6 +256,11 @@
     .magazine-para-text{
         font-size: 21px;
     }
+
+    .cover-hover-section{
+        gap: 16px;
+        width: 100vw;
+    }
 }
 
 @media screen and (max-width:1300px){
