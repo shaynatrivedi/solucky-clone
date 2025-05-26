@@ -345,7 +345,7 @@
         flex-direction: column;
         align-items: center;
         gap: 100px;
-        padding-top: 200px;
+        padding-top: 152px;
     }
 
     .final-sale-cap1{
@@ -390,6 +390,26 @@
     .shop-header-div{
         gap: 40px;
     }
+
+    .shop-link-div{
+        gap: 56px;
+    }
+
+    .cutout-image-wrapper{
+        margin-top: -112px;
+    }
+
+    .shop-info-para{
+        font-size: 20px;
+    }
+    .shop-info-para-bold {
+        font-size: 20px;
+    }
+
+    .shop-info-para-italic {
+        font-size: 20px;
+    }
+
 }
 
 
@@ -429,6 +449,11 @@
     .shop-title-wrapper{
         width: 75vw;
     }
+
+    .top-shop-div{
+        padding-top: 112px;   
+    }
+    
 }
 
 @media screen and (max-width:520px){
@@ -448,5 +473,21 @@
 
     .shop-info-header-text.smaller-header{
         font-size: 20px;
+    }
+
+    .top-shop-div {
+        padding-top: 72px;
+    }
+
+    .photographer-tag {
+        width: 65vw;
+    }
+
+    .shop-link-button-text{
+        font-size: 20px;
+    }
+
+    .shop-link{
+        padding-top: 24px;
     }
 }

@@ -17,7 +17,7 @@ const Shop = () => {
             clearInterval(scrollInterval);
           }
         }
-      }, 200);
+      }, 400);
 
       return () => clearInterval(scrollInterval);
     }, []);
