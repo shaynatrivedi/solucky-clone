@@ -17,7 +17,7 @@ const Flipbook = () => {
       maxShadowOpacity={0.5}
       drawShadow={true}
       showCover={true}
-      size="fixed"
+      size="stretch"
       startPage={2}    // ← add this line
     >
       <div className="page-template cover">

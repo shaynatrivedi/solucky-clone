@@ -184,8 +184,9 @@ const Home = () =>{
                     <img src='../Assets/Home/issue-number-pointer.svg' className='arrow-image-1' alt='newest-issue-below'></img>
                     <img src='../Assets/Home/click2read-pointer.svg' className='arrow-image-1' alt='flip-to-read' ></img>
                 </div>
-            
-                <Flipbook />
+                <div className='flipbook-canvas'>
+                    <Flipbook />
+                </div>
             </section>
 
             <section className='spotify-playlist-section'>

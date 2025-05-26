@@ -191,10 +191,9 @@ padding: 7rem 2rem;
 
 .flipbook-canvas {
   width: 100%;
-  max-width: 900px; /* adjust max size as needed */
-  aspect-ratio: 3 / 4; /* keeps shape consistent */
-  background-color: transparent;
+  max-width: 1500px;       /* limits size on big screens */
   padding: 2rem;
+  margin: 0 auto;         /* center horizontally */
   box-sizing: border-box;
 }
 
@@ -295,7 +294,6 @@ padding: 7rem 2rem;
 @media screen and (max-width: 1259px){
   .flipbook-arrow-container{
     padding-bottom: 0px;
-    margin-bottom: -300px;
   }
 
   .arrow-image-1{
