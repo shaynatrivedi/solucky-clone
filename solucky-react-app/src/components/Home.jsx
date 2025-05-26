@@ -20,9 +20,8 @@ const Home = () =>{
     const loop = [...labels, ...labels];
 
     const videoOptions = [
-        "../Assets/Home/home_video.mp4",
-        "../Assets/Home/home_video.mp4",
-        "../Assets/Home/home_video.mp4"
+        "../Assets/Home/home_video1.mp4",
+        "../Assets/Home/home_video2.mp4",
     ];
 
     const randomVideo = videoOptions[Math.floor(Math.random() * videoOptions.length)];
