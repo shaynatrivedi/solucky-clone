@@ -128,7 +128,7 @@ padding: 7rem 2rem;
   justify-content: space-around;
   gap: 0px;
   padding: 0rem 1rem;
-  padding-bottom: 7rem;
+  padding-bottom: 10rem;
   background: #030303;
 }
 /* set up 3D perspective on each card */
@@ -199,7 +199,8 @@ padding: 7rem 2rem;
 }
 
 .flipbook-arrow-container{
-  width:70vw;
+  width:80vw;
+  padding-bottom: 40px;
   max-width: 1600px;
   display: flex;
   flex-direction: row;

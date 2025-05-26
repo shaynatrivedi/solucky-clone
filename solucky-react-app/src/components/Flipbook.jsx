@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import HTMLFlipBook from 'react-pageflip'
 import "./Flipbook.css";
 
@@ -7,14 +7,18 @@ const pages = [
 ];
 
 const Flipbook = () => {
+  const flipBook = useRef(null);
+
   return (
-    <HTMLFlipBook 
-    width={630} 
-    height={820}
-    maxShadowOpacity={0.5}
-    drawShadow={true}
-    showCover={true}
-    size='fixed'
+    <HTMLFlipBook
+      ref={flipBook}
+      width={630}
+      height={820}
+      maxShadowOpacity={0.5}
+      drawShadow={true}
+      showCover={true}
+      size="fixed"
+      startPage={2}    // ← add this line
     >
       <div className="page-template cover">
         <img src="../Assets/Flipbook/cover1.png" className="page-image"></img>
