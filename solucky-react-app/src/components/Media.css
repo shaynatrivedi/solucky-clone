@@ -194,7 +194,7 @@ height: 75%;
     }
   }
 
-  @media screen and (min-width:1512px){
+  @media screen and (max-width:1512px){
   .media-paragraph-text{
     font-size: 25px;
   }
