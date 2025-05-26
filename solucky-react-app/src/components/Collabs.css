@@ -70,12 +70,12 @@
     overflow-x: auto;
     gap: 5px;
     scroll-behavior: smooth;
-    width: 100vw;
+    width:99vw;
     padding-top: 24px;
     margin: 0 auto;
     padding-bottom: 48px;
     white-space: nowrap; /* Prevent wrapping */
-    margin-bottom: 200px;
+    margin-bottom: 112px;
 }
 
 .collab-container {
