@@ -8,7 +8,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 140px;
 }
 .stay-tuned-alt{
     width: 0px;
@@ -17,7 +16,7 @@
 .iphone-paragraph-container{
     display: flex;
     flex-direction: row;
-    padding-top: 220px;
+    padding-top: 330px;
     margin: 20px;
     max-width: 1600px;
     width: 100%;
@@ -31,7 +30,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding-right: 100px;
+    padding-right: 50px;
 }
 
 .iphone-container{
@@ -51,6 +50,7 @@
     display: flex;
     flex-direction: column;
     gap: 22px;
+    padding-bottom: 22px;
 }
 
 .hover-section {
@@ -82,16 +82,17 @@
     width: 180px;
     gap: 10px;
     border-radius: 45px;
-    opacity: 0;
     border: 2px solid #F5F5F5;
-    background: rgba(3, 3, 3, 0.50);
-    backdrop-filter: blur(12.949999809265137px);
+    opacity: 0;
+    background: rgba(3, 3, 3, 0.5);
+    backdrop-filter: blur(12.95px);
+    transition: opacity 0.3s ease, background 0.3s ease;
     cursor: pointer;
 }
 
 .hover-section:hover .gallery-button{
-    background-color: rgb(180, 180, 180);
-    opacity: 100;
+    opacity: 1;
+    background: rgba(54, 69, 79, 0.5);
 }
 
 .hover-section:hover .event-picture {
@@ -100,7 +101,7 @@
 
 .stay-tuned-text{
     margin-top: 50px;
-    margin-left: -50px;
+    margin-left: -100px;
 }
 
 .the-art-of-text{
@@ -109,7 +110,8 @@
 }
 
 .iphone-pic{
-    margin-top: 70px;
+    margin-top: 90px;
+    width: 550px;
 }
 
 
