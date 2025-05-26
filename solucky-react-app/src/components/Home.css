@@ -229,6 +229,11 @@ padding: 7rem 2rem;
   width: 20vw;
 }
 
+.arrow-image-2{
+  width: 30vw;
+}
+
+
 
 @media screen and (max-width: 1700px){
   .whats-new-title{
@@ -284,6 +289,17 @@ padding: 7rem 2rem;
 
   .whats-new-right{
     max-width: 450px;
+  }
+}
+
+@media screen and (max-width: 1259px){
+  .flipbook-arrow-container{
+    padding-bottom: 0px;
+    margin-bottom: -300px;
+  }
+
+  .arrow-image-1{
+    width: 25vw;
   }
 }
 

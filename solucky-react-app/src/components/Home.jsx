@@ -191,7 +191,7 @@ const Home = () =>{
             <section className='spotify-playlist-section'>
                 <div className='playlist-container'>
                     <div className='spotify-pointer-container'>
-                        <img src='../Assets/Home/spotify-pointer.svg' className='arrow-image-1' alt='exlpore spotify' ></img>   
+                        <img src='../Assets/Home/spotify-pointer.svg' className='arrow-image-2' alt='exlpore spotify' ></img>   
                     </div>
                     <iframe
                         style={{ borderRadius: '12px' }}
