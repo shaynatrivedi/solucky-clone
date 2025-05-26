@@ -21,18 +21,22 @@
 }
 
 /* 3. Your two “themes” (black on light vs. white on dark) already live here: */
-.navbar .navList a { color: black; }                   /* default */
-.white-navbar .navList a { color: white; }          
+.navbar .navList a { color: #030303; }                   /* default */
+.white-navbar .navList a { color: #f5f5f5; }          
 
 .navbar .header .title{
     font-size: 35px;
     margin-bottom: 0px;
+    font-weight: 400;
     margin-top: 0px;
 }
 
+
 .navbar .header .titleCaption{
+    padding-top: 2px;
     font-size: 20px;
     margin-top: -10px;
+    font-weight: 400;
 }
 
 .navbar .navList{
@@ -46,8 +50,8 @@
 
 .navbar .navList a{
     text-decoration: none;
-    color: black;
-    font-weight: 700;
+    color: #030303;
+    font-weight: 400;
     font-size: 25px;
     transition:color .3s ease;
     position: relative;
