@@ -355,6 +355,10 @@ padding: 7rem 2rem;
   .arrow-image-1{
     width: 30vw;
   }
+
+  .flipbook-canvas {
+    padding: 1rem;        /* a bit more breathing room on tiny screens */
+  }
   
 }
 
