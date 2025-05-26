@@ -116,8 +116,8 @@
 
 .team-button{
     padding: 22px 35px;
-    width: 395px;
-    height: auto;
+    width: 345px;
+    height: 102px;
     color: white;
     display: flex;
     justify-content: center;
@@ -129,8 +129,8 @@
 }
 
 .team-button-arrow{
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
 }
 
 
@@ -419,6 +419,10 @@ text-align: center;
     .main-team-card{
         padding-bottom: 36px;
     }
+
+    .team-button{
+        padding: 20px 30px;
+    }
 }
 
 @media screen and (max-width:1400px){
@@ -698,5 +702,17 @@ text-align: center;
 
     .hero-section{
         padding-top: 75px;
+    }
+
+    .button-caption{
+        width: 230px;
+    }
+
+    .team-button{
+        width: 305px;
+    }
+
+    #view-bts-text{
+        width: 305px;
     }
 }

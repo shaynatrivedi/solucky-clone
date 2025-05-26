@@ -7,7 +7,9 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: #f5f5f5;
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   z-index: 1000;
   display: flex;
   align-items: center;
@@ -25,7 +27,7 @@
   position: relative;
   box-sizing: border-box;
   padding: 24px;
-  background: #fff;
+  background: #F5F5F5;
   border-radius: 25px;
 }
 .gallery-buttons{
@@ -43,6 +45,14 @@
   height: 40px;
   cursor: pointer;
   margin: 0px 10px 0px 0px;
+}
+
+.back-button-gallery{
+  width: 50px;
+}
+
+.back-next,.back-previous{
+  width: 28px;
 }
 
 /* 4. Sidebar of thumbnails (now on right) */
@@ -117,7 +127,7 @@
   color: #030303;
   text-align: start;
   font-family: "Bai Jamjuree";
-  font-size: 35px;
+  font-size: 40px;
   text-transform: uppercase;
   display: flex;
   gap: 10px;
@@ -127,14 +137,14 @@
   color: #030303;
   text-align: right;
   font-family: "Bai Jamjuree";
-  font-size: 18px;
+  font-size: 28px;
   font-style: italic;
 }
 
 .gallery-description{
   color: #030303;
   font-family: "Bai Jamjuree";
-  font-size: 18.784px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -204,7 +214,7 @@
 
 @media screen and (max-width:1080px){ 
   .gallery-title{
-    font-size: 30px;
+    font-size: 28px;
   }
 
   .back-button-gallery{
@@ -218,22 +228,13 @@
   }
 
   .gallery-date{
-    font-size: 18px;
-  }
-}
-
-@media screen and (max-width:1080px){ 
-  .gallery-title{
-    font-size: 25px;
-  }
-
-  .gallery-date{
-    font-size: 15px;
+    font-size: 20px;
   }
 
   .gallery-description{
-    font-size: 15px;
+    font-size: 14px;
   }
+
 }
 
 @media screen and (max-width:850px){ 
@@ -249,7 +250,6 @@
   }
 
   .gallery-title{
-    font-size: 50px;
     align-items: center;
   }
 
@@ -259,7 +259,6 @@
   }
 
   .gallery-date{
-    font-size: 20px;
     margin-left: 60px;
   }
 
@@ -277,6 +276,8 @@
     flex-direction: row;
     width: 100%;
     height: 150px;
+    gap: 30px;
+    justify-content: center;
   }
 
   .gallery-container{
@@ -306,14 +307,6 @@
 }
 
 @media screen  and (max-width:600px){
-  .gallery-title{
-    font-size: 35px;
-  }
-
-  .galery-date{
-    font-size:18px;
-  }
-
   .gallery-thumb{
     width: 65px;
     height: 65px;
