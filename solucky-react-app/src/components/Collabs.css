@@ -148,6 +148,7 @@
 
 .horizontal-scroll-section-collab::-webkit-scrollbar {
     height: 10px;
+    width: 95vw;
 }
 
 .horizontal-scroll-section-collab::-webkit-scrollbar-track {

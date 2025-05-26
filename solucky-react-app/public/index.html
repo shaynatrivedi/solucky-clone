@@ -2,7 +2,29 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="Assets/Icons/soluckyfavicon.png" />
+    <!-- light‐mode favicon -->
+    <link
+    rel="icon"
+    type="image/png"
+    href="Assets/Icons/favicon-dark.png"
+    media="(prefers-color-scheme: light)"
+    />
+
+    <!-- dark‐mode favicon -->
+    <link
+    rel="icon"
+    type="image/png"
+    href="Assets/Icons/favicon-light.png"
+    media="(prefers-color-scheme: dark)"
+    />
+
+    <!-- fallback if browser doesn’t support media on link -->
+    <link
+    rel="icon"
+    type="image/png"
+    href="Assets/Icons/favicon-dark.png"
+    />
+
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
