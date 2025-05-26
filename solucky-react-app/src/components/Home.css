@@ -268,7 +268,7 @@ padding: 7rem 2rem;
 
   @media screen and (max-width: 1330px){
   .whats-new-title{
-    font-size:100px;
+    font-size:95px;
   }
   .whats-new-subtitle{
     font-size: 60px;
@@ -281,11 +281,15 @@ padding: 7rem 2rem;
   .paragraph-message-home{
     font-size: 22px;
   }
+
+  .whats-new-right{
+    max-width: 450px;
+  }
 }
 
     @media screen and (max-width: 1170px){
   .whats-new-title{
-    font-size:90px;
+    font-size:85px;
   }
   .whats-new-subtitle{
     font-size: 50px;
