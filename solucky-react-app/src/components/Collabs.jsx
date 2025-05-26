@@ -46,7 +46,7 @@ const Collabs = () =>{
                                 <b> a vision both parties love</b>.
                             </div>
                             <div className="collab-para-text">
-                                Email solucky.contact@gmail.com to collab with us!
+                                Email <b>solucky.contact@gmail.com</b> to collab with us!
                             </div>
                             <div className="mobile-tag-container">
                                 <img className="bracelet-tag" alt="tag" src="../Assets/Collabs/collab-tag-1.svg"></img>
