@@ -7,6 +7,31 @@
   overflow-y: auto;
 }
 
+/* For WebKit browsers (Chrome, Safari, Edge) */
+.embedded-container::-webkit-scrollbar {
+  width: 12px;               /* thickness of vertical scrollbar */
+  height: 12px;              /* thickness of horizontal scrollbar */
+}
+
+.embedded-container::-webkit-scrollbar-track {
+  background: #e0e0e0;      /* track color */
+  border-radius: 5px;
+}
+
+.embedded-container::-webkit-scrollbar-thumb {
+  background-color: #555;   /* thumb (draggable handle) color */
+  border-radius: 5px;
+  border: 2px solid #e0e0e0;/* gives a little padding around thumb */
+}
+
+/* For Firefox */
+.embedded-container {
+  scrollbar-width:auto;                /* "auto" or "thin" */
+  scrollbar-color: #8E0000  #e0e0e0;        /* thumb color then track color */
+}
+
+
+
 .embedded-title {
   color: #030303;
   font-feature-settings: 'liga' off, 'clig' off;
