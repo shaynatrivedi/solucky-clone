@@ -287,11 +287,12 @@
 
 @media screen and (max-width: 744px){
     .svg-bracelet{
-        width: 0px;
+        display: none;
     }
 
     .svg-bracelet-tablet{
         width: 100vw;
+        padding-top: 100px;
     }
 
     .top-section{
@@ -331,6 +332,7 @@
         flex-wrap: wrap;
         padding: 5px;
         gap: 15px;
+        padding-top: 56px;
     }
 
     .collab-container{
@@ -346,5 +348,28 @@
         height: 512px;
     }
 
+    .svg-image{
+        margin-top: -100px;
+        padding-left: 30px;
+    }
     
+}
+
+@media screen and (max-width: 600px){
+    .svg-bracelet-tablet{
+        padding-top: 50px;
+        padding-bottom: 48px;
+    }
+    .mobile-tag-container{
+        gap: 32px;
+    }
+
+    .view-archive-svg{
+        width: 55vw;
+    }
+
+    .bracelet-tag{
+        max-width: 370px;
+    }
+
 }
