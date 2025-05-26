@@ -55,12 +55,10 @@ object-fit: cover;
 /* ——— Scrolling Strip ——— */
 .strip-section {
 width: 100%;
-background: #fff;
+background: #f5f5f5;
 }
 .strip-container {
 overflow: hidden;
-border-top: 1px solid #030303;
-border-bottom: 1px solid #030303;
 }
 
 .strip-text-item{
@@ -102,7 +100,7 @@ display: flex;
 justify-content: space-around;
 gap: 2rem;
 background: #030303;
-color: #fff;
+color: #f5f5f5;
 padding: 4rem 2rem;
 }
 
