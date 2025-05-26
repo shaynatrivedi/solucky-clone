@@ -375,3 +375,25 @@ padding: 7rem 2rem;
   }
 }
 
+
+/* Home.css */
+.loading-overlay {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw; height: 100vh;
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+.loading-video {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+/* optional: prevent scrolling while video plays */
+body.loading {
+  overflow: hidden;
+}
+
