@@ -240,6 +240,11 @@
     .magazine-para-text{
         font-size: 22px;
     }
+
+    .cover-hover-section{
+        gap: 16px;
+        width: 100vw;
+    }
 }
 
 
@@ -256,11 +261,6 @@
 
     .magazine-para-text{
         font-size: 21px;
-    }
-
-    .cover-hover-section{
-        gap: 16px;
-        width: 100vw;
     }
 }
 
